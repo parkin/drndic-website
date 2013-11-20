@@ -1,0 +1,262 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<title>Drndic Lab: Group members</title>
+
+<style>
+
+body {
+	background-color: #ffeecd
+}
+
+h1 {
+	font-family: Verdana;
+	color: #666666;
+	font: 30pt;
+}
+
+h2 {
+	font-family: Verdana;
+	color: #CC3300;
+	font: 20pt;
+}
+
+p {
+	font-family: Arial;
+	color: #000000;
+	font: 10pt;
+}
+
+</style>
+
+</head>
+
+<body link="#000000" vlink="606060" alink="606060">
+
+<a name="top"></a>
+
+<h1 align=center><b> Drndic Lab </b></h1>
+
+<hr size="3" color="#CC3300">
+
+<a href="index.html" onmouseover="b1.src='home_select.gif'" onmouseout="b1.src='home.gif'">
+<img src="home.gif" border="0" name="b1" style="position: absolute; top: 120px; left:10px;" title="Drndic Lab Homepage" /></a>
+
+<a href="news.html" onmouseover="b2.src='news_select.gif'" onmouseout="b2.src='news.gif'">
+<img src="news.gif" border="0" name="b2" style="position: absolute; top: 160px; left:10px;" title="Lab News" /></a>
+
+<a href="research.html" onmouseover="b3.src='research_select.gif'" onmouseout="b3.src='research.gif'">
+<img src="research.gif" border="0" name="b3" style="position: absolute; top: 200px; left:10px;" title="Lab Research details" /></a>
+
+<a href="members.html" onmouseover="b4.src='members_select.gif'" onmouseout="b4.src='members.gif'">
+<img src="members.gif" border="0" name="b4" style="position: absolute; top: 240px; left:10px;" title="Current Lab Members" /></a>
+
+<a href="outreach.html" onmouseover="b5.src='outreach_select.gif'" onmouseout="b5.src='outreach.gif'">
+<img src="outreach.gif" border="0" name="b5" style="position: absolute; top: 280px; left:10px;" title="Outreach and Undergraduate Research" /></a>
+
+<a href="publications.html" onmouseover="b6.src='papers_select.gif'" onmouseout="b6.src='papers.gif'">
+<img src="papers.gif" border="0" name="b6" style="position: absolute; top: 320px; left:10px;" title="Recent Publications, Patents and Invited Talks" /></a>
+
+<a href="contact.html" onmouseover="b7.src='contact_select.gif'" onmouseout="b7.src='contact.gif'">
+<img src="contact.gif" border="0" name="b7" style="position: absolute; top: 360px; left:10px;" title="Contact information" /></a>
+
+<a href="links.html" onmouseover="b8.src='links_select.gif'" onmouseout="b8.src='links.gif'">
+<img src="links.gif" border="0" name="b8" style="position: absolute; top: 400px; left:10px;" title="Useful Links" /></a>
+
+<br>
+
+<h2 align="left" style="padding-left: 180px;"><b>Current group members</b></h2>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="MD2.jpg" align="right" title="Marija Drndic">
+	<br>
+	<font size=+1><b>Marija Drndic</b></font><br>
+	Assistant professor of physics<br>
+	<br><br>
+	<font size=-1><a href="http://www.physics.upenn.edu/~drndic">homepage</a><br>
+	e-mail: <i>drndic(at)physics.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="KH.jpg" align="right" title="Ken Healy">
+	<br>
+	<font size=+1><b>Ken Healy</b></font><br>
+	Post-doc<br>
+	<br><br>
+	<font size=-1><a href="http://eleceng.ucc.ie/nanopore/">homepage</a><br>
+	e-mail: <i>healyk(at)sas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="tali.png" align="right" title="Tali Dadosh">
+	<br>
+	<font size=+1><b>Tali Dadosh</b></font><br>
+	Post-doc<br>
+	<br><br>
+	<font size=-1><!--<a href="http://eleceng.ucc.ie/nanopore/">-->homepage<!--</a>--><br>
+	e-mail: <i>dadosh(at)sas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="MF2.jpg" align="right" title="Michael Fischbein">
+	<br>
+	<font size=+1><b>Michael Fischbein</b></font><br>
+	Graduate Student<br>
+	<br><br>
+	<font size=-1><a href="http://www.sas.upenn.edu/~mlfisch3">homepage</a><br>
+	e-mail: <i>mlfisch3(at)sas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="SW2.jpg" align="right" title="Siying Wang">
+	<br>
+	<font size=+1><b>Siying Wang</b></font><br>
+	Graduate Student<br>
+	<br><br>
+	<font size=-1>homepage<br>
+	e-mail: <i>siyingw(at)sas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="LW2.jpg" align="right" title="Lauren Willis">
+	<br>
+	<font size=+1><b>Lauren Willis</b></font><br>
+	Graduate Student<br>
+	<br><br>
+	<font size=-1><a href="http://www.sas.upenn.edu/~willisl">homepage</a><br>
+	e-mail: <i>willisl(at)sas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="JF2.jpg" align="right" title="Jessamyn Fairfield">
+	<br>
+	<font size=+1><b>Jessamyn Fairfield</b></font><br>
+	Graduate Student<br>
+	<br><br>
+	<font size=-1>homepage<br>
+	e-mail: <i>fairfia(at)sas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="m.gif" align="right" title="Matt Puster">
+	<br>
+	<font size=+1><b>Matt Puster</b></font><br>
+	Graduate Student<br>
+	<br><br>
+	<font size=-1>homepage<br>
+	e-mail: <i>puster(at)seas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="m.gif" align="right" title="Neil Peterman">
+	<br>
+	<font size=+1><b>Neil Peterman</b></font><br>
+	Undergraduate Student (<a href="http://www.upenn.edu/curf/uscholars/">University Scholar</a>)<br>
+	<br><br>
+	<font size=-1>homepage<br>
+	e-mail: <i>neil(at)sas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="m.gif" align="right" title="John Bartel">
+	<br>
+	<font size=+1><b>John Bartel</b></font><br>
+	Undergraduate Student (<a href="http://www.sas.upenn.edu/biochem/vspmls.html">Vagelos Scholar</a>)<br>
+	<br><br>
+	<font size=-1>homepage<br>
+	e-mail: <i>bartel(at)sas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+
+<h2 align="left" style="padding-left: 180px;"><b>Past members</b></h2>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="YC2.jpg" align="right" title="Yuanzhen Chen">
+	<br>
+	<font size=+1><b>Yuanzhen Chen</b></font><br>
+	Post-doc<br>
+	<br><br>
+	<font size=-1>homepage<br>
+	e-mail: <i>chenyz(at)sas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+<p style="padding-left: 200px; padding-right: 50px;">
+	<img src="CQ2.jpg" align="right" title="Claudia Querner">
+	<br>
+	<font size=+1><b>Claudia Querner</b></font><br>
+	Post-doc<br>
+	<br><br>
+	<font size=-1><a href="http://www.sas.upenn.edu/~querner">homepage</a><br>
+	e-mail: <i>querner(at)sas.upenn.edu</i></font>
+<br clear="all" />
+<br>
+<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
+</p>
+
+
+<p style="padding-left: 200px;">
+<b>If you are interested in working with us as an undergraduate student, graduate student, or a postdoc 
+please contact Prof. Marija Drndic at drndic(at)physics.upenn.edu.</b> 
+</p>
+
+<p align="right" style="padding-right: 30px;">
+<font size=-3><a href="#top">back to top</a></font>
+</p>
+<br clear="all" />
+
+<hr size="3" color="#CC3300">
+
+<p align="right" style="padding-right: 10px;">
+<font size=-2>
+2008, Marija Drndic
+</font></p>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3367611;
+var sc_invisible=1;
+var sc_partition=37;
+var sc_security="b5fffe4d";
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script>
+   <div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/">
+   </a></div>
+<!-- End of StatCounter Code -->
+
+</body>
+</html>

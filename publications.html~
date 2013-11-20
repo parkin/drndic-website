@@ -1,0 +1,298 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+	<title>Drndic Lab: Publications</title>
+
+<style>
+
+body {
+	background-color: #ffeecd
+}
+
+h1 {
+	font-family: Verdana;
+	color: #666666;
+	font-size: 30pt;
+}
+
+h2 {
+	font-family: Verdana;
+	color: #CC3300;
+	font-size: 16pt;
+}
+
+td {
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+p {
+	font-family: Arial;
+	color: #000000;
+	font-size: 11pt;
+}
+
+</style>
+
+</head>
+
+<body link="#000000" vlink="606060" alink="606060">
+
+<a name="top"></a>
+
+<h1 align=center><b> Drndic Lab </b></h1>
+
+<hr size="3" color="#CC3300">
+
+<a href="index.html" onmouseover="b1.src='home_select.gif'" onmouseout="b1.src='home.gif'">
+<img src="home.gif" border="0" name="b1" style="position: absolute; top: 120px; left:10px;" title="Drndic Lab Homepage" /></a>
+
+<a href="news.html" onmouseover="b2.src='news_select.gif'" onmouseout="b2.src='news.gif'">
+<img src="news.gif" border="0" name="b2" style="position: absolute; top: 160px; left:10px;" title="Lab News" /></a>
+
+<a href="research.html" onmouseover="b3.src='research_select.gif'" onmouseout="b3.src='research.gif'">
+<img src="research.gif" border="0" name="b3" style="position: absolute; top: 200px; left:10px;" title="Lab Research details" /></a>
+
+<a href="members.html" onmouseover="b4.src='members_select.gif'" onmouseout="b4.src='members.gif'">
+<img src="members.gif" border="0" name="b4" style="position: absolute; top: 240px; left:10px;" title="Current Lab Members" /></a>
+
+<a href="outreach.html" onmouseover="b5.src='outreach_select.gif'" onmouseout="b5.src='outreach.gif'">
+<img src="outreach.gif" border="0" name="b5" style="position: absolute; top: 280px; left:10px;" title="Outreach and Undergraduate Research" /></a>
+
+<a href="publications.html" onmouseover="b6.src='papers_select.gif'" onmouseout="b6.src='papers.gif'">
+<img src="papers.gif" border="0" name="b6" style="position: absolute; top: 320px; left:10px;" title="Recent Publications, Patents and Invited Talks" /></a>
+
+<a href="contact.html" onmouseover="b7.src='contact_select.gif'" onmouseout="b7.src='contact.gif'">
+<img src="contact.gif" border="0" name="b7" style="position: absolute; top: 360px; left:10px;" title="Contact information" /></a>
+
+<a href="links.html" onmouseover="b8.src='links_select.gif'" onmouseout="b8.src='links.gif'">
+<img src="links.gif" border="0" name="b8" style="position: absolute; top: 400px; left:10px;" title="Useful Links" /></a>
+
+<table border="0" style="padding-left: 180px;" width="100%">
+	<tr>
+		<td width="20%"></td>
+		<td width="20%" align="center"><a href="#paper">publications</a></td>
+		<td width="20%" align="center"><a href="#patents">patents</a></td>
+		<td width="20%" align="center"><a href="#talks">presentations</a></td>
+		<td width="20%"></td>
+	</tr>
+</table>
+
+<hr size="1" color="#CC3300" style="margin-left: 180px;">
+
+<h2 align="left" style="padding-left: 180px;"><b><a name="paper">Research articles</a></b></h2>
+
+<p style="padding-left: 180px; padding-right: 30px;" align="right">
+	<font size=-1># indicates undergraduate researcher<br>
+	* indicates equally contributing authors</font>
+</p>
+
+<p style="padding-left: 200px;">
+
+	<b>Siying Wang, Claudia Querner, Michael D. Fischbein, Lauren Willis, Dmitry Novikov, Catherine Crouch and Marija Drndic</b><br>
+	<a href="http://dx.doi.org/10.1021/nl802696f">
+	<font color="CC3300"><b>"Blinking statistics correlated with nanoparticle number"</b></font></a><br>
+        <i>Nano Letters 8 (11)</i>, 4020-4026, <b>2008</b>.<br>
+	<font size=-1><a href="http://pubs.acs.org/doi/suppl/10.1021/nl802696f">Supporting Infomation</a></font><br>
+	<br><br>
+
+	<b>Claudia Querner, Siying Wang, Ken Healy, Jessamyn Fairfield, Michael D. Fischbein and Marija Drndic</b><br>
+	<!--<a href="http://dx.doi.org/10.1063/1.2980518">-->
+	<a href="http://pubs.acs.org/doi/abs/10.1021/jp808252k">
+	<font color="CC3300"><b>"Fluorescence dynamics of semiconductor nanorod clusters studied by correlated atomic-force, transmission-electron and fluorescence microscopy"</b></font></a><br>
+       <i>Journal of Physical Chemistry C 112 (50)</i>, 19945-19956, <b>2008</b>.<br>
+	<font size=-1><a href="http://pubs.acs.org/doi/suppl/10.1021/jp808252k">Supporting Information</a></font><br>
+	<br><br>
+
+	<b>Michael D. Fischbein and Marija Drndic</b><br>
+	<a href="http://dx.doi.org/10.1063/1.2980518">
+	<font color="CC3300"><b>"Electron beam nanosculpting of suspended graphene sheets"</b></font></a><br>
+        <i>Applied Physics Letters 93</i>, 113107, <b>2008</b>.<br>
+	<a href="http://arxiv.org/abs/0808.2974"><b><i>arXiv:0808.2974v1</a>&nbsp;[cond-mat.mes-hall]</i></b><br>
+	<br><br>
+
+	<b>Claudia Querner, Michael D. Fischbein, Paul A. Heiney and Marija Drndic</b><br>
+	<a href="http://dx.doi.org/10.1002/adma.200800125">
+	<font color="CC3300"><b>"Millimeter-scale assembly of CdSe nanorods into smectic superstructures by solvent drying kinetics"</b></font></a><br>
+        <i>Advanced Materials 20 (12)</i>, 2308-2314, <b>2008</b>.<br>
+	<font size=-1><a href="http://www.wiley-vch.de/contents/jc_2089/2008/adma200800125_s.pdf">Supporting Infomation</a></font><br>
+	<br><br>
+
+	<b>Michael D. Fischbein and Marija Drndic</b><br>
+	<a href="http://pubs.acs.org/cgi-bin/abstract.cgi/nalefd/2007/7/i05/abs/nl0703626.html">
+	<font color="CC3300"><b>"Sub-10 nm Device Fabrication in a Transmission Electron Microscope"</b></font></a><br>
+        <i>Nano Letters 7 (5)</i>, 1329-1337, <b>2007</b>.<br>
+	<font size=-1><a href="http://pubs3.acs.org/acs/journals/supporting_information.page?in_manuscript=nl0703626">
+	Supporting Infomation</a></font><br>
+	<a href="http://xxx.lanl.gov/abs/cond-mat/0611032"><b><i>cond-mat/0611032</i></b></a>
+	<br><br>
+
+	<b>TEBAL in the news:</b> 
+	<font size=-1>
+	<a href="http://www.upenn.edu/researchatpenn/article.php?1264&amp;tch">Penn News</a>, 
+	<font size=-2><a href="http://www.nanometer.ru/2007/04/30/microelectronics.html">HAHOMETP</a></font>, 
+        <a href="http://www.physorg.com/news96891553.html">Physorg.com</a>, 
+        <a href="http://nanotechweb.org/yournews/18800">Nanotech Web</a>, 
+	<a href="http://www.sciencedaily.com/releases/2007/06/070625193255.htm">ScienceDaily</a>, 
+        <a href="http://www.bulletins-electroniques.com/actualites/42768.htm">Bulletins-electronique</a>,
+	<b><a href="http://www.nature.com/nnano/reshigh/2007/0507/full/nnano.2007.155.html">
+	Nature Nanotechnology Research Highlight</a></b>
+	<a href="http://www.spectrum.ieee.org/jul07/5376">IEEE Spectrum</a></font>
+	<br><br><br>
+
+	<b>Siying Wang, Claudia Querner, Thomas Emmons<SUP>#</SUP>, Marija Drndic, and Catherine H. Crouch</b><br>
+	<a href="http://pubs3.acs.org/acs/journals/doilookup?in_doi=10.1021/jp064976v">
+	<font color="CC3300"><b>"Fluorescence blinking statistics from CdSe core and core-shell nanorods"</b></font></a><br>
+	<i>J. Phys. Chem. B 110 (46)</i>, 23221-23227, <b>2006</b>.<br> 
+	<font size=-1><a href="http://pubs3.acs.org/acs/journals/supporting_information.page?in_manuscript=jp064976v">
+	Supporting Information</font></a><br>
+	<a href="http://xxx.lanl.gov/abs/cond-mat/0603331"><b><i>cond-mat/0603331</i></b></a>
+	<br><br><br>
+
+        <b>Zonghai Hu*, Michael D. Fischbein*, Claudia Querner, and Marija Drndic</b><br>
+	<a href="http://pubs3.acs.org/acs/journals/doilookup?in_doi=10.1021/nl0620379"><font color="CC3300">
+	<b>"Electric-field-driven accumulation and alignment of CdSe and CdTe nanorods in nanoscale devices"</b></font></a>
+	<br><i>Nano Letters 6 (11)</i>, 2585-2591, <b>2006</b>. <br>
+	<font size=-1><a href="http://pubs3.acs.org/acs/journals/supporting_information.page?in_manuscript=nl0620379">
+	Supporting Information</a></font><br><br><br>
+
+	<b>D. R. Strachan, D. E. Smith, M. D. Fischbein, D.E. Johnston, B.S. Guiton, M. Drndic, D.A. Bonnell, and A.T. Johnson</b><br>
+	<a href="http://pubs.acs.org/cgi-bin/abstract.cgi/nalefd/2006/6/i03/abs/nl052302a.html">
+	<font color="CC3300"><b>"Clean electromigrated nanogaps imaged by transmission electron microscopy"</b></font></a><br>
+	<i>Nano Letters 6 (3)</i>, 441-444, <b>2006</b>.<br><br><br>
+
+	<b>Michael D. Fischbein and Marija Drndic</b><br> 
+	<a href="http://pubster.aip.org/getabs/servlet/GetabsServlet?prog=normal&amp;id=APPLAB000088000006063116000001&amp;idtype=cvips">
+	<font color="CC3300"><b>"Nanogaps by direct lithography for high-resolution imaging and 
+	electronic characterization of nanostructures"</b></font></a><br>
+	<i>Applied Physics Letters 88 (6)</i>, 063116, <b>2006</b>. <br>
+	<a href="http://xxx.lanl.gov/abs/cond-mat/0512128"><b><i>cond-mat/0512128</i></b></a><br>
+	featured in <a href="http://scitation.aip.org/dbt/dbt.jsp?KEY=VIRT01&amp;Volume=13&amp;Issue=7">
+	<i>Virtual Journal of Nanoscale Science & Technology</a>, 13 (7)</i>, <b>2006</b>.<br><br><br>
+
+	<b>Zonghai Hu, Michael D. Fischbein, and Marija Drndic</b><br>
+	<a href="http://pubs.acs.org/cgi-bin/abstract.cgi/nalefd/2005/5/i07/abs/nl050828p.html">
+	<font color="CC3300"><b>"Local charge transport in two-dimensional PbSe nanocrystal arrays 
+	studied by electrostatic force microscopy"</b></font></a><br> 
+	<i>Nano Letters 5 (7)</i>, 1463-1468, <b>2005</b>.<br><br><br>
+
+	<b>Hugo E. Romero and Marija Drndic</b><br> 
+	<a href="http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&amp;id=PRLTAO000095000015156801000001&amp;idtype=cvips&amp;gifs=Yes">
+	<font color="CC3300"><b>"Coulomb blockade and hopping conduction in PbSe quantum dots"</b></font></a><br>
+	<i>Physical Review Letters 95</i>, 156801, <b>2005</b>. <br>
+	featured in <a href="http://scitation.aip.org/dbt/dbt.jsp?KEY=VIRT01&amp;Volume=12&amp;Issue=16">
+	<i>Virtual Journal of Nanoscale Science & Technology</a>, 12 (16)</i>, <b>2005</b><br><br><br>
+
+	<b>Michael D. Fischbein and Marija Drndic</b></br>
+	<a href="http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&id=APPLAB000086000019193106000001&idtype=cvips&gifs=yes">
+	<font color="CC3300"><b>"CdSe nanocrystal quantum-dot memory"</b></font></a><br>
+	<i>Applied Physics Letters 86 (19)</i>, 193106, <b>2005</b>. <br>
+	featured in <a href="http://scitation.aip.org/dbt/dbt.jsp?KEY=VIRT01&amp;Volume=CURVOL&amp;Issue=CURISS">
+	<i>Virtual Journal of Nanoscale Science & Technology</a>, 11 (19)</i>, <b>2005</b>.<br><br><br>
+
+	<b>D. Qi, M. D. Fischbein, M. Drndic, and S. Selmic</b><br>
+	<a href="http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&id=APPLAB000086000009093103000001&idtype=cvips&gifs=yes">
+	<font color="CC3300"><b>"Efficient polymer-nanocrystal quantum-dot photodetectors"</b></font></a><br>
+	<i>Applied Physics Letters, 86 (6)</i>, 093103, <b>2005</b>. <br> 
+        featured in <i><a href="http://scitation.aip.org/dbt/dbt.jsp?KEY=VIRT01&amp;Volume=11&amp;Issue=9">
+	Virtual Journal of Nanoscale Science & Technology</a>, 11 (9)</i>, <b>2005</b>.<br><br><br>
+</p>
+
+<p align="right" style="padding-right: 30px;">
+<font size=-3><a href="#top">back to top</a></font>
+</p>
+
+<hr size="1" color="#CC3300" style="margin-left: 180px;">
+
+<h2 align="left" style="padding-left: 180px;"><b><a name="patents">Patents</a></b></h2>
+
+<p style="padding-left: 200px;">
+	<b>Marija Drndic and Michael Fischbein</b><br>
+	<a href="http://v3.espacenet.com/textdoc?DB=EPODOC&IDX=US2006221672&F=0">
+	<font color="CC3300"><b>Nanocrystal quantum dot memory devices</b></font></a><br>
+	US2006221672.<br><br>
+
+	<b>Marija Drndic and Michael Fischbein</b><br>
+	<a href="http://v3.espacenet.com/textdoc?DB=EPODOC&IDX=WO2006102292&F=0">
+	<font color="CC3300"><b>Nanogaps: Methods and Devices containing same</b></font></a><br>
+	WO2006102292.<br><br>
+
+	<b>Marija Drndic and Michael Fischbein</b><br>
+	<a href="http://v3.espacenet.com/textdoc?DB=EPODOC&IDX=US2008017845&F=0">
+	<font color="CC3300"><b>Nanostructure Assemblies, Methods And Devices Thereof</b></font></a><br>
+	WO2006076036, US2008017845.<br><br>
+
+	<b>Marija Drndic, Sandra Selmic, and Difei Qi</b><br>
+	<a href="http://v3.espacenet.com/textdoc?DB=EPODOC&IDX=US2007102694&F=0">
+	<font color="CC3300"><b>Polymer-nanocrystal quantum dot composites and optoelectronic devices</b></font></a><br>
+	US2007102694.<br><br>
+</p>
+
+<p align="right" style="padding-right: 30px;">
+<font size=-3><a href="#top">back to top</a></font>
+</p>
+
+
+<hr size="1" color="#CC3300" style="margin-left: 180px;">
+
+<h2 align="left" style="padding-left: 180px;"><b><a name="talks">Recent conference contributions and invited talks</a></b></h2>
+
+<p style="padding-left: 200px;">
+
+	Physics Colloquium/Biodesign Seminar Series, Arizona State University, April 2008.<br><br>
+	March meeting of the APS, New developments in nanofabrication, New Orleans, March 2008. <br><br>
+	Physical Chemistry Seminar, University of Pennsylvania, Chemistry Department,February 2008.<br><br>
+	Quantum Dots, 2007, Forth Lauderdale, Florida, December 2007.<br><br>
+	MEMS/NEMS Seminar at Drexel University, November 2007.<br><br>
+	Colloquium, Department of Physics, University of Central Florida, October 2007.<br><br>
+	ESP 2007 Workshop: Excited State Processes in Electronic and Bio Nanomaterials, Center for Nonlinear Studies 
+		Conference, Los Alamos National Laboratory, Sante Fe, NM, October 2007.<br><br>
+	XVII Symposium on Condensed Matter Physics, Vrsac, Serbia, September 2007.<br><br>
+	2007 Discovery Chemistry Seminar Series, DuPont Central Research and Development, June 2007.<br><br>
+	International Conference on Coherent and Nonlinear Optics (ICONO-2007), Minsk, Belarus, May 2007.<br><br>
+	Materials Research Society (MRS) Spring Meeting, Symposium: Low-dimensional materials  Synthesis, Assembly, 
+		Property Scaling, and Modeling; Title: Nanoparticle Electronics: nanocrystal assembly and high-resolution 
+		device fabrication using transmission electron beams, San Francisco, CA, April 2007.<br><br>
+	Notre Dame Workshop: Fluorescence Intermittency in single molecules, quantum dots and quantum wires, University of 
+		Notre Dame, April 2007.<br><br>
+	American Physical Society (APS) March Meeting, March 2007, Denver, Colorado, Symposium on balancing career and 
+		family.<br><br>
+	Grenobles International Meeting in Molecular Electronics ElecMol06, Grenoble, December 2006.<br><br>
+	Cornell University, Center for Nanoscale Systems Seminar, October 2006.<br><br>
+	ICYS-ICMR Summer School 2006 on Nanomaterials, Tsukuba, Japan, July 2006.<br><br>
+	American Physical Society (APS) March Meeting, Title: Controlled assembly and electronics in semiconductor 
+		nanocrystal-based devices, Session: Nanoscale Crystals. Baltimore, March 2006.<br><br>
+	Nanax 2 Conference: Nanoscience with Nanocrystals, Grenoble, France, January 2006.<br><br>
+
+</p>
+
+<p align="right" style="padding-right: 30px;">
+<font size=-3><a href="#top">back to top</a></font>
+</p>
+
+<br clear="all" />
+
+<hr size="3" color="#CC3300">
+
+<p align="right" style="padding-right: 10px;">
+<font size=-2>
+2008, Marija Drndic
+</font></p>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3367611;
+var sc_invisible=1;
+var sc_partition=37;
+var sc_security="b5fffe4d";
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script>
+   <div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/">
+   </a></div>
+<!-- End of StatCounter Code -->
+
+</body>
+</html>
