@@ -44,7 +44,7 @@
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-$body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
@@ -1178,14 +1178,12 @@ $body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial,
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$topbar-bg-color: #333;
-$topbar-bg: $topbar-bg-color;
+// $topbar-bg-color: #333;
+// $topbar-bg: $topbar-bg-color;
 
 // Height and margin
 // $topbar-height: 45px;
 // $topbar-margin-bottom: 0;
-$topbar-height: 50px;
-$topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: $font-weight-normal;
@@ -1294,13 +1292,59 @@ $topbar-margin-bottom: 0;
 //*************************** WILL's ADDITIONS
 
 // my color scheme
-$color-1: #FF6906;
-$color-2: #B81D00;
-$color-3: #FF004D;
-$color-4: #D80CE8;
-$color-5: #7F0DFF;
+$color-1: #16A085;
+$color-1-light: #1ABC9C;
+$color-2: #2980B9;
+$color-2-light: #3498DB;
+$color-3: #8E44AD;
+$color-3-light: #9B59B6;
+$color-4: #2C3E50;
+$color-4-light: #34495E;
+$color-5: #D35400;
+$color-5-light: #E67E22;
 
-$hr-border-color: $color-3 50%;
+$color-1-grad: linear-gradient(to right, $color-1 0%, $color-1-light 100%);
+$color-2-grad: linear-gradient(to right, $color-2 0%, $color-2-light 100%);
+$color-3-grad: linear-gradient(to right, $color-3 0%, $color-3-light 100%);
+$color-4-grad: linear-gradient(to right, $color-4 0%, $color-4-light 100%);
+
+// topbar stuff
+$topbar-bg-color: $color-1;
+$topbar-bg: $color-1-grad;
+
+$topbar-height: 50px;
+$topbar-margin-bottom: 0;
+
+$topbar-dropdown-bg: transparent;
+$topbar-link-bg: transparent;
+$topbar-link-bg-hover: transparent;
+$topbar-link-padding: $topbar-height / 2.5;
+
+$icon-color: $color-5;
+$icon-color-light: $color-5-light;
+$icon-font-size: 3em;
+
+// make circle icons
+@mixin circle($font-size: $icon-font-size, $background: $color-5-light) {
+  border-radius: 50%;
+  margin: 0.3em;
+  font-size: $font-size;
+  background: $background;
+}
+
+.circle {
+  @include circle();
+}
+
+// define the necessary padding to make icons circular
+
+.circle.ion-beaker {
+  padding: 0.05em 0.25em;
+}
+
+.circle.ion-alert {
+  padding: 0 0.5em;
+}
 
 .color-bar-layout {
   padding: 100px 20px 20px 20px;
@@ -1313,7 +1357,8 @@ $hr-border-color: $color-3 50%;
 }
 
 #homepage-top {
-  background: url(../assets/img/backgrounds/congruent_outline.png) $color-5;
+  background: $color-1;
+  background: $color-1-grad;
   text-align: left;
 }
 
@@ -1330,17 +1375,26 @@ $hr-border-color: $color-3 50%;
 
 .color-bar-white {
   @extend .color-bar-layout;
-  background: white;
+  $background: white;
+  background: $background;
+  .icon {
+    color: $background;
+  }
+  .circle {
+    @include circle(5em);
+  }
 }
 
 .color-1-bar {
   @extend .color-bar-layout;
   background: $color-1;
+  background: $color-1-grad;
 }
 
 .color-2-bar {
   @extend .color-bar-layout;
   background: $color-2;
+  background: $color-2-grad;
 
   h2 {
     color: white;
@@ -1350,22 +1404,16 @@ $hr-border-color: $color-3 50%;
 .color-3-bar {
   @extend .color-bar-layout;
   background: $color-3;
-}
-
-.color-4-bar {
-  @extend .color-bar-layout;
-  background: $color-4;
-}
-
-.color-5-bar {
-  @extend .color-bar-layout;
-  background: $color-5;
+  background: $color-3-grad;
 }
 
 .footer-bottom {
-  background: $topbar-bg;
+  background: $color-4;
+  background: $color-4-grad;
 }
 
 .centered-text {
   text-align: center;
 }
+
+
