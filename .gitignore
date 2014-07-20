@@ -1,2 +1,5 @@
 # IntelliJ stuff
 .idea/
+
+# Jekyll stuff
+_site
