@@ -38,4 +38,43 @@ subtitle: The all-stars.
 
     {% endfor %}
 
+    <div class="row">
+        <div class="large-12 columns">
+            <hr>
+        </div>
+    </div>
+
+    <div class="row centered-text">
+        <div class="large-12 columns">
+            <h2>Past Members</h2>
+            <h4 class="subheader">The hall of fame.</h4>
+        </div>
+    </div>
+    {% for member in site.data.members.past %}
+
+    {% assign modulus = forloop.index0|modulo:3 %}
+
+    {% if modulus == 0 or forloop.first %}
+    <div class="row centered-text">
+        {% endif %}
+
+        <div class="large-4 columns">
+            <div class="member-info float border-fade">
+                {% if member.icon %}
+                <img src="{{member.icon}}" class="circle-img">
+                {% else %}
+                <i class="icon ion-person circle"></i>
+                {% endif %}
+                <h3>{{member.name}}</h3>
+                <h5 class="subheader">{{member.desc}}</h5>
+            </div>
+
+        </div>
+
+        {% if modulus == 2 or forloop.last %}
+    </div>
+    {% endif %}
+
+    {% endfor %}
+
 </section>
