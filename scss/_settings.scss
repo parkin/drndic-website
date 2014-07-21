@@ -1344,8 +1344,8 @@ $icon-font-size: 3em;
 }
 
 .small-circle {
+  @extend .circle;
   @include circle(1em, $color-3-light);
-  display: inline-block;
 }
 
 // define the necessary padding to make icons circular
@@ -1364,6 +1364,14 @@ $icon-font-size: 3em;
 
 .circle.ion-email, .small-circle.ion-email {
   padding: 0.1em 0.22em;
+}
+
+.circle.ion-home, .small-circle.ion-home {
+  padding: 0.1em 0.25em;
+}
+
+.circle.ion-social-github, .small-circle.ion-social-github {
+  padding: 0.1em 0.18em;
 }
 
 // color bar backgrounds
@@ -1405,9 +1413,6 @@ $icon-font-size: 3em;
   background: $background;
   .icon {
     color: $background;
-  }
-  .circle {
-    @include circle(5em);
   }
   .small-circle {
     @include circle(1.5em, $color-3-light);

@@ -29,6 +29,7 @@ current:
     desc: Graduate Student
     icon: /assets/img/members/KV.jpg
     link: http://www.sas.upenn.edu/~kimventa/index.html
+    github: kimventa
     email: kimventa@sas.upenn.edu
 
   - name: Will Parkin
@@ -40,6 +41,7 @@ current:
   - name: Gopinath Danda
     desc: Graduate Student
     icon: /assets/img/members/gopi.jpg
+    github: gopinathdanda
     email: gdanda@seas.upenn.edu
 
   - name: Chien (Francis) Chen-Chi
