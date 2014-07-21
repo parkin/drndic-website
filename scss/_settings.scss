@@ -1341,27 +1341,29 @@ $icon-font-size: 3em;
 .circle {
   @include circle();
   display: inline-block;
-  .small{
-    @include circle(1em, $color-3-light)
-  }
+}
+
+.small-circle {
+  @include circle(1em, $color-3-light);
+  display: inline-block;
 }
 
 // define the necessary padding to make icons circular
 
-.circle.ion-beaker {
+.circle.ion-beaker, .small-circle.ion-beaker {
   padding: 0.10em 0.25em;
 }
 
-.circle.ion-alert {
+.circle.ion-alert, .small-circle.ion-alert {
   padding: 0.10em 0.50em;
 }
 
-.circle.ion-person {
+.circle.ion-person, .small-circle.ion-person {
   padding: 0.10em 0.25em;
 }
 
-.circle.email {
-  padding: 0.1em 0.4em;
+.circle.ion-email, .small-circle.ion-email {
+  padding: 0.1em 0.22em;
 }
 
 // color bar backgrounds
@@ -1406,6 +1408,9 @@ $icon-font-size: 3em;
   }
   .circle {
     @include circle(5em);
+  }
+  .small-circle {
+    @include circle(1.5em, $color-3-light);
   }
 }
 
