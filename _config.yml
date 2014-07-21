@@ -4,9 +4,8 @@ email: drndic@physics.upenn.edu
 description: "Drndi&#263 Lab at the University of Pennsylvania."
 baseurl: ""
 url: "http://www.physics.upenn.edu/drndicgroup/"
-github_username:  parkin
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-exclude: [scss, node_modules, .bowerrc, bower.json, package.json, Gruntfile.js]
+exclude: [scss, node_modules, .bowerrc, bower.json, package.json, Gruntfile.js, test]

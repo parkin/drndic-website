@@ -20,7 +20,11 @@ subtitle: The all-stars.
         {% endif %}
 
                 <div class="large-4 columns">
-                    <img src="{{member.icon}}">
+                    {% if member.icon %}
+                        <img src="{{member.icon}}" class="circle-img">
+                    {% else %}
+                        <i class="icon ion-person circle"></i>
+                    {% endif %}
                     <h3>{{member.name}}</h3>
                     <h5 class="subheader">{{member.desc}}</h5>
 

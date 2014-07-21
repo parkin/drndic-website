@@ -44,7 +44,6 @@ current:
 
   - name: Chien (Francis) Chen-Chi
     desc: Graduate Student
-    icon: /assets/img/members/m.gif
     email: chienc@sas.upenn.edu
 
   - name: Ravit Dung
@@ -54,20 +53,16 @@ current:
 
   - name: Bart Machielse
     desc: Undergraduate Student
-    icon: /assets/img/members/m.gif
     email: bartm@sas.upenn.edu
 
   - name: Rebecca Engelke
     desc: Undergraduate Student (Vagelos Scholar)
-    icon: /assets/img/members/m.gif
     email: engelker@sas.upenn.edu
 
   - name: Gautam Nagaraj
     desc: Undergraduate Student (VIPER Scholar)
-    icon: /assets/img/members/m.gif
     email: gnagaraj@sas.upenn.edu
 
   - name: Dan Wilson
     desc: Undergraduate Student, NBIC REU program
-    icon: /assets/img/members/m.gif
     email: danielmusawilson@gmail.com

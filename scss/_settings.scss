@@ -1340,16 +1340,21 @@ $icon-font-size: 3em;
 
 .circle {
   @include circle();
+  display: inline-block;
 }
 
 // define the necessary padding to make icons circular
 
 .circle.ion-beaker {
-  padding: 0.05em 0.25em;
+  padding: 0.10em 0.25em;
 }
 
 .circle.ion-alert {
-  padding: 0 0.48em;
+  padding: 0.10em 0.50em;
+}
+
+.circle.ion-person {
+  padding: 0.10em 0.25em;
 }
 
 .color-bar-layout {
@@ -1430,4 +1435,12 @@ $icon-font-size: 3em;
 
 .centered-text {
   text-align: center;
+}
+
+// image circles
+.circle-img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
 }
