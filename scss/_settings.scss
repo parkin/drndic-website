@@ -8,6 +8,7 @@
 // $rem-base: 16px;
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "foundation/functions";
+@import "foundation/components/buttons";
 
 // $experimental: true;
 
@@ -1344,8 +1345,13 @@ $icon-font-size: 3em;
 }
 
 .small-circle {
-  @extend .circle;
-  @include circle(1em, $color-3-light);
+  @include circle(1em);
+  display: inline-block;
+}
+
+i.button {
+  @include button;
+  line-height: inherit;
 }
 
 // define the necessary padding to make icons circular
@@ -1413,6 +1419,9 @@ $icon-font-size: 3em;
   background: $background;
   .icon {
     color: $background;
+  }
+  .circle {
+    @include circle(5em);
   }
   .small-circle {
     @include circle(1.5em, $color-3-light);
