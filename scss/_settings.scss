@@ -1341,6 +1341,9 @@ $icon-font-size: 3em;
 .circle {
   @include circle();
   display: inline-block;
+  .small{
+    @include circle(1em, $color-3-light)
+  }
 }
 
 // define the necessary padding to make icons circular
@@ -1356,6 +1359,12 @@ $icon-font-size: 3em;
 .circle.ion-person {
   padding: 0.10em 0.25em;
 }
+
+.circle.email {
+  padding: 0.1em 0.4em;
+}
+
+// color bar backgrounds
 
 .color-bar-layout {
   padding: 100px 20px 20px 20px;
