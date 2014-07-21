@@ -1,0 +1,73 @@
+current:
+  - name: Marija Drndi&#263
+    desc: Professor
+    icon: /assets/img/members/MD2.jpg
+    link: http://www.physics.upenn.edu/~drndic
+    email: drndic@physics.upenn.edu
+
+  - name: Julio A. Rodriguez-Manzo
+    desc: Post-doc
+    icon: /assets/img/members/jarm.jpg
+    email: rjulio@sas.upenn.edu
+
+  - name: Adrian Balan</b></font><br>
+    desc: Post-doc
+    icon: /assets/img/members/AB.jpg
+    email: adrian.balan@gmail.com
+
+  - name: David Niedzwiecki
+    desc: Post-doc
+    icon: /assets/img/members/davidNedz.png
+    email: dniedz@sas.upenn.edu
+
+  - name: Matt Puster
+    desc: Graduate Student
+    icon: /assets/img/members/MP2.jpg
+    email: puster@seas.upenn.edu
+
+  - name: Kim Venta
+    desc: Graduate Student
+    icon: /assets/img/members/KV.jpg
+    link: http://www.sas.upenn.edu/~kimventa/index.html
+    email: kimventa@sas.upenn.edu
+
+  - name: Will Parkin
+    desc: Graduate Student
+    icon: /assets/img/members/WP.jpg
+    github: parkin
+    email: parkin@sas.upenn.edu
+
+  - name: Gopinath Danda
+    desc: Graduate Student
+    icon: /assets/img/members/gopi.jpg
+    email: gdanda@seas.upenn.edu
+
+  - name: Chien (Francis) Chen-Chi
+    desc: Graduate Student
+    icon: /assets/img/members/m.gif
+    email: chienc@sas.upenn.edu
+
+  - name: Ravit Dung
+    desc: Masters Student
+    icon: /assets/img/members/Ravit.png
+    email: ravitd@seas.upenn.edu
+
+  - name: Bart Machielse
+    desc: Undergraduate Student
+    icon: /assets/img/members/m.gif
+    email: bartm@sas.upenn.edu
+
+  - name: Rebecca Engelke
+    desc: Undergraduate Student (Vagelos Scholar)
+    icon: /assets/img/members/m.gif
+    email: engelker@sas.upenn.edu
+
+  - name: Gautam Nagaraj
+    desc: Undergraduate Student (VIPER Scholar)
+    icon: /assets/img/members/m.gif
+    email: gnagaraj@sas.upenn.edu
+
+  - name: Dan Wilson
+    desc: Undergraduate Student, NBIC REU program
+    icon: /assets/img/members/m.gif
+    email: danielmusawilson@gmail.com

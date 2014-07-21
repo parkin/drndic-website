@@ -1,0 +1,35 @@
+---
+layout: contentpage
+title: Members
+subtitle: The all-stars.
+---
+<section class="color-bar-white">
+    <div class="row centered-text">
+        <div class="large-12 columns">
+            <h2>Current Members</h2>
+            <h4 class="subheader">The big-leagues.</h4>
+        </div>
+    </div>
+
+    {% for member in site.data.members.current %}
+
+        {% assign modulus = forloop.index0|modulo:3 %}
+
+        {% if modulus == 0 or forloop.first %}
+            <div class="row centered-text">
+        {% endif %}
+
+                <div class="large-4 columns">
+                    <img src="{{member.icon}}">
+                    <h3>{{member.name}}</h3>
+                    <h5 class="subheader">{{member.desc}}</h5>
+
+                </div>
+
+        {% if modulus == 2 or forloop.last %}
+            </div>
+        {% endif %}
+
+    {% endfor %}
+
+</section>

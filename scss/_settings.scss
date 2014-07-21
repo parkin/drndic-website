@@ -1379,6 +1379,10 @@ $icon-font-size: 3em;
   color: white;
 }
 
+#page-title-bar {
+  padding: 20px;
+}
+
 .color-bar-white {
   @extend .color-bar-layout;
   $background: white;
@@ -1395,6 +1399,12 @@ $icon-font-size: 3em;
   @extend .color-bar-layout;
   background: $color-1;
   background: $color-1-grad;
+  h1 {
+    color: white;
+  }
+  .subheader {
+    color: darken(white, 20%);
+  }
 }
 
 .color-2-bar {
@@ -1421,77 +1431,3 @@ $icon-font-size: 3em;
 .centered-text {
   text-align: center;
 }
-
-.my-icon {
-    position: relative;
-}
-.my-icon > i {
-    position: absolute;
-    display: inline-block;
-    width: 0;
-    height: 0;
-    line-height: 0;
-    border: 91.66666666666667px solid transparent;
-    border-left: 91.66666666666667px solid #066000;
-    border-top: 91.66666666666667px solid #066000;
-    left: 0px;
-    top: 33.333333333333336px;
-}
-.my-icon > i+i {
-    position: absolute;
-    display: inline-block;
-    width: 0;
-    height: 0;
-    line-height: 0;
-    border: 91.66666666666667px solid transparent;
-    border-right: 91.66666666666667px solid #066000;
-    border-top: 91.66666666666667px solid #066000;
-    left: 316.6666666666667px;
-    top: 33.333333333333336px;
-}
-.my-icon > i+i+i {
-    position: absolute;
-    display: inline-block;
-    width: 166.66666666666669px;
-    height: 16.666666666666668px;
-    background-color: #0058bb;
-    left: 0px;
-    top: 16.666666666666668px;
-}
-.my-icon > i+i+i+i {
-    position: absolute;
-    display: inline-block;
-    width: 166.66666666666669px;
-    height: 16.666666666666668px;
-    background-color: #0058bb;
-    left: 333.33333333333337px;
-    top: 16.666666666666668px;
-}
-.my-icon > i+i+i+i+i {
-    position: absolute;
-    display: inline-block;
-    width: 166.66666666666669px;
-    height: 8.333333333333334px;
-    background-color: #066000;
-    left: 0px;
-    top: 8.333333333333334px;
-}
-.my-icon > i+i+i+i+i+i {
-    position: absolute;
-    display: inline-block;
-    width: 225.00000000000003px;
-    height: 16.666666666666668px;
-    background-color: #b800bb;
-    left: 0px;
-    top: 0px;
-}
-.my-icon > i+i+i+i+i+i+i {
-    position: absolute;
-    display: inline-block;
-    width: 225.00000000000003px;
-    height: 16.666666666666668px;
-    background-color: #b800bb;
-    left: 275px;
-    top: 0px;
-}
-

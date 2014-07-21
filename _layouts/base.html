@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+{% include head.html%}
+<body>
+<div class="off-canvas-wrap">
+
+    <div class="inner-wrap">
+
+        {% include header.html %}
+
+        {{ content }}
+
+        {% include footer.html %}
+
+        <a class="exit-off-canvas"></a>
+    </div>
+</div>
+
+<script src="{{site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="{{site.baseurl}}/bower_components/foundation/js/foundation.min.js"></script>
+<script src="{{site.baseurl}}/js/app.js"></script>
+
+<script>
+    $(document).foundation();
+</script>
+
+{% if page.extrajs %} {{ page.extrajs }} {% endif %}
+
+</body>
+</html>
+
