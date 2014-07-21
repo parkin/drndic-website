@@ -53,6 +53,7 @@ current:
 
   - name: Bart Machielse
     desc: Undergraduate Student
+    icon: /assets/img/members/BartMachielse.jpg
     email: bartm@sas.upenn.edu
 
   - name: Rebecca Engelke
@@ -79,273 +80,113 @@ past:
     link: http://www.sas.upenn.edu/~willisl
     email: willisl@sas.upenn.edu
 
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/KH.jpg" align="right" title="Ken Healy">
-#    <br>
-#    <font size=+1><b>Ken Healy</b></font><br>
-#    Oxford Nanopore Technologies<br>
-#    <br><br>
-#    <font size=-1><a href="http://eleceng.ucc.ie/nanopore/">homepage</a><br>
-#        e-mail: <i>healyk(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/MH.jpg" align="right" title="Matt Hickman">
-#    <br>
-#    <font size=+1><b>Matt Hickman</b></font><br>
-#    Palantir Technologies<br>
-#    <br><br>
-#    <font size=-1>homepage<br>
-#        e-mail: <i>hickmanm(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/f.png" align="right" title="Alexandra Adegoke">
-#    <br>
-#    <font size=+1><b>Alexandra Modupe Adegoke</b></font><br>
-#    Graduate Student, MD/PhD<br>
-#    <br><br>
-#    <font size=-1>homepage<br>
-#        e-mail: <i>adegokem(at)mail.med.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/MW.jpg" align="right" title="Meni Wanunu">
-#    <br>
-#    <font size=+1><b>Meni Wanunu</b></font><br>
-#    Assistant Professor, Northeastern University, August 2011<br>
-#    <br><br>
-#    <font size=-1><a href="http://mwnano.com/">homepage</a><br>
-#        e-mail: <i>wanunu(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/JF3.jpg" align="right" title="Jessamyn Fairfield">
-#    <br>
-#    <font size=+1><b>Jessamyn Fairfield</b></font><br>
-#    Post-doc, <a href="http://www.crann.tcd.ie">Centre for Research on Adaptive Nanostructures
-#    and Nanodevices</a>, Trinity College Dublin<br>
-#    <br><br>
-#    <font size=-1><a href="http://www.physics.upenn.edu/~fairfia">homepage</a><br>
-#        e-mail: <i>fairfia(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/CM.jpg" align="right" title="Chris Merchant">
-#    <br>
-#    <font size=+1><b>Chris Merchant</b></font><br>
-#    AAAS Science Policy Fellow, July 2011<br>
-#    <br><br>
-#    <font size=-1><!--<a href="http://eleceng.ucc.ie/nanopore/">-->homepage<!--</a>--><br>
-#        e-mail: <i>merch(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/m.gif" align="right" title="Andrew Sharo">
-#    <br>
-#    <font size=+1><b>Andrew Sharo</b></font><br>
-#    Undergraduate Student, Princeton<br>
-#    <br><br>
-#    <font size=-1><?a href="http://awsch-web.physics.ucsb.edu/members/calusine/index.php"?>homepage<?/a?><br>
-#        e-mail: <i>asharo(at)princeton.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/m.gif" align="right" title="Frank Zhang">
-#    <br>
-#    <b>Linfu (Frank) Zhang</b><br>
-#    Undergraduate Student<br>
-#    <br><br>
-#    <font size=-1>homepage<br>
-#        e-mail: <i>flzhang(at)gmail.com</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/m.gif" align="right" title="Noah Rubin">
-#    <br>
-#    <b>Noah Rubin</b><br>
-#    Undergraduate Student<br>
-#    <br><br>
-#    <font size=-1>homepage<br>
-#        e-mail: <i>noah.rbn(at)gmail.com</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/m.gif" align="right" title="Lee Burwasser">
-#    <br>
-#    <b>Lee Burwasser</b><br>
-#    Undergraduate Student<br>
-#    <br><br>
-#    <font size=-1>homepage<br>
-#        e-mail: <i>leebur(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/JB.jpg" align="right" title="John Bartel">
-#    <br>
-#    <font size=+1><b>John Bartel</b></font><br>
-#    Gradute Student, Stanford University<br>
-#    <br><br>
-#    <font size=-1>homepage<br>
-#        e-mail: <i>bartel(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/SW2.jpg" align="right" title="Siying Wang">
-#    <br>
-#    <font size=+1><b>Siying Wang</b></font><br>
-#    <br><br>
-#    <font size=-1>homepage<br>
-#        e-mail: <i>siyingw(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/VR.jpg" align="right" title="Vishva Ray">
-#    <br>
-#    <font size=+1><b>Vishva Ray</b></font><br>
-#    Lead Research Engineer, Lurie Nanofabrication Facility, University of Michigan<br>
-#    <br><br>
-#    <font size=-1><!--<a href="http://eleceng.ucc.ie/nanopore/">-->homepage<!--</a>--><br>
-#        e-mail: <i>vpray(at)umich.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/tali.png" align="right" title="Tali Dadosh">
-#    <br>
-#    <font size=+1><b>Tali Dadosh</b></font><br>
-#    Post-doc, Goldman Lab at UPenn<br>
-#    <br><br>
-#    <font size=-1><!--<a href="http://eleceng.ucc.ie/nanopore/">-->homepage<!--</a>--><br>
-#        e-mail: <i>dadosh(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/MF2.jpg" align="right" title="Michael Fischbein">
-#    <br>
-#    <font size=+1><b>Michael Fischbein</b></font><br>
-#    Quantitative Analyst<br>
-#    <br><br>
-#    <font size=-1><a href="http://www.sas.upenn.edu/~mlfisch3">homepage</a><br>
-#        e-mail: <i>mlfisch3(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/NP.jpg" align="right" title="Neil Peterman">
-#    <br>
-#    <font size=+1><b>Neil Peterman</b></font><br>
-#    Graduate Student, Harvard University<br>
-#    <br><br>
-#    e-mail: <i>neil(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/CQ2.jpg" align="right" title="Claudia Querner">
-#    <br>
-#    <font size=+1><b>Claudia Querner</b></font><br>
-#    Research Scientist, BASF, Germany<br>
-#    <br><br>
-#    <font size=-1><a href="http://www.sas.upenn.edu/~querner">homepage</a><br>
-#        e-mail: <i>querner(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/YC2.jpg" align="right" title="Yuanzhen Chen">
-#    <br>
-#    <font size=+1><b>Yuanzhen Chen</b></font><br>
-#    Post-doc, Rutgers University<br>
-#    <br><br>
-#    <font size=-1>homepage<br>
-#        e-mail: <i>chenyz(at)sas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <br>
-#    <font size=+1><b>Zonghai Hu</b></font><br>
-#    Assistant Professor, Peking University<br>
-#    <br><br>
-#    <font size=-1>e-mail: <i>zonghai(at)seas.upenn.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/RH2.jpg" align="right" title="Robin Havener">
-#    <br>
-#    <font size=+1><b>Robin Havener</b></font><br>
-#    Graduate Student, Cornell University<br>
-#    <br><br>
-#    <font size=-1><a
-#            href="http://www.chem.cornell.edu/jp275/The%20Park%20Lab%20at%20Cornell/Group.html">homepage</a><br>
-#        e-mail: <i>rh245(at)cornell.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
-#
-#<p style="padding-left: 200px; padding-right: 50px;">
-#    <img src="assets/img/members/GC.jpg" align="right" title="Greg Calusine">
-#    <br>
-#    <font size=+1><b>Gregory Calusine</b></font><br>
-#    Graduate Student, UC Santa Barbara<br>
-#    <br><br>
-#    <font size=-1><a href="http://awsch-web.physics.ucsb.edu/members/calusine/index.php">homepage</a><br>
-#        e-mail: <i>calusine(at)physics.ucsb.edu</i></font>
-#    <br clear="all"/>
-#    <br>
-#<hr size="1" color="#CC3300" style="margin-left: 170px; margin-right: 10px;">
-#</p>
+  - name: Ken Healy
+    desc: Oxford Nanopore Technologies
+    icon: /assets/img/members/KH.jpg
+    link: http://eleceng.ucc.ie/nanopore/
+    email: healyk@sas.upenn.edu
+
+  - name: Matt Hickman
+    desc: Palantir Technologies
+    icon: /assets/img/members/MH.jpg
+    email: hickmanm@sas.upenn.edu
+
+  - name: Alexandra Modupe Adegoke
+    desc: Graduate Student, MD/PhD
+    email: adegokem@mail.med.upenn.edu
+
+  - name: Meni Wanunu
+    desc: Assistant Professor, Northeastern University
+    icon: /assets/img/MW.jpg
+    link: http://mwnano.com
+    email: wanunu@sas.upenn.edu
+
+  - name: Jessamyn Fairfield
+    desc: Post-doc, <a href="http://www.crann.tcd.ie" target="_blank">Centre for Research on Adaptive Nanostructures and Nanodevices</a>, Trinity College Dublin
+    icon: /assets/img/members/JF3.jpg
+    link: http://www.physics.upenn.edu/~fairfia
+    email: fairfia@sas.upenn.edu
+
+  - name: Chris Merchant
+    desc: AAAS Science Policy Fellow
+    icon: /assets/img/members/CM.jpg
+    link: http://eleceng.ucc.ie/nanopore/
+    email: merch@sas.upenn.edu
+
+  - name: Andrew Sharo
+    desc: Undergraduate Student, Princeton
+    link: http://awsch-web.physics.ucsb.edu/members/calusine/index.php
+    email: asharo@princeton.edu
+
+  - name: Linfu (Frank) Zhang
+    desc: Undergraduate Student
+    email: flzhang@gmail.com
+
+  - name: Noah Rubin
+    desc: Undergraduate Student
+    email: noah.rbn@gmail.com
+
+  - name: Lee Burwasser
+    desc: Undergraduate Student
+    email: leebur@sas.upenn.edu
+
+  - name: John Bartel
+    desc: Gradute Student, Stanford University
+    icon: /assets/img/members/JB.jpg
+    email: bartel@sas.upenn.edu
+
+  - name: Siying Wang
+    desc: Former Graduate Student
+    icon: /assets/img/members/SW2.jpg
+    email: siyingw@sas.upenn.edu
+
+  - name: Vishva Ray
+    desc: Lead Research Engineer, Lurie Nanofabrication Facility, University of Michigan
+    icon: /assets/img/members/VR.jpg
+    link: http://eleceng.ucc.ie/nanopore/
+    email: vpray@umich.edu
+
+  - name: Tali Dadosh
+    desc: Post-doc, Goldman Lab at UPenn
+    icon: /assets/img/members/tali.png
+    link: http://eleceng.ucc.ie/nanopore/
+    email: dadosh@sas.upenn.edu
+
+  - name: Michael Fischbein
+    desc: Quantitative Analyst
+    icon: /assets/img/members/MF2.jpg
+    link: http://www.sas.upenn.edu/~mlfisch3
+    email: mlfisch3@sas.upenn.edu
+
+  - name: Neil Peterman
+    desc: Graduate Student, Harvard University
+    icon: /assets/img/NP.jpg
+    email: neil@sas.upenn.edu
+
+  - name: Claudia Querner
+    desc: Research Scientist, BASF, Germany
+    icon: /assets/img/CQ2.jpg
+    link: http://www.sas.upenn.edu/~querner
+    email: querner@sas.upenn.edu
+
+  - name: Yuanzhen Chen
+    desc: Post-doc, Rutgers University
+    icon: /assets/img/members/YC2.jpg
+    email: chenyz@sas.upenn.edu
+
+  - name: Zonghai Hu
+    desc: Assistant Professor, Peking University
+    email: zonghai@seas.upenn.edu
+
+  - name: Robin Havener
+    desc: Graduate Student, Cornell University<
+    icon: /assets/img/members/RH2.jpg
+    link: http://www.chem.cornell.edu/jp275/The%20Park%20Lab%20at%20Cornell/Group.html
+    email: rh245@cornell.edu
+
+  - name: Gregory Calusine
+    desc: Graduate Student, UC Santa Barbara
+    icon: /assets/img/members/GC.jpg
+    link: http://awsch-web.physics.ucsb.edu/members/calusine/index.php
+    email: calusine@physics.ucsb.edu
+
