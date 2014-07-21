@@ -1357,27 +1357,27 @@ i.button {
 // define the necessary padding to make icons circular
 
 .circle.ion-beaker, .small-circle.ion-beaker {
-  padding: 0.10em 0.25em;
+  padding: 0.111em 0.25em;
 }
 
 .circle.ion-alert, .small-circle.ion-alert {
-  padding: 0.10em 0.50em;
+  padding: 0.111em 0.50em;
 }
 
 .circle.ion-person, .small-circle.ion-person {
-  padding: 0.10em 0.25em;
+  padding: 0.111em 0.25em;
 }
 
 .circle.ion-email, .small-circle.ion-email {
-  padding: 0.1em 0.22em;
+  padding: 0.111em 0.219em;
 }
 
 .circle.ion-home, .small-circle.ion-home {
-  padding: 0.1em 0.25em;
+  padding: 0.111em 0.25em;
 }
 
 .circle.ion-social-github, .small-circle.ion-social-github {
-  padding: 0.1em 0.18em;
+  padding: 0.111em 0.187em;
 }
 
 // color bar backgrounds
@@ -1495,5 +1495,9 @@ i.button {
 // member info block
 .member-info {
   padding: 30px;
+  .circle-img {
+    max-height: 150px;
+    max-width: 150px;
+  }
 }
 
