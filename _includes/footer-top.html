@@ -11,13 +11,13 @@
             </div>
         </div>
         <div class="medium-8 columns">
-            <div class="row centered-text">
+            <div class="row">
                 <div class="medium-4 columns">
                     <div class="penn-links">
                         <i class="icon ion-university"></i>
                         <h4>Penn</h4>
                         <ul>
-                            {% include footer-top-links-list data=site.data.links.upenn %}
+                            {% include footer-top-links-list.html data=site.data.links.upenn %}
                         </ul>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                         <i class="icon ion-ionic"></i>
                         <h4>Nanotech</h4>
                         <ul>
-                            {% include footer-top-links-list data=site.data.links.nanotech %}
+                            {% include footer-top-links-list.html data=site.data.links.nanotech %}
                         </ul>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                         <i class="icon ion-pizza"></i>
                         <h4>Funding</h4>
                         <ul>
-                            {% include footer-top-links-list data=site.data.links.funding %}
+                            {% include footer-top-links-list.html data=site.data.links.funding %}
                         </ul>
                     </div>
                 </div>
