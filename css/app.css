@@ -453,6 +453,8 @@ i.button {
   .footer-bottom ul.footer-bottom-links li a {
     padding: 3px;
     font-weight: bold; }
+  .footer-bottom i {
+    font-size: 1rem; }
 
 .row {
   width: 100%;
