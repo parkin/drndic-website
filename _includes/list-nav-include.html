@@ -1,5 +1,5 @@
 {% for page in site.pages %}
-{% if page.nav_include and page.name != 'Home' %}
+{% if page.nav_include or include.keephome %}
 <li>
     {% include linkify.html data=page %}
 </li>

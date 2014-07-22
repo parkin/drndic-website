@@ -1,32 +1,6 @@
 <aside class="left-off-canvas-menu">
     <ul class="off-canvas-list">
-        <li>
-            <a href="{{site.baseurl}}/">Drndi&#263 Lab</a>
-        </li>
-        <li>
-            <a href="{{site.baseurl}}/news">News</a>
-        </li>
-        <li>
-            <a href="{{site.baseurl}}/research">Research</a>
-        </li>
-        <li>
-            <a href="{{site.baseurl}}/members">Members</a>
-        </li>
-        <li>
-            <a href="{{site.baseurl}}/outreach">Outreach</a>
-        </li>
-        <li>
-            <a href="{{site.baseurl}}/invited_talks">Invited Talks</a>
-        </li>
-        <li>
-            <a href="{{site.baseurl}}/publications">Publications</a>
-        </li>
-        <li>
-            <a href="{{site.baseurl}}/contact">Contact</a>
-        </li>
-        <li>
-            <a href="{{site.baseurl}}/links">Links</a>
-        </li>
+        {% include list-nav-include.html keephome="true" %}
     </ul>
 </aside>
 <nav class="tab-bar show-for-small">
@@ -44,30 +18,7 @@
     </ul>
     <section class="top-bar-section">
         <ul class="right">
-            <li>
-                <a href="{{site.baseurl}}/news">News</a>
-            </li>
-            <li>
-                <a href="{{site.baseurl}}/research">Research</a>
-            </li>
-            <li>
-                <a href="{{site.baseurl}}/members">Members</a>
-            </li>
-            <li>
-                <a href="{{site.baseurl}}/outreach">Outreach</a>
-            </li>
-            <li>
-                <a href="{{site.baseurl}}/invited_talks">Invited Talks</a>
-            </li>
-            <li>
-                <a href="{{site.baseurl}}/publications">Publications</a>
-            </li>
-            <li>
-                <a href="{{site.baseurl}}/contact">Contact</a>
-            </li>
-            <li>
-                <a href="{{site.baseurl}}/links">Links</a>
-            </li>
+            {% include list-nav-include.html %}
         </ul>
     </section>
 
