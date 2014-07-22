@@ -5,6 +5,11 @@ email: drndic@physics.upenn.edu
 description: "Drndi&#263 Lab at the University of Pennsylvania."
 baseurl: ""
 url: "http://www.physics.upenn.edu/drndicgroup/"
+mailing_address: University of Pennsylvania<br>David Rittenhouse Laboratory<br>Department of Physics and Astronomy<br>209 South 33rd Street<br>Philadelphia, PA 19104<br>USA
+visiting_address: David Rittenhouse Laboratory (DRL)<br>2N28 (office)<br>1N11c (students office)<br>1N17, 1N19/1C7, 1C10 (labs)
+telephone_lab: 215-573-3096
+telephone_office: 215-898-5810
+fax: 215-898-2010
 
 # Build settings
 markdown: kramdown

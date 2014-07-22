@@ -460,6 +460,9 @@ i.button {
   min-height: 300px;
   min-width: 300px; }
 
+.contact-content .member-info {
+  padding: 0; }
+
 .row {
   width: 100%;
   margin-left: auto;
