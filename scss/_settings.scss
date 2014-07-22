@@ -1560,17 +1560,26 @@ i.button {
   }
 }
 
+$bg-1-darken-by: 26%;
+$bg-1-darken-color: darken($color-1, $bg-1-darken-by);
+$bg-1-light-darken-color: darken($color-1-light, $bg-1-darken-by);
+$bg-1-darken-grad: linear-gradient(to right, $bg-1-darken-color 0%, $bg-1-light-darken-color 100%);
+
 .bg-1-darken {
-  $darken-by: 26%;
-  background: darken($color-1, $darken-by);
-  background: linear-gradient(to right, darken($color-1, $darken-by) 0%, darken($color-1-light, $darken-by) 100%);
+  background: $bg-1-darken-color;
+  background: $bg-1-darken-grad;
 }
+
+$footer-bottom-darken-by: 10%;
+$footer-bottom-darken-color: darken($color-4, $footer-bottom-darken-by);
+$footer-bottom-darken-color-light: darken($color-4-light, $footer-bottom-darken-by);
+$footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-color 0%, $footer-bottom-darken-color-light 100%);
 
 .footer-bottom {
   padding: 20px 9px;
   $darken-by: 10%;
-  background: darken($color-4, $darken-by);
-  background: linear-gradient(to right, darken($color-4, $darken-by) 0%, darken($color-4-light, $darken-by) 100%);
+  background: $footer-bottom-darken-color;
+  background: $footer-bottom-darken-grad;
 
   a, p, i, .drndic-link {
     color: darken(white, 30%);
@@ -1591,6 +1600,14 @@ i.button {
   p.copyright {
     font-size: 0.8rem;
     margin: 6px 0 0;
+  }
+
+  p.designed-by {
+    font-size: 0.8rem;
+    color: lighten($footer-bottom-darken-color-light, 10%);
+    a, i{
+      color: inherit;
+    }
   }
 
   ul.footer-bottom-links {

@@ -444,6 +444,11 @@ i.button {
   .footer-bottom p.copyright {
     font-size: 0.8rem;
     margin: 6px 0 0; }
+  .footer-bottom p.designed-by {
+    font-size: 0.8rem;
+    color: #34485e; }
+    .footer-bottom p.designed-by a, .footer-bottom p.designed-by i {
+      color: inherit; }
   .footer-bottom ul.footer-bottom-links {
     list-style-type: none;
     font-size: inherit;
