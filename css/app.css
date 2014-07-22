@@ -433,15 +433,26 @@ i.button {
   padding: 20px 9px;
   background: #1a242f;
   background: linear-gradient(to right, #1a242f 0%, #222f3d 100%); }
-  .footer-bottom p, .footer-bottom i, .footer-bottom .drndic-link {
+  .footer-bottom a, .footer-bottom p, .footer-bottom i, .footer-bottom .drndic-link {
     color: #b3b3b3; }
-  .footer-bottom i:hover, .footer-bottom .drndic-link:hover {
+  .footer-bottom a:hover, .footer-bottom i:hover, .footer-bottom .drndic-link:hover {
     color: #cccccc; }
   .footer-bottom .drndic-link {
     font-weight: bold;
-    font-size: 2rem; }
-  .footer-bottom p {
-    font-size: 0.8rem; }
+    font-size: 2rem;
+    padding: 3px; }
+  .footer-bottom p.copyright {
+    font-size: 0.8rem;
+    margin: 6px 0 0; }
+  .footer-bottom ul.footer-bottom-links {
+    list-style-type: none;
+    font-size: inherit;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 0; }
+  .footer-bottom ul.footer-bottom-links li a {
+    padding: 3px;
+    font-weight: bold; }
 
 .row {
   width: 100%;

@@ -1,6 +1,6 @@
 {% for link_hash in include.data %}
 {% assign link = link_hash[1] %}
 <li>
-    {% include linkify.html data=link %}
+    {% include linkify.html data=link blank=include.blank%}
 </li>
 {% endfor %}

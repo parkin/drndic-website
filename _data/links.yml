@@ -2,49 +2,49 @@
 upenn:
   upenn:
     name: University of Pennsylvania
-    link: http://www.upenn.edu/
+    url: http://www.upenn.edu/
   upenn_sas:
     name: School of Arts and Sciences
-    link: http://www.sas.upenn.edu/
+    url: http://www.sas.upenn.edu/
   upenn_physics:
     name: Department of Physics
-    link: http://www.physics.upenn.edu/
+    url: http://www.physics.upenn.edu/
   nbic:
     name: Nano/Bio Interface Center
-    link: http://www.nanotech.upenn.edu/
+    url: http://www.nanotech.upenn.edu/
   prnf:
     name: Penn Regional Nanotech Facility
-    link: http://www.seas.upenn.edu/nanotechfacility
+    url: http://www.seas.upenn.edu/nanotechfacility
   lrsm:
     name: Laboratory for Research on the Structure of Matter
-    link: http://www.lrsm.upenn.edu/
+    url: http://www.lrsm.upenn.edu/
 
 nanotech:
   nti:
     name: Nanotechnology Institute
-    link: http://www.nanotechinstitute.org/nti/index.jsp
+    url: http://www.nanotechinstitute.org/nti/index.jsp
   nanohub:
     name: NanoHUB
-    link: http://nanohub.org/
+    url: http://nanohub.org/
   nanopore_site:
     name: The Nanopore Site
-    link: http://www.thenanoporesite.com/
+    url: http://www.thenanoporesite.com/
 
 funding:
   mrsec:
     name: MRSEC
-    link: http://www.mrsec.org/
+    url: http://www.mrsec.org/
   nihnhgri:
     name: NIH NHGRI
-    link: http://www.genome.gov/
+    url: http://www.genome.gov/
   nsf:
     name: NSF
-    link: http://www.nsf.gov
+    url: http://www.nsf.gov
   onr:
     name: ONR
-    link: http://www.onr.navy.mil/
+    url: http://www.onr.navy.mil/
 
 lab:
   wiki:
     name: Lab Wiki
-    link: https://drndiclab-bkup.physics.upenn.edu/wiki/index.php/Main_Page
+    url: https://drndiclab-bkup.physics.upenn.edu/wiki/index.php/Main_Page

@@ -1572,12 +1572,12 @@ i.button {
   background: darken($color-4, $darken-by);
   background: linear-gradient(to right, darken($color-4, $darken-by) 0%, darken($color-4-light, $darken-by) 100%);
 
-  p, i, .drndic-link{
+  a, p, i, .drndic-link {
     color: darken(white, 30%);
   }
 
-  i, .drndic-link{
-    &:hover{
+  a, i, .drndic-link {
+    &:hover {
       color: darken(white, 20%);
     }
   }
@@ -1585,10 +1585,26 @@ i.button {
   .drndic-link {
     font-weight: bold;
     font-size: 2rem;
+    padding: 3px;
   }
 
-  p {
+  p.copyright {
     font-size: 0.8rem;
+    margin: 6px 0 0;
   }
+
+  ul.footer-bottom-links {
+    list-style-type: none;
+    font-size: inherit;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 0;
+  }
+
+  ul.footer-bottom-links li a {
+    padding: 3px;
+    font-weight: bold;
+  }
+
 }
 
