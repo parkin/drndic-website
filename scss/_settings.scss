@@ -1307,7 +1307,6 @@ $color-clouds: #ECF0F1;
 $color-silver: #BDC3C7;
 
 $color-1-grad: linear-gradient(to right, $color-1 0%, $color-1-light 100%);
-$color-1-darken-30-grad: linear-gradient(to right, darken($color-1, 30%) 0%, darken($color-1-light, 30%) 100%);
 $color-2-grad: linear-gradient(to right, $color-2 0%, $color-2-light 100%);
 $color-3-grad: linear-gradient(to right, $color-3 0%, $color-3-light 100%);
 $color-4-grad: linear-gradient(to right, $color-4 0%, $color-4-light 100%);
@@ -1381,6 +1380,10 @@ i.button {
   padding: 0.111em 0.187em;
 }
 
+.circle.ion-university, .small-circle.ion-university {
+  padding: 0.111em 0.187em;
+}
+
 // color bar backgrounds
 
 .color-bar-layout {
@@ -1437,22 +1440,14 @@ i.button {
   h1 {
     color: white;
   }
-  .subheader {
-    color: darken(white, 20%);
-  }
-}
-
-.color-1-bar-darken-30 {
-  @extend .color-bar-layout;
-  background: darken($color-1, 30%);
-  background: $color-1-darken-30-grad;
-  h1 {
+  h3 {
     color: white;
   }
   .subheader {
     color: darken(white, 20%);
   }
 }
+
 .color-2-bar {
   @extend .color-bar-layout;
   background: $color-2;
@@ -1514,3 +1509,43 @@ i.button {
   }
 }
 
+.footer-top {
+  padding: 40px 0;
+  font-size: 13px;
+
+  ul {
+    list-style-type: none;
+    font-size: inherit;
+  }
+
+  h3, h4, p, li {
+    color: white;
+  }
+  a {
+    color: white;
+    font-weight: bold;
+  }
+
+  i {
+    font-size: 3rem;
+    color: white;
+  }
+
+  .penn-links, .nanotech-links, .funding-links {
+    padding: 20px 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    height: 300px;
+    margin-bottom: 30px;
+  }
+
+  .property-info {
+    padding-top: 65px;
+  }
+
+}
+
+.bg-1-darken {
+  $darken-by: 26%;
+  background: darken($color-1, $darken-by);
+  background: linear-gradient(to right, darken($color-1, $darken-by) 0%, darken($color-1-light, $darken-by) 100%);
+}
