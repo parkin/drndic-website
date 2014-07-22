@@ -1,0 +1,73 @@
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+    var map;
+    function initialize() {
+        var map_canvas = document.getElementById('drl-map');
+        var map_options = {
+            center: new google.maps.LatLng(39.9520494, -75.1894637),
+            zoom: 16,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var white = '#FFFFFF';
+        var orange_light = '#E67E22';
+        var purple_dark = '#8E44AD';
+        var purple_light = '#9B59B6';
+        var blue_light = '#1ABC9C';
+        map = new google.maps.Map(map_canvas, map_options);
+        map.set('styles', [
+            {
+                featureType: 'road',
+                elementType: 'geometry',
+                stylers: [
+                    { color: orange_light },
+                    { weight: 3 },
+                    {lightness: 20},
+                    {visibility: 'simplified'}
+                ]
+            },
+            {
+                featureType: 'road',
+                elementType: 'labels',
+                stylers: [
+                    {hue: purple_dark}
+                ]
+            },
+            {
+                featureType: 'landscape',
+                elementType: 'geometry',
+                stylers: [
+
+                    { color: white },
+                ]
+            },
+            {
+                featureType: 'landscape.man_made',
+                elementType: 'geometry',
+                stylers: [
+
+                    { color: white },
+                ]
+            },
+            {
+                featureType: 'poi',
+                elementType: 'geometry',
+                stylers: [
+                    { color: white },
+                ]
+            },
+            {
+                featureType: 'poi.school',
+                elementType: 'geometry',
+                stylers: [
+                    { color: white },
+                ]
+            }
+        ]);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    google.maps.event.addDomListener(window, "resize", function () {
+        var center = map.getCenter();
+        google.maps.event.trigger(map, "resize");
+        map.setCenter(center);
+    });
+</script>

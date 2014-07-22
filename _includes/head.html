@@ -7,4 +7,5 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/app.css"/>
     <script src="{{site.baseurl}}/bower_components/modernizr/modernizr.js"></script>
     <link rel="stylesheet" href="{{site.baseurl}}/libs/slick-master/slick/slick.css">
+    {% if include.data %}{% include {{include.data}} %}{% endif %}
 </head>
