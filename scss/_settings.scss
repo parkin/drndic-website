@@ -1293,12 +1293,12 @@ $body-font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans
 //*************************** WILL's ADDITIONS
 
 // my color scheme
-$color-1: #16A085;
-$color-1-light: #1ABC9C;
+$color-1: #8E44AD;
+$color-1-light: #9B59B6;
 $color-2: #2980B9;
 $color-2-light: #3498DB;
-$color-3: #8E44AD;
-$color-3-light: #9B59B6;
+$color-3: #16A085;
+$color-3-light: #1ABC9C;
 $color-4: #2C3E50;
 $color-4-light: #34495E;
 $color-5: #D35400;
@@ -1307,6 +1307,7 @@ $color-clouds: #ECF0F1;
 $color-silver: #BDC3C7;
 
 $color-1-grad: linear-gradient(to right, $color-1 0%, $color-1-light 100%);
+$color-1-darken-30-grad: linear-gradient(to right, darken($color-1, 30%) 0%, darken($color-1-light, 30%) 100%);
 $color-2-grad: linear-gradient(to right, $color-2 0%, $color-2-light 100%);
 $color-3-grad: linear-gradient(to right, $color-3 0%, $color-3-light 100%);
 $color-4-grad: linear-gradient(to right, $color-4 0%, $color-4-light 100%);
@@ -1440,6 +1441,17 @@ i.button {
   }
 }
 
+.color-1-bar-darken-30 {
+  @extend .color-bar-layout;
+  background: darken($color-1, 30%);
+  background: $color-1-darken-30-grad;
+  h1 {
+    color: white;
+  }
+  .subheader {
+    color: darken(white, 20%);
+  }
+}
 .color-2-bar {
   @extend .color-bar-layout;
   background: $color-2;
