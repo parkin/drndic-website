@@ -1,18 +1,7 @@
 ---
 layout: base
-extrajs: |
-    <script type="text/javascript" src="/libs/slick-master/slick/slick.min.js"></script>
-
-    <script>
-        // initialize slick
-        $(document).ready(function () {
-          $('.slick-carousel').slick({
-             autoplay: true,
-             dots: true,
-             lazyload: 'ondemand'
-         });
-      });
-    </script>
+extrajs: slick.html
+extrajs_args: [.slick-carousel]
 ---
 
 <section id="homepage-top" class="color-bar-layout">

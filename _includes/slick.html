@@ -1,0 +1,16 @@
+<script type="text/javascript" src="{{site.baseurl}}/libs/slick-master/slick/slick.min.js"></script>
+
+<script>
+    // initialize slick
+    $(document).ready(function () {
+        {% for selector in include.data %}
+
+        $('{{selector}}').slick({
+            autoplay: true,
+            dots: true,
+            lazyload: 'ondemand'
+        });
+
+            {% endfor %}
+    });
+</script>
