@@ -6,13 +6,7 @@
         <div class="medium-8 medium-8 pull-4 columns">
             <a href="{{site.baseurl}}/" class="drndic-link">{{site.title}}</a>
             <ul class="footer-bottom-links">
-                {% for page in site.pages %}
-                {% if page.nav_include and page.name != 'Home' %}
-                <li>
-                    {% include linkify.html data=page %}
-                </li>
-                {% endif %}
-                {% endfor %}
+                {% include list-nav-include.html %}
             </ul>
             <p class="copyright">© {{site.time | date: '%Y' }} {{site.pi}}. All rights reserved.</p>
         </div>
