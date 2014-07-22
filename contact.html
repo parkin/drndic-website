@@ -1,128 +1,42 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-            "http://www.w3.org/TR/html4/loose.dtd">
+---
+layout: contentpage
+nav_include: true
+title: Contact
+subtitle: Keep in touch.
+extrajs_head: js/google_maps_head.html
+---
+<section class="color-bar-white">
+    <div class="row">
+        <div class="small-12 columns">
+            <div id="drl-map">
+            </div>
+        </div>
+    </div>
+    <div class="row centered-text">
+        <div class="medium-3 columns">
+            <h3>Mailing Address</h3>
 
+            <p>{{site.mailing_address}}</p>
+        </div>
+        <div class="medium-3 columns">
+            <h3>Visiting Address</h3>
 
-<html>
+            <p>{{site.visiting_address}}</p>
+        </div>
+        <div class="medium-3 columns">
+            <h3>Telephone</h3>
 
-<head>
-	<title>Drndi&#263 Lab: Contact details</title>
+            <p>{{site.telephone_lab}} (lab)<br>{{site.telephone_office}} (office)</p>
 
-<style>
+            <h3>Fax</h3>
 
-body {
-	background-color: #ffeecd
-}
+            <p>{{site.fax}}</p>
+        </div>
+        <div class="medium-3 columns">
+            {% assign members = site.data.members.current %}
+            {% assign member0 = members[0] %}
+            {% include member.html member=member0 %}
+        </div>
+    </div>
 
-h1 {
-	font-family: Verdana;
-	color: #666666;
-	font: 30pt;
-}
-
-h2 {
-	font-family: Verdana;
-	color: #CC3300;
-	font: 20pt;
-}
-
-p {
-	font-family: Arial;
-	color: #000000;
-	font: 10pt;
-}
-
-</style>
-
-
-</head>
-
-<body link="#000000" vlink="606060" alink="606060">
-
-<a name="top"></a>
-
-<h1 align=center><b> Drndi&#263 Lab </b></h1>
-
-<hr size="3" color="#CC3300">
-
-<a href="index.html" onmouseover="b1.src='home_select.gif'" onmouseout="b1.src='home.gif'">
-<img src="assets/img/home.gif" border="0" name="b1" style="position: absolute; top: 120px; left:10px;" title="Drndi&#263 Lab Homepage" /></a>
-
-<a href="news.html" onmouseover="b2.src='news_select.gif'" onmouseout="b2.src='news.gif'">
-<img src="assets/img/news.gif" border="0" name="b2" style="position: absolute; top: 160px; left:10px;" title="Lab News" /></a>
-
-<a href="research.html" onmouseover="b3.src='research_select.gif'" onmouseout="b3.src='research.gif'">
-<img src="assets/img/research.gif" border="0" name="b3" style="position: absolute; top: 200px; left:10px;" title="Lab Research details" /></a>
-
-<a href="members.html" onmouseover="b4.src='members_select.gif'" onmouseout="b4.src='members.gif'">
-<img src="assets/img/members.gif" border="0" name="b4" style="position: absolute; top: 240px; left:10px;" title="Current Lab Members" /></a>
-
-<a href="outreach.html" onmouseover="b5.src='outreach_select.gif'" onmouseout="b5.src='outreach.gif'">
-<img src="assets/img/outreach.gif" border="0" name="b5" style="position: absolute; top: 280px; left:10px;" title="Outreach and Undergraduate Research" /></a>
-
-<a href="invited_talks.html" onmouseover="b6.src='invited_talks_select.gif'" onmouseout="b6.src='invited_talks.gif'">
-<img src="assets/img/invited_talks.gif" border="0" name="b6" style="position: absolute; top: 320px; left:10px;" title="Invited Talks (past and upcoming)" /></a>
-
-<a href="publications.html" onmouseover="b7.src='papers_select.gif'" onmouseout="b7.src='papers.gif'">
-<img src="assets/img/papers.gif" border="0" name="b7" style="position: absolute; top: 360px; left:10px;" title="Recent Publications and Patents" /></a>
-
-<a href="contact.html" onmouseover="b8.src='contact_select.gif'" onmouseout="b8.src='contact.gif'">
-<img src="assets/img/contact.gif" border="0" name="b8" style="position: absolute; top: 400px; left:10px;" title="Contact information" /></a>
-
-<a href="links.html" onmouseover="b9.src='links_select.gif'" onmouseout="b9.src='links.gif'">
-<img src="assets/img/links.gif" border="0" name="b9" style="position: absolute; top: 440px; left:10px;" title="Useful Links" /></a>
-
-<br>
-
-<h2 align="left" style="padding-left: 180px;"><b>Contact information</b></h2>
-
-<p style="padding-left: 200px;">
-
-	<b>Mailing address:</b><br>
-	<img src="assets/img/map.gif" align="right" title="Access to DRL" /><br>
-	University of Pennsylvania<br>
-	David Rittenhouse Laboratory<br>
-	Department of Physics and Astronomy<br>
-	209 South 33rd Street<br>
-	Philadelphia, PA 19104<br>
-	USA<br>
-	<br><br>
-
-	<b>Visiting address:</b><br><br>
-	David Rittenhouse Laboratory (DRL)<br>
-	2N28 (office)<br>
-	1N11c (students office)<br>
-	1N17, 1N19/1C7, 1C10 (labs)<br>
-	<br><br>
-
-	<b>Telephone:</b><br><br>
-	215-573-3096 (lab)<br>
-	215-898-5810 (office)<br><br>
-	<b>Fax:</b><br><br>
-	215-898-2010<br><br>
-	<b>Email:</b><br><br>
-	drndic(at)physics.upenn.edu<br>
-
-
-<br clear="all" />
-
-<hr size="3" color="#CC3300">
-
-<p align="right" style="padding-right: 10px;">
-<font size=-2>
-2013, Marija Drndi&#263
-</font></p>
-
-<!-- Start of StatCounter Code -->
-<script type="text/javascript">
-var sc_project=3367611;
-var sc_invisible=1;
-var sc_partition=37;
-var sc_security="b5fffe4d";
-</script>
-<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script>
-   <div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/">
-   </a></div>
-<!-- End of StatCounter Code -->
-
-</body>
-</html>
+</section>
