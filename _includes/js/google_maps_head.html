@@ -2,9 +2,10 @@
 <script>
     var map;
     function initialize() {
+        var myLatLng = new google.maps.LatLng(39.9520494, -75.1894637);
         var map_canvas = document.getElementById('drl-map');
         var map_options = {
-            center: new google.maps.LatLng(39.9520494, -75.1894637),
+            center: myLatLng,
             zoom: 16,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
@@ -63,6 +64,34 @@
                 ]
             }
         ]);
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Hello World!'
+        });
+        // Define the LatLng coordinates for the polygon's path.
+        var drlCoords = [
+            new google.maps.LatLng(39.952418, -75.189885),
+            new google.maps.LatLng(39.952241, -75.188442),
+            new google.maps.LatLng(39.952097, -75.188485),
+            new google.maps.LatLng(39.952163, -75.189107),
+            new google.maps.LatLng(39.952035, -75.189134),
+            new google.maps.LatLng(39.951842, -75.18804),
+            new google.maps.LatLng(39.951657, -75.188115),
+            new google.maps.LatLng(39.951862, -75.189987)
+        ];
+
+        // Construct the polygon.
+        var drlTriangle = new google.maps.Polygon({
+            paths: drlCoords,
+            strokeColor: purple_light,
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: purple_dark,
+            fillOpacity: 0.5
+        });
+
+        drlTriangle.setMap(map);
     }
     google.maps.event.addDomListener(window, 'load', initialize);
     google.maps.event.addDomListener(window, "resize", function () {
