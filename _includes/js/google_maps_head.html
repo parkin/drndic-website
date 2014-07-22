@@ -92,6 +92,17 @@
         });
 
         drlTriangle.setMap(map);
+
+        // info window stuff
+        var contentString = '<div id="content">' +
+                '<a href="http://www.physics.upenn.edu/" target="_blank">David Rittenhouse Laboratory</a></div>';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+        google.maps.event.addListener(marker, 'click', function () {
+            infowindow.open(map, marker);
+        });
     }
     google.maps.event.addDomListener(window, 'load', initialize);
     google.maps.event.addDomListener(window, "resize", function () {
