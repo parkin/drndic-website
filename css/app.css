@@ -353,10 +353,6 @@ i.button {
   background: #16a085;
   background: linear-gradient(to right, #16a085 0%, #1abc9c 100%); }
 
-.footer-bottom {
-  background: #2c3e50;
-  background: linear-gradient(to right, #2c3e50 0%, #34495e 100%); }
-
 .centered-text {
   text-align: center; }
 
@@ -432,6 +428,20 @@ i.button {
 .bg-1-darken {
   background: #401f4e;
   background: linear-gradient(to right, #401f4e 0%, #502a60 100%); }
+
+.footer-bottom {
+  padding: 20px 9px;
+  background: #1a242f;
+  background: linear-gradient(to right, #1a242f 0%, #222f3d 100%); }
+  .footer-bottom p, .footer-bottom i, .footer-bottom .drndic-link {
+    color: #b3b3b3; }
+  .footer-bottom i:hover, .footer-bottom .drndic-link:hover {
+    color: #cccccc; }
+  .footer-bottom .drndic-link {
+    font-weight: bold;
+    font-size: 2rem; }
+  .footer-bottom p {
+    font-size: 0.8rem; }
 
 .row {
   width: 100%;

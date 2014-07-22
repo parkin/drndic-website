@@ -1464,11 +1464,6 @@ i.button {
   background: $color-3-grad;
 }
 
-.footer-bottom {
-  background: $color-4;
-  background: $color-4-grad;
-}
-
 .centered-text {
   text-align: center;
 }
@@ -1570,3 +1565,30 @@ i.button {
   background: darken($color-1, $darken-by);
   background: linear-gradient(to right, darken($color-1, $darken-by) 0%, darken($color-1-light, $darken-by) 100%);
 }
+
+.footer-bottom {
+  padding: 20px 9px;
+  $darken-by: 10%;
+  background: darken($color-4, $darken-by);
+  background: linear-gradient(to right, darken($color-4, $darken-by) 0%, darken($color-4-light, $darken-by) 100%);
+
+  p, i, .drndic-link{
+    color: darken(white, 30%);
+  }
+
+  i, .drndic-link{
+    &:hover{
+      color: darken(white, 20%);
+    }
+  }
+
+  .drndic-link {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
