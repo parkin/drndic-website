@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# This script checks out the branch supplied 
+
+if [ -z "$1" ]
+  then
+    echo -e "deploy-help checks out a branch and copys the _site folder to the branch's root. Usage:\n\t $ ./deploy-help.sh [branch]\t (default: publish-shareddrive)"
+    $1='publish-shareddrive'
+fi
+
 set -ex
 
 PUBLISH_BRANCH=$1
