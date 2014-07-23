@@ -1,6 +1,6 @@
 #!/bin/bash
 
-grunt
+grunt build
 jekyll build
 
 ./deploy-help.sh 'publish'
