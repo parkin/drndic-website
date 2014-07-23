@@ -1,7 +1,7 @@
 {% for page in site.pages %}
 {% if page.nav_include or include.keephome %}
 <li>
-    {% include linkify.html data=page %}
+    {% include linkify.html data=page baseurl='true' %}
 </li>
 {% endif %}
 {% endfor %}

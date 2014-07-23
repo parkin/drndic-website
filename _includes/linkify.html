@@ -1,4 +1,4 @@
-<a href="{{include.data.url}}" {% if include.blank %}target="_blank"{% endif %}>
+<a href="{% if include.baseurl %}{{site.baseurl}}{% endif %}{{include.data.url}}" {% if include.blank %}target="_blank"{% endif %}>
     {% if include.data.title %}
     {{include.data.title}}
     {% else %}
