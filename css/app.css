@@ -468,6 +468,11 @@ i.button {
   min-height: 300px;
   min-width: 300px; }
 
+.pub-info {
+  padding: 15px; }
+  .pub-info img {
+    max-height: 200px; }
+
 .row {
   width: 100%;
   margin-left: auto;

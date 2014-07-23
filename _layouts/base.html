@@ -19,11 +19,10 @@
     </div>
 </div>
 
-<script src="{{site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="{{site.baseurl}}/bower_components/foundation/js/foundation.min.js"></script>
 <script src="{{site.baseurl}}/js/app.js"></script>
 
-{% if page.extrajs %} {% include js/{{page.extrajs}} data=page.extrajs_args %} {% endif %}
+{% if page.extrajs %} {% include {{page.extrajs}} data=page.extrajs_args %} {% endif %}
 
 </body>
 </html>

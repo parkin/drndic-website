@@ -1605,7 +1605,7 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
   p.designed-by {
     font-size: 0.8rem;
     color: lighten($footer-bottom-darken-color-light, 10%);
-    a, i{
+    a, i {
       color: inherit;
     }
   }
@@ -1635,3 +1635,13 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
   min-height: 300px;
   min-width: 300px;
 }
+
+.pub-info {
+  padding: 15px;
+
+  img {
+    max-height: 200px;
+  }
+}
+
+
