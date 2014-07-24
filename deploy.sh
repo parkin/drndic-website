@@ -6,13 +6,15 @@ set -e
 
 function usage() { 
   echo -e "$0 builds the website and commits it to a publish branch."
-  echo -e "Usage: ./$0 [OPTIONS] ... "
-  echo -e "\tChoose what you want to do"
+  echo -e "Usage: $0 [OPTIONS] ... "
+  echo -e "\tChoose what you want to do:"
   echo -e "\t\t-b: Build the site with grunt and jekyll. (DEFAULT)"
   echo -e "\t\t-c: Commit and push to appropriate git publish branch. (DEFAULT)"
   echo -e "\tChoose the branch(es):"
   echo -e "\t\t-s: Build website for the shared drive, branch: public. (DEFAULT)"
   echo -e "\t\t-f: Build website for publish on the facstaff server, branch: public-shareddrive."
+  echo -e "\t-h: Help"
+  echo -e "\nExamples:\t./deploy.sh -b  (only build and only the shared drive version)"
 
   exit 1;
 }
