@@ -2,6 +2,28 @@
 
 # This script checks out the branch supplied 
 
+function usage() { 
+  echo "$0 builds the website"
+
+  exit 1
+}
+
+while getopts "u:" o; do
+  case "${o}" in
+    u)
+      u=${OPTARG}
+      ;;
+  esac
+done
+shift $((OPTIND-1))
+
+# If user didn't input username, prompt here.
+if [ -z "${u}" ]; then
+  usage
+fi
+
+
+
 if [ -z "$1" ]
   then
     echo -e "deploy-help checks out a branch and copys the _site folder to the branch's root. Usage:\n\t $ ./deploy-help.sh [branch]\t (default: publish-shareddrive)"
