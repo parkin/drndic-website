@@ -149,6 +149,7 @@ release_to_wild() {
     username=$2
   fi
 
+  echo "Releasing $4 to the wild at ${username}@$1:$3"
 
   ssh ${username}@$1 "cd $3 && git fetch && git checkout $4 && git merge"
 
