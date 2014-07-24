@@ -6,3 +6,6 @@ _site
 
 # deploy temp folder
 temp-publish-clone
+
+# vim stuff
+*.swp
