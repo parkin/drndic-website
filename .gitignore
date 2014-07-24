@@ -1,4 +1,10 @@
 # Intellij suff
 .idea/
 
+# all generated site dirs
 _site
+_site_shareddrive
+_site_facstaff
+
+# vim
+*.swp
