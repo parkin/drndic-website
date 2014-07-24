@@ -3,7 +3,7 @@ title: Drndi&#263 Lab
 pi: Marija Drndi&#263
 email: drndic@physics.upenn.edu
 description: "Drndi&#263 Lab at the University of Pennsylvania."
-baseurl: "/drndicgroup"
+baseurl: ""
 url: "http://www.physics.upenn.edu/drndicgroup/"
 mailing_address: University of Pennsylvania<br>David Rittenhouse Laboratory<br>Department of Physics and Astronomy<br>209 South 33rd Street<br>Philadelphia, PA 19104<br>USA
 visiting_address: David Rittenhouse Laboratory (DRL)<br>2N28 (office)<br>1N11c (students office)<br>1N17, 1N19/1C7, 1C10 (labs)
@@ -15,3 +15,4 @@ fax: 215-898-2010
 markdown: kramdown
 permalink: pretty
 exclude: [scss, node_modules, .bowerrc, bower.json, package.json, Gruntfile.js, test, temp-publish-clone, deploy.sh, deploy-shareddrive.sh, deploy-help.sh, serve.sh, update-shareddrive.sh]
+destination: "_site"
