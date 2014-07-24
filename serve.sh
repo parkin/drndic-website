@@ -32,5 +32,6 @@ while getopts "b:h" o; do
 done
 shift $((OPTIND-1))
 
-
+# start both grunt and serve at the same time
+# fg ensures that a ctrl-c kills both processes
 grunt & jekyll serve -w --baseurl $b && fg
