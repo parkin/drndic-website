@@ -14,4 +14,4 @@ fax: 215-898-2010
 # Build settings
 markdown: kramdown
 permalink: pretty
-exclude: [scss, node_modules, .bowerrc, bower.json, package.json, Gruntfile.js, test, temp-publish-clone, deploy.sh, deploy-shareddrive.sh, deploy-help.sh]
+exclude: [scss, node_modules, .bowerrc, bower.json, package.json, Gruntfile.js, test, temp-publish-clone, deploy.sh, deploy-shareddrive.sh, deploy-help.sh, serve.sh, update-shareddrive.sh]
