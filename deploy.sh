@@ -2,7 +2,7 @@
 
 # This script checks out the branch supplied 
 
-set -e
+#set -e
 
 function usage() { 
   echo -e "$0 builds the website and commits it to a publish branch."
