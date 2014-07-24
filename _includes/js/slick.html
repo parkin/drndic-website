@@ -3,7 +3,7 @@
 <script>
     // initialize slick
     $(document).ready(function () {
-        {% for selector in include.data %}
+        {% for selector in include.args.selectors %}
 
         $('{{selector}}').slick({
             autoplay: true,
