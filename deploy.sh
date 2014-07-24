@@ -2,8 +2,6 @@
 
 # This script checks out the branch supplied 
 
-#set -e
-
 function usage() { 
   echo -e "$0 builds the website and commits it to a publish branch."
   echo -e "Usage: $0 [OPTIONS] ... [-u <shareddrive username>]"
@@ -27,6 +25,7 @@ function usage() {
 b=false
 c=false
 r=false
+u=""
 # which branch to publish to
 s=false
 s_branch="publish-shareddrive"
@@ -39,7 +38,7 @@ f_branch="publish"
 f_config="_config_facstaff.yml"
 f_dir="_site_facstaff"
 f_url=""
-s_server_repo_loc=""
+f_server_repo_loc=""
 
 while getopts "bpcfsru:n:h" o; do
   case "${o}" in
@@ -116,7 +115,8 @@ push_git () {
 
   # Copy website files from real repo
   # Use rsync so we can ignore hidden files
-  rsync -av --exclude=".*" $site_dir/* .
+  echo "Copying files from ${site_dir}"
+  rsync -a --exclude=".*" ${site_dir}/* .
 
   # Stage all files in git and create a commit
   git add .
@@ -137,23 +137,9 @@ push_git () {
 # $3 - git repo location
 # $4 - git branch
 release_to_wild() {
-  # If user didn't input username, prompt here.
-  if [ -z "$2" ]; then
-    while true; do
-      read -p "Username for $1:" username
-      if [ -z "$2" ]; then
-        echo -e "\nPlease enter a username!"
-      else
-        break 2
-      fi
-    done
-  else
-    username=$2
-  fi
+  echo "Releasing ${4} to the wild at ${2}@${1}:${3}"
 
-  echo "Releasing $4 to the wild at ${username}@$1:$3"
-
-  ssh ${username}@$1 "cd $3 && git fetch && git checkout $4 && git merge"
+  ssh ${2}@${1} "cd ${3} && git checkout ${4} && git pull"
 
 }
 
@@ -169,10 +155,36 @@ do_deploy () {
   fi
 }
 
+# $1 - drive name
+# $2 - variable to result in
+# $3 - current value
+get_username () {
+  local _result=$2
+  local username=$3
+  # If user didn't input username, prompt here.
+  if [ -z "${username}" ]; then
+    while true; do
+      read -p "Username for $1: " username
+      if [ -z "${username}" ]; then
+        echo -e "\nPlease enter a username!"
+      else
+        break 2
+      fi
+    done
+  fi
+
+  if [[ "$_result" ]]; then
+    eval $_result="'$username'"
+  else
+    echo "$username"
+  fi
+}
+
 # If we want to execute for the shared drive, try the following.
 if ${s}; then
   do_deploy ${s_config} ${s_branch} ${s_dir}
   if ${r}; then
+    get_username ${s_url} u $u
     release_to_wild ${s_url} ${u} ${s_server_repo_loc} ${s_branch}
   fi
 fi
