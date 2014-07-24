@@ -3,6 +3,8 @@
 
 # Jekyll stuff
 _site
+_site_shareddrive
+_site_facstaff
 
 # deploy temp folder
 temp-publish-clone
