@@ -123,11 +123,13 @@ push_git () {
   git add -u
   git commit -m "Website at $(date)"
 
+  echo "Pushing ${1}"
   # Push the new files up to GitHub
-  git push origin $publish_branch
+  git push origin ${publish_branch}
 
+  echo "Switching back to ${branch_name}"
   # move back to the old branch
-  git checkout $branch_name
+  git checkout ${branch_name}
 }
 
 # $1 - server url
