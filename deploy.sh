@@ -15,8 +15,10 @@ function usage() {
   echo -e "\t\t-s: Build website for the shared drive, branch: public. (DEFAULT)"
   echo -e "\t\t-f: Build website for publish on the facstaff server, branch: public-shareddrive."
   echo -e "\t-h: Help"
-  echo -e "\nExamples:\t./deploy.sh -b  (only build and only the shared drive version)"
-  echo -e "\t./deploy.sh -bcsf  (do everything)"
+  echo -e "\nExamples:"
+  echo -e "\t./deploy.sh -b  (only build and only the shared drive version)"
+  echo -e "\t./deploy.sh -bcrsf  (do everything)"
+  echo -e "\t./deploy.sh -rs -u username  (release to the shared drive with username)"
 
   exit 1;
 }
@@ -92,10 +94,22 @@ branch_name="$(git symbolic-ref HEAD 2>/dev/null)" ||
 branch_name="(unnamed branch)"     # detached HEAD
 branch_name=${branch_name##refs/heads/}
 
+# check to make sure we aren't running grunt or jekyll serve already
+check_serve () {
+  # check processes for 'jekyll' or 'grunt', but ignore the 'grep' commands
+  local check=$(ps aux | grep 'jekyll\|grunt' | grep -v grep)
+  # if it's not an empty string, we have running processes
+  if ! [ -z "${check}" ] ; then
+    echo -e "Error: watch processes running:\n${check}" 1>&2
+    exit 1
+  fi
+}
 
 # Builds the website
 # $1 - the publish branch config file
 build_site () {
+  check_serve
+
   grunt build
   jekyll build --config _config.yml,$1
 }
@@ -105,6 +119,8 @@ build_site () {
 # $1 - git publish branch
 # $2 - _site dir
 push_git () {
+  check_serve
+
   typeset publish_branch=$1
   typeset site_dir=$2
 
