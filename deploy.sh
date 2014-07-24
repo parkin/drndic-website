@@ -25,10 +25,12 @@ c=false
 # which branch to publish to
 s=false
 s_branch="publish-shareddrive"
-s_dir="_site_shareddrive.yml"
+s_config="_config_shareddrive.yml"
+s_dir="_site_shareddrive"
 f=false
 f_branch="publish"
-f_dir="_site_facstaff.yml"
+f_config="_config_facstaff.yml"
+f_dir="_site_facstaff"
 
 while getopts "bpfsh" o; do
   case "${o}" in
@@ -109,22 +111,25 @@ push_git () {
   git checkout $branch_name
 }
 
-# If we want to execute for the facstaff servers, try the following.
-if ${f}; then
+# $1 - config file
+# $2 - branch
+# $3 - _site dir
+do_deploy () {
   if ${b}; then
-    build_site ${f_dir}
+    build_site $1
   fi
   if ${c}; then
-    push_git ${f_branch} ${f_dir}
+    push_git $2 $3
   fi
-fi
+}
 
 # If we want to execute for the shared drive, try the following.
 if ${s}; then
-  if ${b}; then
-    build_site ${s_dir}
-  fi
-  if ${c}; then
-    push_git ${s_branch} ${s_dir}
-  fi
+  do_deploy ${s_config} ${s_branch} ${s_dir}
 fi
+
+# If we want to execute for the facstaff servers, try the following.
+if ${f}; then
+  do_deploy ${f_config} ${f_branch} ${f_dir}
+fi
+
