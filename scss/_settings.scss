@@ -28,9 +28,9 @@
 // $include-print-styles: true;
 // $include-html-global-classes: $include-html-classes;
 
-// Grid 
+// Grid
 
-// $include-html-block-grid-classes: $include-html-classes; 
+// $include-html-block-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
 // $row-width: rem-calc(1000);
@@ -1397,10 +1397,14 @@ i.button {
 }
 
 #homepage-top {
-  background: $color-1;
-  background: $color-1-grad;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: left;
   padding: 100px 0;
+  height: 650px;
 }
 
 #homepage-top h1 {
@@ -1643,5 +1647,3 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
     max-height: 200px;
   }
 }
-
-

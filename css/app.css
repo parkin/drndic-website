@@ -301,10 +301,14 @@ i.button {
     padding: 40px 0; } }
 
 #homepage-top {
-  background: #8e44ad;
-  background: linear-gradient(to right, #8e44ad 0%, #9b59b6 100%);
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: left;
-  padding: 100px 0; }
+  padding: 100px 0;
+  height: 650px; }
 
 #homepage-top h1 {
   font-size: 4em;
