@@ -14,13 +14,18 @@ extrajs:
 	-->
 <div class="parallax-image-wrapper parallax-image-wrapper-100" data-anchor-target="#anchor-top + .gap" data-bottom-top="transform:translate3d(0px, 200%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)">
 
-  <div class="parallax-image parallax-image-100" style="background-image: url({{site.baseurl}}/assets/img/dna_wallpaper.jpg)" data-anchor-target="#anchor-top + .gap" data-bottom-top="transform: translate3d(0px, -80%, 0px);" data-top-bottom="transform: translate3d(0px, 80%, 0px);"></div>
+  <div class="parallax-image parallax-image-100" style="background-image: url({{site.baseurl}}/assets/img/backgrounds/dna_wallpaper.jpg);" data-anchor-target="#anchor-top + .gap" data-bottom-top="transform: translate3d(0px, -80%, 0px);" data-top-bottom="transform: translate3d(0px, 80%, 0px);"></div>
   <!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+</div>
+
+<div class="parallax-image-wrapper parallax-image-wrapper-100" data-anchor-target="#homepage-about + .gap" data-bottom-top="transform:translate3d(0px, 200%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+  <div class="parallax-image parallax-image-100" style="background-image: url({{site.baseurl}}/assets/img/nodna2.jpg);" data-anchor-target="#homepage-about + .gap" data-bottom-top="transform: translate3d(0px, -80%, 0px);" data-top-bottom="transform: translate3d(0px, 80%, 0px);"></div>
 </div>
 
 <div id="skrollr-body">
   <div id="anchor-top"></div>
-  <section id="homepage-top" class="gap gap-100" style="background-image: url({{site.baseurl}}/assets/img/dna_wallpaper.jpg)">
+  <section id="homepage-top" class="gap gap-100" style="background-image: url({{site.baseurl}}/assets/img/backgrounds/dna_wallpaper.jpg)">
     <div class="row">
       <div class="large-6 columns">
         <h1>{{site.title}}</h1>
@@ -31,7 +36,7 @@ extrajs:
     </div>
   </section>
 
-  <section id="homepage-about" class="color-bar-white">
+  <section id="homepage-about" class="content color-bar-white">
     <div class="row centered-text">
       <div class="large-12 columns">
         <i class="icon ion-beaker circle"></i>
@@ -66,6 +71,8 @@ extrajs:
       </div>
     </div>
   </section>
+
+  <div class="gap gap-100" style="background-image: url({{site.baseurl}}/assets/img/nodna2.jpg); height: 400px;"></div>
 
   <section class="color-2-bar" id="homepage-pics">
     <div class="row">

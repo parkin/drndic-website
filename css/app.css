@@ -477,18 +477,6 @@ i.button {
   .pub-info img {
     max-height: 200px; }
 
-html, body {
-  height: 100%; }
-
-.skrollr-desktop body {
-  height: 100% !important; }
-
-body {
-  font-family: sans-serif; }
-
-p {
-  margin: 1em 0; }
-
 .parallax-image-wrapper {
   position: fixed;
   left: 0;
@@ -544,6 +532,13 @@ p {
 
 .gap-100 {
   height: 100%; }
+
+.content {
+  background: white;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 .row {
   width: 100%;
