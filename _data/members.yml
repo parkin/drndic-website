@@ -64,6 +64,7 @@ current:
 
   - name: Gautam Nagaraj
     desc: Undergraduate Student (VIPER Scholar)
+    icon: /assets/img/members/gautam.JPG
     email: gnagaraj@sas.upenn.edu
 
   - name: Dan Wilson
@@ -191,4 +192,3 @@ past:
     icon: /assets/img/members/GC.jpg
     link: http://awsch-web.physics.ucsb.edu/members/calusine/index.php
     email: calusine@physics.ucsb.edu
-
