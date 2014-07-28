@@ -1,194 +1,252 @@
-current:
-  - name: Marija Drndi&#263
-    desc: Professor
-    icon: /assets/img/members/MD2.jpg
-    link: http://www.physics.upenn.edu/~drndic
-    email: drndic@physics.upenn.edu
+marija:
+  name: Marija Drndi&#263
+  desc: Professor
+  icon: /assets/img/members/MD2.jpg
+  link: http://www.physics.upenn.edu/~drndic
+  email: drndic@physics.upenn.edu
 
-  - name: Julio A. Rodriguez-Manzo
-    desc: Post-doc
-    icon: /assets/img/members/jarm.jpg
-    email: rjulio@sas.upenn.edu
+jarm:
+  name: Julio A. Rodriguez-Manzo
+  desc: Post-doc
+  icon: /assets/img/members/jarm.jpg
+  email: rjulio@sas.upenn.edu
 
-  - name: Adrian Balan</b></font><br>
-    desc: Post-doc
-    icon: /assets/img/members/AB.jpg
-    email: adrian.balan@gmail.com
+balan:
+  name: Adrian Balan</b></font><br>
+  desc: Post-doc
+  icon: /assets/img/members/AB.jpg
+  email: adrian.balan@gmail.com
 
-  - name: David Niedzwiecki
-    desc: Post-doc
-    icon: /assets/img/members/davidNedz.png
-    email: dniedz@sas.upenn.edu
+niedzwiecki:
+  name: David Niedzwiecki
+  desc: Post-doc
+  icon: /assets/img/members/davidNedz.png
+  email: dniedz@sas.upenn.edu
 
-  - name: Matt Puster
-    desc: Graduate Student
-    icon: /assets/img/members/MP2.jpg
-    email: puster@seas.upenn.edu
+puster:
+  name: Matt Puster
+  desc: Graduate Student
+  icon: /assets/img/members/MP2.jpg
+  email: puster@seas.upenn.edu
 
-  - name: Kim Venta
-    desc: Graduate Student
-    icon: /assets/img/members/KV.jpg
-    link: http://www.sas.upenn.edu/~kimventa/index.html
-    github: kimventa
-    email: kimventa@sas.upenn.edu
+venta:
+  name: Kim Venta
+  desc: Graduate Student
+  icon: /assets/img/members/KV.jpg
+  link: http://www.sas.upenn.edu/~kimventa/index.html
+  github: kimventa
+  email: kimventa@sas.upenn.edu
 
-  - name: Will Parkin
-    desc: Graduate Student
-    icon: /assets/img/members/WP.jpg
-    github: parkin
-    email: parkin@sas.upenn.edu
+parkin:
+  name: Will Parkin
+  desc: Graduate Student
+  icon: /assets/img/members/WP.jpg
+  github: parkin
+  email: parkin@sas.upenn.edu
 
-  - name: Gopinath Danda
-    desc: Graduate Student
-    icon: /assets/img/members/gopi.jpg
-    github: gopinathdanda
-    email: gdanda@seas.upenn.edu
+danda:
+  name: Gopinath Danda
+  desc: Graduate Student
+  icon: /assets/img/members/gopi.jpg
+  github: gopinathdanda
+  email: gdanda@seas.upenn.edu
 
-  - name: Chien (Francis) Chen-Chi
-    desc: Graduate Student
-    email: chienc@sas.upenn.edu
+francis:
+  name: Chien (Francis) Chen-Chi
+  desc: Graduate Student
+  email: chienc@sas.upenn.edu
 
-  - name: Ravit Dung
-    desc: Masters Student
-    icon: /assets/img/members/Ravit.png
-    email: ravitd@seas.upenn.edu
+ravit:
+  name: Ravit Dung
+  desc: Masters Student
+  icon: /assets/img/members/Ravit.png
+  email: ravitd@seas.upenn.edu
 
-  - name: Bart Machielse
-    desc: Undergraduate Student
-    icon: /assets/img/members/BartMachielse.jpg
-    email: bartm@sas.upenn.edu
+bart:
+  name: Bart Machielse
+  desc: Undergraduate Student
+  icon: /assets/img/members/BartMachielse.jpg
+  email: bartm@sas.upenn.edu
 
-  - name: Rebecca Engelke
-    desc: Undergraduate Student (Vagelos Scholar)
-    email: engelker@sas.upenn.edu
+rebecca:
+  name: Rebecca Engelke
+  desc: Undergraduate Student (Vagelos Scholar)
+  email: engelker@sas.upenn.edu
 
-  - name: Gautam Nagaraj
-    desc: Undergraduate Student (VIPER Scholar)
-    icon: /assets/img/members/gautam.JPG
-    email: gnagaraj@sas.upenn.edu
+gautam:
+  name: Gautam Nagaraj
+  desc: Undergraduate Student (VIPER Scholar)
+  icon: /assets/img/members/gautam.JPG
+  email: gnagaraj@sas.upenn.edu
 
-  - name: Dan Wilson
-    desc: Undergraduate Student, NBIC REU program
-    email: danielmusawilson@gmail.com
+wilson:
+  name: Dan Wilson
+  desc: Undergraduate Student, NBIC REU program
+  email: danielmusawilson@gmail.com
 
-past:
-  - name: Gabriel Shemer
-    desc: Nanotechnology Transfer and Patents, Israel
-    icon: /assets/img/members/GS2.jpg
-    email: gshemer@sas.upenn.edu
+gaby:
+  name: Gabriel Shemer
+  desc: Nanotechnology Transfer and Patents, Israel
+  icon: /assets/img/members/GS2.jpg
+  email: gshemer@sas.upenn.edu
+  past: true
 
-  - name: Lauren Willis
-    desc: Graduate Student
-    icon: /assets/img/members/LW3.jpg
-    link: http://www.sas.upenn.edu/~willisl
-    email: willisl@sas.upenn.edu
+willis:
+  name: Lauren Willis
+  desc: Graduate Student
+  icon: /assets/img/members/LW3.jpg
+  link: http://www.sas.upenn.edu/~willisl
+  email: willisl@sas.upenn.edu
+  past: true
 
-  - name: Ken Healy
-    desc: Oxford Nanopore Technologies
-    icon: /assets/img/members/KH.jpg
-    link: http://eleceng.ucc.ie/nanopore/
-    email: healyk@sas.upenn.edu
+healy:
+  name: Ken Healy
+  desc: Oxford Nanopore Technologies
+  icon: /assets/img/members/KH.jpg
+  link: http://eleceng.ucc.ie/nanopore/
+  email: healyk@sas.upenn.edu
+  past: true
 
-  - name: Matt Hickman
-    desc: Palantir Technologies
-    icon: /assets/img/members/MH.jpg
-    email: hickmanm@sas.upenn.edu
+hickman:
+  name: Matt Hickman
+  desc: Palantir Technologies
+  icon: /assets/img/members/MH.jpg
+  email: hickmanm@sas.upenn.edu
+  past: true
 
-  - name: Alexandra Modupe Adegoke
-    desc: Graduate Student, MD/PhD
-    email: adegokem@mail.med.upenn.edu
+alexandra:
+  name: Alexandra Modupe Adegoke
+  desc: Graduate Student, MD/PhD
+  email: adegokem@mail.med.upenn.edu
+  past: true
 
-  - name: Meni Wanunu
-    desc: Assistant Professor, Northeastern University
-    icon: /assets/img/MW.jpg
-    link: http://mwnano.com
-    email: wanunu@sas.upenn.edu
+meni:
+  name: Meni Wanunu
+  desc: Assistant Professor, Northeastern University
+  icon: /assets/img/MW.jpg
+  link: http://mwnano.com
+  email: wanunu@sas.upenn.edu
+  past: true
 
-  - name: Jessamyn Fairfield
-    desc: Post-doc, <a href="http://www.crann.tcd.ie" target="_blank">Centre for Research on Adaptive Nanostructures and Nanodevices</a>, Trinity College Dublin
-    icon: /assets/img/members/JF3.jpg
-    link: http://www.physics.upenn.edu/~fairfia
-    email: fairfia@sas.upenn.edu
+fairfield:
+  name: Jessamyn Fairfield
+  desc: Post-doc, <a href="http://www.crann.tcd.ie" target="_blank">Centre for Research on Adaptive Nanostructures and Nanodevices</a>, Trinity College Dublin
+  icon: /assets/img/members/JF3.jpg
+  link: http://www.physics.upenn.edu/~fairfia
+  email: fairfia@sas.upenn.edu
+  past: true
 
-  - name: Chris Merchant
-    desc: AAAS Science Policy Fellow
-    icon: /assets/img/members/CM.jpg
-    link: http://eleceng.ucc.ie/nanopore/
-    email: merch@sas.upenn.edu
+merchant:
+  name: Chris Merchant
+  desc: AAAS Science Policy Fellow
+  icon: /assets/img/members/CM.jpg
+  link: http://eleceng.ucc.ie/nanopore/
+  email: merch@sas.upenn.edu
+  past: true
 
-  - name: Andrew Sharo
-    desc: Undergraduate Student, Princeton
-    link: http://awsch-web.physics.ucsb.edu/members/calusine/index.php
-    email: asharo@princeton.edu
+sharo:
+  name: Andrew Sharo
+  desc: Undergraduate Student, Princeton
+  link: http://awsch-web.physics.ucsb.edu/members/calusine/index.php
+  email: asharo@princeton.edu
+  past: true
 
-  - name: Linfu (Frank) Zhang
-    desc: Undergraduate Student
-    email: flzhang@gmail.com
+zhang:
+  name: Linfu (Frank) Zhang
+  desc: Undergraduate Student
+  email: flzhang@gmail.com
+  past: true
 
-  - name: Noah Rubin
-    desc: Undergraduate Student
-    email: noah.rbn@gmail.com
+rubin:
+  name: Noah Rubin
+  desc: Undergraduate Student
+  email: noah.rbn@gmail.com
+  past: true
 
-  - name: Lee Burwasser
-    desc: Undergraduate Student
-    email: leebur@sas.upenn.edu
+burwasser:
+  name: Lee Burwasser
+  desc: Undergraduate Student
+  email: leebur@sas.upenn.edu
+  past: true
 
-  - name: John Bartel
-    desc: Gradute Student, Stanford University
-    icon: /assets/img/members/JB.jpg
-    email: bartel@sas.upenn.edu
+bartel:
+  name: John Bartel
+  desc: Gradute Student, Stanford University
+  icon: /assets/img/members/JB.jpg
+  email: bartel@sas.upenn.edu
+  past: true
 
-  - name: Siying Wang
-    desc: Former Graduate Student
-    icon: /assets/img/members/SW2.jpg
-    email: siyingw@sas.upenn.edu
+siying:
+  name: Siying Wang
+  desc: Former Graduate Student
+  icon: /assets/img/members/SW2.jpg
+  email: siyingw@sas.upenn.edu
+  past: true
 
-  - name: Vishva Ray
-    desc: Lead Research Engineer, Lurie Nanofabrication Facility, University of Michigan
-    icon: /assets/img/members/VR.jpg
-    link: http://eleceng.ucc.ie/nanopore/
-    email: vpray@umich.edu
+vishva:
+  name: Vishva Ray
+  desc: Lead Research Engineer, Lurie Nanofabrication Facility, University of Michigan
+  icon: /assets/img/members/VR.jpg
+  link: http://eleceng.ucc.ie/nanopore/
+  email: vpray@umich.edu
+  past: true
 
-  - name: Tali Dadosh
-    desc: Post-doc, Goldman Lab at UPenn
-    icon: /assets/img/members/tali.png
-    link: http://eleceng.ucc.ie/nanopore/
-    email: dadosh@sas.upenn.edu
+dadosh:
+  name: Tali Dadosh
+  desc: Post-doc, Goldman Lab at UPenn
+  icon: /assets/img/members/tali.png
+  link: http://eleceng.ucc.ie/nanopore/
+  email: dadosh@sas.upenn.edu
+  past: true
 
-  - name: Michael Fischbein
-    desc: Quantitative Analyst
-    icon: /assets/img/members/MF2.jpg
-    link: http://www.sas.upenn.edu/~mlfisch3
-    email: mlfisch3@sas.upenn.edu
+fischbein:
+  name: Michael Fischbein
+  desc: Quantitative Analyst
+  icon: /assets/img/members/MF2.jpg
+  link: http://www.sas.upenn.edu/~mlfisch3
+  email: mlfisch3@sas.upenn.edu
+  past: true
 
-  - name: Neil Peterman
-    desc: Graduate Student, Harvard University
-    icon: /assets/img/NP.jpg
-    email: neil@sas.upenn.edu
+peterman:
+  name: Neil Peterman
+  desc: Graduate Student, Harvard University
+  icon: /assets/img/NP.jpg
+  email: neil@sas.upenn.edu
+  past: true
 
-  - name: Claudia Querner
-    desc: Research Scientist, BASF, Germany
-    icon: /assets/img/CQ2.jpg
-    link: http://www.sas.upenn.edu/~querner
-    email: querner@sas.upenn.edu
+querner:
+  name: Claudia Querner
+  desc: Research Scientist, BASF, Germany
+  icon: /assets/img/CQ2.jpg
+  link: http://www.sas.upenn.edu/~querner
+  email: querner@sas.upenn.edu
+  past: true
 
-  - name: Yuanzhen Chen
-    desc: Post-doc, Rutgers University
-    icon: /assets/img/members/YC2.jpg
-    email: chenyz@sas.upenn.edu
+yuanzhen:
+  name: Yuanzhen Chen
+  desc: Post-doc, Rutgers University
+  icon: /assets/img/members/YC2.jpg
+  email: chenyz@sas.upenn.edu
+  past: true
 
-  - name: Zonghai Hu
-    desc: Assistant Professor, Peking University
-    email: zonghai@seas.upenn.edu
+zonghai:
+  name: Zonghai Hu
+  desc: Assistant Professor, Peking University
+  email: zonghai@seas.upenn.edu
+  past: true
 
-  - name: Robin Havener
-    desc: Graduate Student, Cornell University
-    icon: /assets/img/members/RH2.jpg
-    link: http://www.chem.cornell.edu/jp275/The%20Park%20Lab%20at%20Cornell/Group.html
-    email: rh245@cornell.edu
+havener:
+  name: Robin Havener
+  desc: Graduate Student, Cornell University
+  icon: /assets/img/members/RH2.jpg
+  link: http://www.chem.cornell.edu/jp275/The%20Park%20Lab%20at%20Cornell/Group.html
+  email: rh245@cornell.edu
+  past: true
 
-  - name: Gregory Calusine
-    desc: Graduate Student, UC Santa Barbara
-    icon: /assets/img/members/GC.jpg
-    link: http://awsch-web.physics.ucsb.edu/members/calusine/index.php
-    email: calusine@physics.ucsb.edu
+clausine:
+  name: Gregory Calusine
+  desc: Graduate Student, UC Santa Barbara
+  icon: /assets/img/members/GC.jpg
+  link: http://awsch-web.physics.ucsb.edu/members/calusine/index.php
+  email: calusine@physics.ucsb.edu
+  past: true

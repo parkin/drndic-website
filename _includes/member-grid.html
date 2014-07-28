@@ -1,17 +1,53 @@
-{% for member in include.data %}
+{% comment %}
+parameters:
+  - data: The members hash. Usually site.data.members
+  - current: true to include current members
+  - past: true to include past members
+{% endcomment %}
 
-{% assign modulus = forloop.index0|modulo:3 %}
+{% assign show_current = false %}
+{% assign show_past = false %}
 
-{% if modulus == 0 or forloop.first %}
-<div class="row centered-text">
-    {% endif %}
-
-    <div class="medium-4 columns">
-        {% include member.html member=member %}
-    </div>
-
-    {% if modulus == 2 or forloop.last %}
-</div>
+{% if include.current %}
+  {% assign show_current = true %}
 {% endif %}
+
+{% comment %}
+Loop variables SUCK in liquid! We need to use this dumb hack.
+{% endcomment %}
+{% assign count_string = '' %}
+
+{% for member_hash in include.data %}
+
+  {% assign member = member_hash[1] %}
+
+  {% assign show_current = false %}
+  {% assign show_past = false %}
+
+  {% if include.current and member.past != true %}
+    {% assign show_current = true %}
+  {% endif %}
+  {% if include.past and member.past == true %}
+    {% assign show_current = true %}
+  {% endif %}
+
+  {% if show_current or show_past %}
+
+    {% assign count = count_string.size %}
+    {% assign modulus = count|modulo:3 %}
+
+    {% if modulus == 0 or forloop.first %}
+    <div class="row centered-text">
+        {% endif %}
+
+        <div class="medium-4 columns">
+            {% include member.html member=member %}
+        </div>
+
+        {% if modulus == 2 or forloop.last %}
+    </div>
+    {% endif %}
+    {% capture count_string %}{{count_string}}*{% endcapture %}
+  {% endif %}
 
 {% endfor %}
