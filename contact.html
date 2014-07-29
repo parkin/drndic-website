@@ -33,9 +33,7 @@ extrajs_head: js/google_maps_head.html
             <p>{{site.fax}}</p>
         </div>
         <div class="medium-3 columns">
-            {% assign members = site.data.members.current %}
-            {% assign member0 = members[0] %}
-            {% include member.html member=member0 %}
+            {% include member.html member=site.data.members.marija %}
         </div>
     </div>
 
