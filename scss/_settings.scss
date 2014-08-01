@@ -1396,17 +1396,19 @@ i.button {
   }
 }
 
+.bcg{
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #homepage-top {
-  height: 100vh;
+  min-height: 100vh;
+
   .bcg{
-    background: no-repeat center center fixed;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: left;
-    height: 100%;
+    min-height: inherit;
   }
 
   h1{
