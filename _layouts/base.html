@@ -7,7 +7,7 @@
 
     <div class="inner-wrap">
 
-        {% include header.html %}
+        {% if page.no_header != true %}{% include header.html %}{% endif %}
 
         {{ content }}
 

@@ -1,5 +1,6 @@
 ---
 layout: base
+no_header: true
 extrajs:
   - html: js/slick.html
     args:
@@ -12,10 +13,28 @@ extrajs:
   <section id="homepage-top">
     <div class="bcg"
       data-center="background-position: 50% 0px;"
-      data-top-bottom="background-position: 50% +1px;"
+      data-top-bottom="background-position: 50% -50px;"
       data-anchor-target="#homepage-top"
       style="background-image: url({{site.baseurl}}/assets/img/backgrounds/notebook.JPG)"
     >
+      <aside class="left-off-canvas-menu">
+          <ul class="off-canvas-list">
+              {% include list-nav-include.html keephome="true" %}
+          </ul>
+      </aside>
+      <nav class="tab-bar show-for-small">
+          <a class="left-off-canvas-toggle menu-icon">
+              <span>{{ site.title }}</span>
+          </a>
+      </nav>
+      <nav class="top-bar hide-for-small" data-topbar>
+          <section class="top-bar-section">
+              <ul class="right">
+                  {% include list-nav-include.html %}
+              </ul>
+          </section>
+
+      </nav>
       <div class="row centered-text">
         <div class="large-12 columns">
           <div class="hero">
@@ -26,7 +45,7 @@ extrajs:
           </div>
         </div>
       </div>
-  </div>
+    </div>
   </section>
 
   <section id="homepage-about" class="content color-bar-white">
