@@ -1341,12 +1341,10 @@ $icon-font-size: 3em;
 
 .circle {
   @include circle();
-  display: inline-block;
 }
 
 .small-circle {
   @include circle(1em);
-  display: inline-block;
 }
 
 i.button {

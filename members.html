@@ -12,7 +12,11 @@ subtitle: The all-stars.
         </div>
     </div>
 
-    {% include member-grid.html data=site.data.members current=true %}
+    <div class="row">
+      <div class="small-12 columns">
+        {% include member-grid.html data=site.data.members current=true %}
+      </div>
+    </div>
 
     <div class="row">
         <div class="large-12 columns">
@@ -27,6 +31,10 @@ subtitle: The all-stars.
         </div>
     </div>
 
-    {% include member-grid.html data=site.data.members past=true %}
+    <div class="row">
+      <div class="small-12 columns">
+        {% include member-grid.html data=site.data.members past=true %}
+      </div>
+    </div>
 
 </section>

@@ -12,11 +12,7 @@ parameters:
   {% assign show_current = true %}
 {% endif %}
 
-{% comment %}
-Loop variables SUCK in liquid! We need to use this dumb hack.
-{% endcomment %}
-{% assign count_string = '' %}
-
+<ul class="small-block-grid-1 medium-block-grid-3">
 {% for member_hash in include.data %}
 
   {% assign member = member_hash[1] %}
@@ -32,22 +28,10 @@ Loop variables SUCK in liquid! We need to use this dumb hack.
   {% endif %}
 
   {% if show_current or show_past %}
-
-    {% assign count = count_string.size %}
-    {% assign modulus = count|modulo:3 %}
-
-    {% if modulus == 0 or forloop.first %}
-    <div class="row centered-text">
-        {% endif %}
-
-        <div class="medium-4 columns">
-            {% include member.html member=member %}
-        </div>
-
-        {% if modulus == 2 or forloop.last %}
-    </div>
-    {% endif %}
-    {% capture count_string %}{{count_string}}*{% endcapture %}
+    <li class="centered-text">
+      {% include member.html member=member %}
+    </li>
   {% endif %}
 
 {% endfor %}
+</ul>
