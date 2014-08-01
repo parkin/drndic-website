@@ -1404,6 +1404,25 @@ i.button {
   background-size: cover;
 }
 
+#homepage-singh {
+  min-height: 100vh;
+
+  .bcg{
+    min-height: inherit;
+    padding: 300px 0 50px;
+  }
+
+  h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+  }
+
+  h3 {
+    color: white;
+  }
+}
+
 #homepage-top {
   min-height: 100vh;
 
@@ -1413,7 +1432,7 @@ i.button {
 
   h1{
     font-size: 8em;
-    font-weight: 1500;
+    font-weight: bold;
     line-height: 100%;
   }
   h3 {
