@@ -1514,7 +1514,7 @@ i.button {
   }
 }
 
-.footer-top {
+#footer-top {
   padding: 40px 0;
   .property {
     font-size: 13px;
@@ -1585,7 +1585,7 @@ $footer-bottom-darken-color: darken($color-4, $footer-bottom-darken-by);
 $footer-bottom-darken-color-light: darken($color-4-light, $footer-bottom-darken-by);
 $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-color 0%, $footer-bottom-darken-color-light 100%);
 
-.footer-bottom {
+#footer-bottom {
   padding: 20px 9px;
   $darken-by: 10%;
   background: $footer-bottom-darken-color;
