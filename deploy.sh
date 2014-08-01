@@ -100,7 +100,7 @@ check_serve () {
   local check=$(ps aux | grep 'jekyll\|grunt' | grep -v grep)
   # if it's not an empty string, we have running processes
   if ! [ -z "${check}" ] ; then
-    echo -e "Error: watch processes running:\n${check}" 1>&2
+    echo -e "Error. Watch processes running that will affect the build. Please stop the processes before continuing:\n${check}" 1>&2
     exit 1
   fi
 }
