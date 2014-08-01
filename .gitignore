@@ -5,7 +5,7 @@
 _site
 _site_shareddrive
 _site_facstaff
-css
+css/app.css
 
 # deploy temp folder
 temp-publish-clone
