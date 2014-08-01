@@ -8,34 +8,25 @@ extrajs:
   - html: js/skrollr.html
 ---
 
-<!--
-		We position the images fixed and therefore need to place them outside of #skrollr-body.
-		We will then use data-anchor-target to display the correct image matching the current section (.gap element).
-	-->
-<div class="parallax-image-wrapper parallax-image-wrapper-100" data-anchor-target="#anchor-top + .gap" data-bottom-top="transform:translate3d(0px, 200%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)">
-
-  <div class="parallax-image parallax-image-100" style="background-image: url({{site.baseurl}}/assets/img/backgrounds/notebook.JPG);" data-anchor-target="#anchor-top + .gap" data-bottom-top="transform: translate3d(0px, -100%, 0px);" data-top-bottom="transform: translate3d(0px, 100%, 0px);"></div>
-  <!--the +/-80% translation can be adjusted to control the speed difference of the image-->
-</div>
-
-<div class="parallax-image-wrapper parallax-image-wrapper-100" data-anchor-target="#homepage-about + .gap" data-bottom-top="transform:translate3d(0px, 200%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)">
-
-  <div class="parallax-image parallax-image-100" style="background-image: url({{site.baseurl}}/assets/img/nodna2.jpg);" data-anchor-target="#homepage-about + .gap" data-bottom-top="transform: translate3d(0px, -100%, 0px);" data-top-bottom="transform: translate3d(0px, 100%, 0px);"></div>
-</div>
-
 <div id="skrollr-body">
-  <div id="anchor-top"></div>
-  <section id="homepage-top" class="gap gap-100" style="background-image: url({{site.baseurl}}/assets/img/backgrounds/notebook.JPG)">
-    <div class="row centered-text">
-      <div class="large-12 columns">
-        <div class="hero">
-          <h1>{{site.title}}</h1>
-          <br>
+  <section id="homepage-top">
+    <div class="bcg"
+      data-center="background-position: 50% 0px;"
+      data-top-bottom="background-position: 50% +1px;"
+      data-anchor-target="#homepage-top"
+      style="background-image: url({{site.baseurl}}/assets/img/backgrounds/notebook.JPG)"
+    >
+      <div class="row centered-text">
+        <div class="large-12 columns">
+          <div class="hero">
+            <h1>{{site.title}}</h1>
+            <br>
 
-          <h3>Where dreams come true.</h3>
+            <h3>Where dreams come true.</h3>
+          </div>
         </div>
       </div>
-    </div>
+  </div>
   </section>
 
   <section id="homepage-about" class="content color-bar-white">
@@ -73,8 +64,6 @@ extrajs:
       </div>
     </div>
   </section>
-
-  <div class="gap gap-100" style="background-image: url({{site.baseurl}}/assets/img/nodna2.jpg); height: 400px;"></div>
 
   <section class="color-2-bar" id="homepage-pics">
     <div class="row">
