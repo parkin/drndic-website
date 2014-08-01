@@ -1,0 +1,10 @@
+<script>
+  {% for class in include.args.classes %}
+  $(document).ready(function() {
+    $('.will-{{class}}').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated {{class}}',
+        offset: 100
+      });
+    });
+  {% endfor %}
+</script>

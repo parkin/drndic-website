@@ -1,12 +1,19 @@
 ---
 layout: base
 no_header: true
+animatecss: true
+viewportcheckerjs: true
 extrajs:
   - html: js/slick.html
     args:
       selectors:
         - ".slick-carousel"
   - html: js/skrollr.html
+  - html: js/viewportchecker.html
+    args:
+      classes:
+        - "fadeInLeft"
+        - "fadeInDown"
 ---
 
 <div id="skrollr-body">
@@ -14,7 +21,7 @@ extrajs:
     <div class="bcg"
       data-center="background-position: 50% 0px;"
       data-top-bottom="background-position: 50% -50px;"
-      data-anchor-target="#homepage-top"
+      data-anchor-target="body"
       style="background-image: url({{site.baseurl}}/assets/img/backgrounds/notebook.JPG)"
     >
       <aside class="left-off-canvas-menu">
@@ -27,7 +34,7 @@ extrajs:
               <span>{{ site.title }}</span>
           </a>
       </nav>
-      <nav class="top-bar hide-for-small" data-topbar>
+      <nav class="top-bar hide-for-small will-fadeInDown" data-topbar>
           <section class="top-bar-section">
               <ul class="right">
                   {% include list-nav-include.html %}
@@ -38,10 +45,10 @@ extrajs:
       <div class="row centered-text">
         <div class="large-12 columns">
           <div class="hero">
-            <h1>{{site.title}}</h1>
+            <h1 class="will-fadeInLeft">{{site.title}}</h1>
             <br>
 
-            <h3>Where dreams come true.</h3>
+            <h3 class="will-fadeInDown">Where dreams come true.</h3>
           </div>
         </div>
       </div>

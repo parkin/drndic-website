@@ -1,3 +1,9 @@
+{% comment %}
+Parameters:
+  page:
+    - animatecss: true if want to include animate.css
+    - viewportcheckerjs: true if want to include viewportchecker.js
+{% endcomment %}
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -7,6 +13,12 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/app.css"/>
     <script src="{{site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="{{site.baseurl}}/bower_components/modernizr/modernizr.js"></script>
-    <link rel="stylesheet" href="{{site.baseurl}}/libs/slick-master/slick/slick.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/libs/slick-master/slick/slick.css"/>
     {% if include.data %}{% include {{include.data}} %}{% endif %}
+    {% if page.animatecss == true %}
+    <link rel="stylesheet" href="{{site.baseurl}}/css/animate.css"/>
+    {% endif %}
+    {% if page.viewportcheckerjs == true %}
+    <script src="{{site.baseurl}}/js/viewportchecker.js"></script>
+    {% endif %}
 </head>
