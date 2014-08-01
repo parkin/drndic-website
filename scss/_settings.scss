@@ -1678,3 +1678,11 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
     max-height: 200px;
   }
 }
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
