@@ -11,19 +11,29 @@ usage () {
   echo -e "$0 starts grunt and the jekyll server with watch"
   echo -e "Usage: $0 [-b <string:baseurl>]"
   echo -e "\t-b: baseurl for jekyll config"
+  echo -e "\t-n: No drafts (drafts included by default)"
+  echo -e "\t-h: for help"
+  echo -e "\t-v: verbose output"
 
   exit $exit_code;
 }
 
 b=""
+drafts="--drafts"
 
-while getopts "b:h" o; do
+while getopts "b:hnv" o; do
   case "${o}" in
     b)
       b=${OPTARG}
       ;;
+    n)
+      drafts=""
+      ;;
     h)
       usage 0
+      ;;
+    v)
+      set -x
       ;;
     *)
       usage
@@ -34,4 +44,4 @@ shift $((OPTIND-1))
 
 # start both grunt and serve at the same time
 # fg ensures that a ctrl-c kills both processes
-grunt & jekyll serve -w --baseurl $b && fg
+grunt & jekyll serve -w ${drafts} --baseurl $b && fg
