@@ -6,7 +6,7 @@ authors: Siying Wang, Claudia Querner, Michael D. Fischbein, Lauren Willis, Dmit
 journal: Nano Letters
 info: 8 (11), 4020-4026
 doi: 10.1021/nl802696f
-pdf: assets/pubs/wang_nl_2008.pdf
+pdf: wang_nl_2008.pdf
 supplement: http://pubs.acs.org/doi/suppl/10.1021/nl802696f
 
 ---

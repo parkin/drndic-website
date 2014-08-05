@@ -6,7 +6,7 @@ authors: Gevorg Grigoryan*, Yong Ho Kim*, Rudresh Acharya, Kevin Axelrod#, Risha
 journal: Science
 info: 332 (6033), 1071-1076
 doi: 10.1126/science.1198841
-pdf: assets/pubs/grigoryan_science_2011.pdf
-supplement: assets/pubs/1198841-Grigoryan-SOM.pdf
+pdf: grigoryan_science_2011.pdf
+supplement: 1198841-Grigoryan-SOM.pdf
 
 ---

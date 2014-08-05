@@ -6,7 +6,7 @@ authors: Claudia Querner, Siying Wang, Ken Healy, Jessamyn Fairfield, Michael D.
 journal: Journal of Physical Chemistry C
 info: 112 (50), 19945-19956
 doi: 10.1021/jp808252k
-pdf: assets/pubs/querner_jpcc_2008.pdf
+pdf: querner_jpcc_2008.pdf
 supplement: http://pubs.acs.org/doi/suppl/10.1021/jp808252k
 
 ---

@@ -6,7 +6,7 @@ authors: Meni Wanunu*, Devora Cohen-Karni*, Robert Johnson, Lauren Fields, Jack 
 journal: J. Am. Chem. Soc.
 info:  133 (3), 486-492
 doi: 10.1021/ja107836t
-pdf: assets/pubs/wanunu_jacs_2011.pdf
-supplement: assets/pubs/wanunu_jacs_2011_si.pdf
+pdf: wanunu_jacs_2011.pdf
+supplement: wanunu_jacs_2011_si.pdf
 
 ---

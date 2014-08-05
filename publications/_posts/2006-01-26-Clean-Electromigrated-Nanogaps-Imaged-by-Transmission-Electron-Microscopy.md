@@ -6,6 +6,6 @@ authors: Douglas R. Strachan, Deirdre E. Smith, Michael D. Fischbein, Danvers E.
 journal: Nano Letters
 info: 6 (3), 441-444
 doi: 10.1021/nl052302a
-pdf: assets/pubs/strachan_nl_2006.pdf
+pdf: strachan_nl_2006.pdf
 
 ---

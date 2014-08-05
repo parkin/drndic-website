@@ -6,7 +6,7 @@ authors: Catherine Crouch, Orion Sauter#, Xiaohua Wu, Robert Purcell#, Claudia Q
 journal: Nano Letters
 info: 10 (5), pp 1692-1698
 doi: 10.1021/nl100030e
-pdf: assets/pubs/crouch_nl_2010.pdf
+pdf: crouch_nl_2010.pdf
 supplement: http://pubs.acs.org/doi/suppl/10.1021/nl100030e
 
 ---

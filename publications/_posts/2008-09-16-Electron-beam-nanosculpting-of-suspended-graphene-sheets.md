@@ -6,6 +6,6 @@ authors: Michael D. Fischbein and Marija Drndić
 journal: Applied Physics Letters
 info: 93, 113107
 doi: 10.1063/1.2980518 
-pdf: assets/pubs/fischbein_apl_2008.pdf
+pdf: fischbein_apl_2008.pdf
 
 ---

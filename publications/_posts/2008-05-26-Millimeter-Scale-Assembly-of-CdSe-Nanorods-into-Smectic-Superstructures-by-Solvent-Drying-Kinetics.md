@@ -6,7 +6,7 @@ authors: Claudia Querner, Michael D. Fischbein, Paul A. Heiney and Marija DrndiÄ
 journal: Advanced Materials
 info: 20 (12), 2308-2314
 doi: 10.1002/adma.200800125
-pdf: assets/pubs/querner_am_2008.pdf
+pdf: querner_am_2008.pdf
 supplement: http://www.wiley-vch.de/contents/jc_2089/2008/adma200800125_s.pdf
 
 ---

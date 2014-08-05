@@ -6,7 +6,7 @@ authors: Lauren J. Willis*, Jessamyn A. Fairfield*, Tali Dadosh*, Michael D. Fis
 journal: Nano Letters
 info: 9 (12), pp 4191-4197
 doi: 10.1021/nl9024209
-pdf: assets/pubs/willis_nl_2009.pdf
+pdf: willis_nl_2009.pdf
 supplement: http://pubs.acs.org/doi/suppl/10.1021/nl9024209
 
 ---

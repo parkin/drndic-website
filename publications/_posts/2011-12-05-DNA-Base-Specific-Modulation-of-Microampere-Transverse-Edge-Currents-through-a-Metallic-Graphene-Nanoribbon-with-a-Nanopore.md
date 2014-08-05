@@ -6,6 +6,6 @@ authors: Kamal Saha, Marija Drndić, Branislav Nikolic
 journal: Nano Letters
 info: 12 (1), 50-55
 doi: 10.1021/nl202870y
-pdf: assets/pubs/Nikolic_nl_2011.pdf
-supplement: assets/pubs/Nikolic_nl_2011_si.pdf
+pdf: Nikolic_nl_2011.pdf
+supplement: Nikolic_nl_2011_si.pdf
 ---

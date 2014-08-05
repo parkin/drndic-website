@@ -6,7 +6,7 @@ authors: Michael D. Fischbein and Marija Drndić
 journal: Nano Letters
 info: 7 (5), 1329-1337
 doi: 10.1021/nl0703626
-pdf: assets/pubs/fischbein_nl_2007.pdf
+pdf: fischbein_nl_2007.pdf
 supplement: http://pubs3.acs.org/acs/journals/supporting_information.page?in_manuscript=nl0703626
 
 ---

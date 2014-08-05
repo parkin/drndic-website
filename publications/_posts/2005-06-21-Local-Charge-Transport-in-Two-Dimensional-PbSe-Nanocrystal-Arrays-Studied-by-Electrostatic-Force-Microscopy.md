@@ -6,6 +6,6 @@ authors: Zonghai Hu, Michael D. Fischbein, and Marija Drndić
 journal: Nano Letters
 info: 5 (7), 1463-1468
 doi: 10.1021/nl050828p
-pdf: assets/pubs/hu_nl_2005.pdf
+pdf: hu_nl_2005.pdf
 
 ---

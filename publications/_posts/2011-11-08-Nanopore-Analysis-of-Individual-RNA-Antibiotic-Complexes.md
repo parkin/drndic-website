@@ -6,7 +6,7 @@ authors: Meni Wanunu, Swati Bhattacharya, Yun Xie, Yitzhak Tor, Aleksei Aksiment
 journal: ACS Nano
 info: 5 (12), 9345-9353
 doi: 10.1021/nn203764j
-pdf: assets/pubs/wanunu_ACSnano_2011.pdf
-supplement: assets/pubs/wanunu_ACSnano_2011_si.pdf
+pdf: wanunu_ACSnano_2011.pdf
+supplement: wanunu_ACSnano_2011_si.pdf
 
 ---

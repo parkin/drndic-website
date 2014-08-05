@@ -6,6 +6,6 @@ authors: Hugo E. Romero and Marija Drndić
 journal: Physical Review Letters
 info: 95, 156801
 doi: 10.1103/PhysRevLett.95.156801
-pdf: assets/pubs/romero_prl_2005.pdf
+pdf: romero_prl_2005.pdf
 
 ---

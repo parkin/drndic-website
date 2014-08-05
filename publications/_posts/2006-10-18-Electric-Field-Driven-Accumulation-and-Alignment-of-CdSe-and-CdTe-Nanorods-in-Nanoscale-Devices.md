@@ -6,7 +6,7 @@ authors: Zonghai Hu*, Michael D. Fischbein*, Claudia Querner, and Marija Drndić
 journal: Nano Letters
 info: 6 (11), 2585-2591
 doi: 10.1021/nl0620379
-pdf: assets/pubs/hu_nl_2006.pdf
+pdf: hu_nl_2006.pdf
 supplement: http://pubs3.acs.org/acs/journals/supporting_information.page?in_manuscript=nl0620379
 
 ---
