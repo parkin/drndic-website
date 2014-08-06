@@ -5,10 +5,10 @@ Parameters:
     - viewportcheckerjs: true if want to include viewportchecker.js
 {% endcomment %}
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+    <title>{{site.title}}{% if page.title %}: {{ page.title }}{% endif %}</title>
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/bower_components/ionicons/css/ionicons.min.css"/>
     <link rel="stylesheet" href="{{site.baseurl}}/css/app.css"/>
     <script src="{{site.baseurl}}/bower_components/jquery/dist/jquery.min.js"></script>
@@ -21,7 +21,5 @@ Parameters:
     {% if page.viewportcheckerjs == true %}
     <script src="{{site.baseurl}}/js/viewportchecker.js"></script>
     {% endif %}
-    {% if page.lobsterfont == true %}
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    {% endif %}
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
