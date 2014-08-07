@@ -2,26 +2,38 @@
     {% if include.member.icon %}
     <img src="{{site.baseurl}}/{{site.img_members_path}}/{{include.member.icon}}" class="circle-img">
     {% else %}
-    <i class="icon ion-person circle"></i>
+    <span class="fa-stack fa-5x">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+    </span>
     {% endif %}
     <h3>{{include.member.name}}</h3>
     <h5 class="subheader">{{include.member.desc}}</h5>
 
     {% if include.member.link %}
     <a href="{{include.member.link}}" target="_blank">
-        <i class="icon ion-home small-circle button"></i>
+        <span class="fa-stack fa-1x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+        </span>
     </a>
     {% endif %}
 
     {% if include.member.email %}
     <a href="mailto:{{include.member.email}}">
-        <i class="icon ion-email small-circle button"></i>
+        <span class="fa-stack fa-1x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
     </a>
     {% endif %}
 
     {% if include.member.github %}
     <a href="https://github.com/{{include.member.github}}" target="_blank">
-        <i class="icon ion-social-github small-circle button"></i>
+        <span class="fa-stack fa-1x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
     </a>
     {% endif %}
 </div>

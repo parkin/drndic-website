@@ -15,6 +15,7 @@ extrajs:
         - "fadeIn"
         - "fadeInLeft"
         - "fadeInDown"
+        - "fadeInUp"
   - html: js/konami.html
 ---
 
@@ -58,15 +59,22 @@ extrajs:
   </section>
 
   <section id="homepage-about" class="content color-bar-white">
-    <div class="row centered-text">
+    <div class="row centered-text will-fadeInLeft">
       <div class="large-12 columns">
-        <i class="icon ion-beaker circle"></i>
+        <span class="fa-stack fa-5x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
+        </span>
+      </div>
+    </div>
+    <div class="row centered-text will-fadeInLeft">
+      <div class="large-12 columns">
 
         <h2>What we do</h2>
         <h4 class="subheader">Aka what the party's like.</h4>
       </div>
     </div>
-    <div class="row">
+    <div class="row will-fadeInUp">
       <div class="large-8 columns push-2">
         <p>
           Research in our lab is focused on the exploration of nanoscale and mesoscopic structures with the emphasis on nanoelectronics and related quantum mechanical effects that arise when electrons are confined in small volumes. The systems that we study include
@@ -79,16 +87,12 @@ extrajs:
 
     </div>
     <div class="row">
-      <div class="large-12 centered-text">
-        <hr>
-        <i class="icon circle ion-alert"></i>
-      </div>
-      <div class="large-6 columns push-3">
-        <p>
-          We are seeking postdoc applications from outstanding candidates to join our effort on the advancement of fundamental science of ion/biomolecule/nanopore systems and the development of new sequencing technologies based on nanopores in graphene-based and
-          silicon nitride-based platforms. Expertise in nanofabrication, electron beam lithography, transmission electron microscopy, electrical measurements with nanopores and microfluidics, biological sample preparation and handling, is a plus. Please
-          send your interest to Prof. Drndić at drndic@physics.upenn.edu.
-        </p>
+      <div class="large-12 columns centered-text">
+        <div data-alert class="alert-box warning radius will-fadeInUp">
+<i class="fa fa-exclamation-triangle fa-3x pull-left"></i>We are seeking postdoc applications from outstanding candidates to join our effort on the advancement of fundamental science of ion/biomolecule/nanopore systems and the development of new sequencing technologies based on nanopores in graphene-based and
+silicon nitride-based platforms. Expertise in nanofabrication, electron beam lithography, transmission electron microscopy, electrical measurements with nanopores and microfluidics, biological sample preparation and handling, is a plus. Please
+send your interest to Prof. Drndić at drndic@physics.upenn.edu.
+        </div>
       </div>
     </div>
   </section>
@@ -106,7 +110,7 @@ extrajs:
             <h1 class="will-fadeInLeft">The Singh Center</h1>
             <br>
 
-            <h3 class="will-fadeInDown">Our new nanofab has arrived.</h3>
+            <h3 class="will-fadeInUp">Our new nanofab has arrived.</h3>
           </div>
         </div>
       </div>

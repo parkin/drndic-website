@@ -1331,55 +1331,9 @@ $icon-color: $color-5;
 $icon-color-light: $color-5-light;
 $icon-font-size: 3em;
 
-// make circle icons
-@mixin circle($font-size: $icon-font-size, $background: $color-5-light) {
-  border-radius: 50%;
-  margin: 0.3em;
-  font-size: $font-size;
-  background: $background;
-}
-
-.circle {
-  @include circle();
-}
-
-.small-circle {
-  @include circle(1em);
-}
-
 i.button {
   @include button;
   line-height: inherit;
-}
-
-// define the necessary padding to make icons circular
-
-.circle.ion-beaker, .small-circle.ion-beaker {
-  padding: 0.111em 0.25em;
-}
-
-.circle.ion-alert, .small-circle.ion-alert {
-  padding: 0.111em 0.50em;
-}
-
-.circle.ion-person, .small-circle.ion-person {
-  padding: 0.111em 0.25em;
-}
-
-.circle.ion-email, .small-circle.ion-email {
-  padding: 0.111em 0.219em;
-}
-
-.circle.ion-home, .small-circle.ion-home {
-  padding: 0.111em 0.25em;
-}
-
-.circle.ion-social-github, .small-circle.ion-social-github {
-  padding: 0.111em 0.187em;
-}
-
-.circle.ion-university, .small-circle.ion-university {
-  padding: 0.111em 0.187em;
 }
 
 // color bar backgrounds
@@ -1428,6 +1382,10 @@ i.button {
     min-height: inherit;
   }
 
+  .hero {
+    padding: 0 0 150px;
+  }
+
   h1{
     font-size: 8em;
   }
@@ -1454,12 +1412,6 @@ i.button {
   background: $background;
   .icon {
     color: $background;
-  }
-  .circle {
-    @include circle(5em);
-  }
-  .small-circle {
-    @include circle(1.5em, $color-3-light);
   }
 }
 
