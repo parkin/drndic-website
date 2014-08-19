@@ -1336,6 +1336,10 @@ i.button {
   line-height: inherit;
 }
 
+.fa-circle.fa-stack-2x {
+  color: $color-5;
+}
+
 // color bar backgrounds
 
 .color-bar-layout {
@@ -1483,6 +1487,9 @@ i.button {
   .circle-img {
     max-height: 150px;
     max-width: 150px;
+  }
+  a .fa-circle.fa-stack-2x {
+    color: $color-3
   }
 }
 
