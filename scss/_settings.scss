@@ -1352,7 +1352,7 @@ i.button {
   }
 }
 
-.bcg{
+.bcg {
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1363,7 +1363,7 @@ i.button {
 #homepage-singh {
   min-height: 100vh;
 
-  .bcg{
+  .bcg {
     min-height: inherit;
     padding: 300px 0 50px;
   }
@@ -1382,7 +1382,7 @@ i.button {
 #homepage-top {
   min-height: 100vh;
 
-  .bcg{
+  .bcg {
     min-height: inherit;
   }
 
@@ -1390,8 +1390,14 @@ i.button {
     padding: 0 0 150px;
   }
 
-  h1{
-    font-size: 8em;
+  h1 {
+    font-size: 3rem;
+    @media only screen and (min-width: 40.063em) {
+      font-size: 6rem;
+    }
+    @media only screen and (min-width: 64.063em) {
+      font-size: 8rem;
+    }
   }
   h3 {
     color: white;
@@ -1402,7 +1408,7 @@ i.button {
   }
 }
 
-#hero-title{
+#hero-title {
   color: $color-1-light;
 }
 
@@ -1523,7 +1529,7 @@ i.button {
       padding: 20px 0;
       border-left: 1px solid rgba(255, 255, 255, 0.2);
       height: 300px;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
 
       @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
         height: 300px;
@@ -1643,6 +1649,12 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
 
 // Nice grid of images
 
+@mixin img-grid-fig($column-width){
+  figure {
+    width: $column-width
+  }
+}
+
 .image-grid {
   margin: 0;
   figure {
@@ -1662,33 +1674,52 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
       position: relative;
     }
   }
-  &.columns-1 {
-    figure {
-      width: 100%;
+
+  &.small-columns-1 {
+    @include img-grid-fig(100%);
+  }
+
+  &.medium-columns-1 {
+    @media only screen and (min-width: 40.063em) {
+      @include img-grid-fig(100%);
     }
   }
 
-  &.columns-2 {
-    figure {
-      width: 50%;
+  &.large-columns-1 {
+    @media only screen and (min-width: 64.063em) {
+      @include img-grid-fig(100%);
     }
   }
 
-  &.columns-3 {
-    figure {
-      width: 33.33%;
+  &.small-columns-2 {
+    @include img-grid-fig(50%);
+  }
+
+  &.medium-columns-2 {
+    @media only screen and (min-width: 40.063em) {
+      @include img-grid-fig(50%);
     }
   }
 
-  &.columns-4 {
-    figure {
-      width: 25%;
+  &.large-columns-2 {
+    @media only screen and (min-width: 64.063em) {
+      @include img-grid-fig(50%);
     }
   }
 
-  &.columns-5 {
-    figure {
-      width: 20%;
+  &.small-columns-3 {
+    @include img-grid-fig(33.333%);
+  }
+
+  &.medium-columns-3 {
+    @media only screen and (min-width: 40.063em) {
+      @include img-grid-fig(33.333%);
+    }
+  }
+
+  &.large-columns-3 {
+    @media only screen and (min-width: 64.063em) {
+      @include img-grid-fig(33.333%);
     }
   }
 
