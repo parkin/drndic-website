@@ -13,6 +13,8 @@ extrajs:
         - "fadeInDown"
         - "fadeInUp"
   - html: js/konami.html
+  - js: jquery.lazyload.min.js
+    html: js/lazyload.html
 ---
 
 <div id="skrollr-body">
@@ -116,22 +118,22 @@ send your interest to Prof. Drndić at drndic@physics.upenn.edu.
   <section id="homepage-pics">
       <div class="image-grid columns-3">
           <figure>
-              <img src="{{site.baseurl}}/{{site.img_path}}/nodna2.jpg">
+              <img class="lazy" data-original="{{site.baseurl}}/{{site.img_path}}/nodna2.jpg">
           </figure>
           <figure>
-              <img src="{{site.baseurl}}/{{site.img_path}}/graph-fig1.jpg">
+              <img class="lazy" data-original="{{site.baseurl}}/{{site.img_path}}/graph-fig1.jpg">
           </figure>
           <figure>
-              <img src="{{site.baseurl}}/{{site.img_path}}/thin_pore.png">
+              <img class="lazy" data-original="{{site.baseurl}}/{{site.img_path}}/thin_pore.png">
           </figure>
           <figure>
-              <img src="{{site.baseurl}}/{{site.img_path}}/direct-ebeam-nanoribbon.png">
+              <img class="lazy" data-original="{{site.baseurl}}/{{site.img_path}}/direct-ebeam-nanoribbon.png">
           </figure>
           <figure>
-            <img src="{{site.baseurl}}/{{site.img_path}}/Economist1_sm.jpg">
+            <img class="lazy" data-original="{{site.baseurl}}/{{site.img_path}}/Economist1_sm.jpg">
           </figure>
           <figure>
-            <img src="{{site.baseurl}}/{{site.img_path}}/nl-2014-01872x_0007.gif">
+            <img class="lazy" data-original="{{site.baseurl}}/{{site.img_path}}/nl-2014-01872x_0007.gif">
           </figure>
       </div>
   </section>

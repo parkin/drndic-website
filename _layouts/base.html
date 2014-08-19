@@ -24,6 +24,9 @@
 
 {% if page.extrajs %}
   {% for jsfile in page.extrajs %}
+    {% if jsfile.js %}
+        <script src="{{site.baseurl}}/js/{{jsfile.js}}"></script>
+    {% endif %}
     {% include {{jsfile.html}} args=jsfile.args %}
   {% endfor %}
 {% endif %}
