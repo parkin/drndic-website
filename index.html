@@ -4,10 +4,6 @@ no_header: true
 animatecss: true
 viewportcheckerjs: true
 extrajs:
-  - html: js/slick.html
-    args:
-      selectors:
-        - ".slick-carousel"
   - html: js/skrollr.html
   - html: js/viewportchecker.html
     args:
@@ -117,27 +113,26 @@ send your interest to Prof. Drndić at drndic@physics.upenn.edu.
     </div>
   </section>
 
-  <section class="color-2-bar" id="homepage-pics">
-    <div class="row">
-      <div class="large-6 columns">
-        <h2>We do some serious science.</h2>
+  <section id="homepage-pics">
+      <div class="image-grid columns-3">
+          <figure>
+              <img src="{{site.baseurl}}/{{site.img_path}}/nodna2.jpg">
+          </figure>
+          <figure>
+              <img src="{{site.baseurl}}/{{site.img_path}}/graph-fig1.jpg">
+          </figure>
+          <figure>
+              <img src="{{site.baseurl}}/{{site.img_path}}/thin_pore.png">
+          </figure>
+          <figure>
+              <img src="{{site.baseurl}}/{{site.img_path}}/direct-ebeam-nanoribbon.png">
+          </figure>
+          <figure>
+            <img src="{{site.baseurl}}/{{site.img_path}}/Economist1_sm.jpg">
+          </figure>
+          <figure>
+            <img src="{{site.baseurl}}/{{site.img_path}}/nl-2014-01872x_0007.gif">
+          </figure>
       </div>
-      <div class="large-6 columns text-center">
-        <div class="slick-carousel">
-          <div>
-            <img data-lazy="{{site.baseurl}}/{{site.img_path}}/home_images.gif">
-          </div>
-          <div>
-            <img data-lazy="{{site.baseurl}}/{{site.img_path}}/graph-fig1.jpg">
-          </div>
-          <div>
-            <img data-lazy="{{site.baseurl}}/{{site.img_path}}/direct-ebeam-nanoribbon.png">
-          </div>
-          <div style="margin: auto">
-            <img data-lazy="{{site.baseurl}}/{{site.img_path}}/Economist1_sm.jpg">
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 </div>
