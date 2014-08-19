@@ -1,15 +1,15 @@
 <div id="footer-bottom">
     <div class="row">
-        <div class="medium-3 medium-3 push-9 columns">
-            <p class="designed-by">Site designed by <a href="https://github.com/{{site.data.members.parkin.github}}" target="_blank">{{site.data.members.parkin.github}} <i class="fa fa-github"></i></a>.</p>
-
-        </div>
-        <div class="medium-9 medium-9 pull-3 columns">
+        <div class="medium-9 columns">
             <a href="{{site.baseurl}}/" class="drndic-link">{{site.title}}</a>
             <ul class="footer-bottom-links">
                 {% include list-nav-include.html %}
             </ul>
-            <p class="copyright">© {{site.time | date: '%Y' }} {{site.pi}}. All rights reserved.</p>
+            <p class="copyright">© {{site.time | date: '%Y' }} {{site.data.members.marija.name}}. All rights
+                reserved.</p>
+        </div>
+        <div class="medium-3 columns">
+            <p class="designed-by">Site designed by <a href="https://github.com/{{site.data.members.parkin.github}}" target="_blank">{{site.data.members.parkin.github}} <i class="fa fa-github"></i></a>.</p>
         </div>
     </div>
 </div>
