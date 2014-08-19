@@ -14,11 +14,49 @@ subtitle: The science.
         </div>
     </div>
     <div class="row pub-info">
-        <div class="hide-small medium-4 large-6 columns">
+        <div class="hide-for-small medium-4 large-6 columns">
+            {% if post.img %}
             <img src="{{site.baseurl}}/{{site.img_path}}/{{post.img}}">
+            {% endif %}
         </div>
         <div class="small-12 medium-8 large-6 columns">
-            <h6>{{post.authors}}</h6>
+            <div class="row">
+                <div class="small-12 columns">
+                    <h6>{{post.authors}}</h6>
+                    {% if post.journal %}
+                    <p>
+                        {{post.journal}}
+                    </p>
+                    {% endif %}
+                    {% if post.doi %}
+                    <p>
+                        <a href="http://dx.doi.org/{{post.doi}}" target="_blank">DOI: {{post.doi}}</a>
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-12 columns">
+                    {% comment %}Links to different publication things.{% endcomment%}
+                    <ul class="small-block-grid-2 medium-block-grid-4">
+                        {% if post.external_links.link %}
+                        <a href="{{post.external_links.link}}" class="button" target="_blank">Link</a>
+                        {% endif %}
+                        {% if post.local_links.pdf %}
+                        <a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.local_links.pdf}}" class="button"
+                           target="_blank">PDF</a>
+                        {% endif %}
+                        {% if post.local_links.supplement %}
+                        <a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.local_links.supplement}}" class="button"
+                           target="_blank">Supplement</a>
+                        {% endif %}
+                        {% if post.external_links.supplement %}
+                        <a href="{{post.external_links.supplement}}" class="button"
+                           target="_blank">Supplement</a>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </section>
