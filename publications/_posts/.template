@@ -1,13 +1,17 @@
 ---
 layout: post
 title: 
-link: 
-img: 
+img:
 authors: 
 journal: 
 info: 
-doi: 
-pdf: 
-supplement: 
+doi:
+local_links:
+    pdf:
+    supplement:
+external_links:
+    link:
+    pdf:
+    supplement:
 
 ---

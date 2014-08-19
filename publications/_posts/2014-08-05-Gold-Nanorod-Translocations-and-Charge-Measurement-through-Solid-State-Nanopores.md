@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Gold Nanorod Translocations and Charge Measurement through Solid-State Nanopores
-link: http://pubs.acs.org/doi/abs/10.1021/nl502448s
 img: gold-nanorod.jpg
 authors: Kimberly Venta, Mehdi B Zanjani, Xingchen Ye, Gopinath Danda, Christopher B. Murray, Jennifer R. Lukes, and Marija Drndic
 journal: Nano Letters
 info: Just Accepted Manuscript
 doi: 10.1021/nl502448s
-pdf: nl502448s.pdf
+local_links:
+    pdf: nl502448s.pdf
+external_links:
+    link: http://pubs.acs.org/doi/abs/10.1021/nl502448s
 
 ---
