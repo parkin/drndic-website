@@ -1418,11 +1418,16 @@ i.button {
 }
 
 .bcg {
-  background: no-repeat center center fixed;
+  background: no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  // for now only do on medium and up!
+  // TODO remove media query once we use a different off canvas menu
+  @media only screen and (min-width: 40.063em) {
+    background-attachment: fixed;
+  }
 }
 
 #homepage-singh {
@@ -1794,4 +1799,22 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
     }
   }
 
+}
+
+// The following lines are needed because Foundation's off-canvas menu will
+// introduce -webkit-backface-visibility: hidden in each of the next two classes.
+// I had to add these ids and do this stupid hack to get it working for now.
+// TODO remove once we use a different off canvas menu
+#off-canvas-wrap {
+  // Medium screens
+  @media only screen and (min-width: 40.063em) {
+    -webkit-backface-visibility: visible;
+  }
+}
+
+#inner-wrap {
+  // Medium screens
+  @media only screen and (min-width: 40.063em) {
+    -webkit-backface-visibility: visible;
+  }
 }
