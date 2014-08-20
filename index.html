@@ -15,9 +15,9 @@ extrajs:
   - html: js/konami.html
   - js: jquery.lazyload.min.js
     html: js/lazyload.html
+  - html: js/smooth_scroll.html
 ---
 
-<div id="skrollr-body">
   <section id="homepage-top">
     <div class="bcg"
       data-bottom-top="background-position: 50% 0px;"
@@ -53,23 +53,30 @@ extrajs:
           </div>
         </div>
       </div>
+      <div class="row centered-text">
+          <div class="small-3 columns push-4">
+            <ul class="large-block-grid-2">
+                <li>
+                    <a href="#homepage-about" class="button">About us</a>
+                </li>
+                <li>
+                    <a href="#homepage-pics" class="button">Images</a>
+                </li>
+
+            </ul>
+          </div>
+      </div>
     </div>
   </section>
 
   <section id="homepage-about" class="content color-bar-white">
-    <div class="row centered-text will-fadeInLeft">
+    <div class="row centered-text">
       <div class="large-12 columns">
-        <span class="fa-stack fa-5x">
+        <span class="fa-stack fa-5x will-fadeInLeft">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
         </span>
-      </div>
-    </div>
-    <div class="row centered-text will-fadeInLeft">
-      <div class="large-12 columns">
-
-        <h2>What we do</h2>
-        <h4 class="subheader">Aka what the party's like.</h4>
+        <h2 class="will-fadeInLeft">What we do</h2>
       </div>
     </div>
     <div class="row will-fadeInUp">
@@ -114,6 +121,8 @@ send your interest to Prof. Drndić at drndic@physics.upenn.edu.
       </div>
     </div>
   </section>
+
+<div id="skrollr-body">
 
   <section id="homepage-pics">
       <div class="image-grid small-columns-1 medium-columns-2 large-columns-3">
