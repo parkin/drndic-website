@@ -1331,10 +1331,10 @@ $color-4-grad: linear-gradient(to right, $color-4 0%, $color-4-light 100%);
   @include button;
   @include box-shadow(none, none, none, none);
   @include transition(all 0.3s);
-  $border-size: 4px;
+  $border-size: 2px;
   color: $color;
   border: $border-size solid $color;
-  border-radius: 10px;
+  border-radius: 2px;
   background: none;
   text-shadow: none;
 
@@ -1372,16 +1372,6 @@ $color-4-grad: linear-gradient(to right, $color-4 0%, $color-4-light 100%);
     &.inverse{
       @include button-border(white, $color-5);
     }
-  }
-}
-
-.button-group-centered {
-
-  display: inline-block;
-
-  .button-border {
-    margin-left: 10px;
-    margin-right: 10px;
   }
 }
 
