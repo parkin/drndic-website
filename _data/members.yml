@@ -56,6 +56,11 @@ francis:
   desc: Graduate Student
   email: chienc@sas.upenn.edu
 
+pmasdihd:
+  name: Paul Masih Das
+  desc: Graduate Student
+  email: pmasi@sas.upenn.edu
+
 ravit:
   name: Ravit Dung
   desc: Masters Student
@@ -79,11 +84,8 @@ gautam:
   icon: gautam.JPG
   email: gnagaraj@sas.upenn.edu
 
-wilson:
-  name: Dan Wilson
-  desc: Undergraduate Student, NBIC REU program
-  icon: DanWilson.jpg
-  email: danielmusawilson@gmail.com
+## This is the start of the past members.
+## Note that in order to designate past members, set past: true.
 
 gaby:
   name: Gabriel Shemer
@@ -143,6 +145,13 @@ merchant:
   icon: CM.jpg
   link: http://eleceng.ucc.ie/nanopore/
   email: merch@sas.upenn.edu
+  past: true
+
+wilson:
+  name: Dan Wilson
+  desc: Undergraduate Student, NBIC REU program
+  icon: DanWilson.jpg
+  email: danielmusawilson@gmail.com
   past: true
 
 sharo:
