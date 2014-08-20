@@ -3,11 +3,9 @@
 
 {% include head.html data=page.extrajs_head %}
 <body>
-<div class="off-canvas-wrap">
+<div class="off-canvas-wrap" data-offcanvas>
 
     <div class="inner-wrap">
-
-        {% if page.no_header != true %}{% include header.html %}{% endif %}
 
         {{ content }}
 

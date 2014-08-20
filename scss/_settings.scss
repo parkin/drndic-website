@@ -1361,7 +1361,7 @@ $color-4-grad: linear-gradient(to right, $color-4 0%, $color-4-light 100%);
   &.bb-1 {
     @include button-border($color-1-light, white);
 
-    &.inverse{
+    &.inverse {
       @include button-border(white, $color-1);
     }
   }
@@ -1369,7 +1369,7 @@ $color-4-grad: linear-gradient(to right, $color-4 0%, $color-4-light 100%);
   &.bb-5 {
     @include button-border($color-5-light, white);
 
-    &.inverse{
+    &.inverse {
       @include button-border(white, $color-5);
     }
   }
@@ -1406,13 +1406,14 @@ i.button {
 
 // color bar backgrounds
 
-.color-bar-layout {
-  padding: 60px 0;
-}
-
-@media screen and (max-width: 768px) {
-  .color-bar-layout {
-    padding: 40px 0;
+@mixin color-bar-layout {
+  &.padded {
+    padding: 60px 0;
+    @media screen and (max-width: 768px) {
+      .color-bar-layout {
+        padding: 40px 0;
+      }
+    }
   }
 }
 
@@ -1440,6 +1441,12 @@ i.button {
 
   h3 {
     color: white;
+  }
+}
+
+.list-nav {
+  nav {
+    background: transparent;
   }
 }
 
@@ -1476,12 +1483,12 @@ i.button {
   color: $color-1-light;
 }
 
-#page-title-bar {
-  padding: 20px 0;
+#page-title-bar.page-title {
+  margin-top: 30px;
 }
 
 .color-bar-white {
-  @extend .color-bar-layout;
+  @include color-bar-layout;
   $background: white;
   background: $background;
   .icon {
@@ -1490,7 +1497,7 @@ i.button {
 }
 
 .color-1-bar {
-  @extend .color-bar-layout;
+  @include color-bar-layout;
   background: $color-1;
   background: $color-1-grad;
   h1 {
@@ -1505,7 +1512,7 @@ i.button {
 }
 
 .color-2-bar {
-  @extend .color-bar-layout;
+  @include color-bar-layout;
   background: $color-2;
   background: $color-2-grad;
 
@@ -1515,7 +1522,7 @@ i.button {
 }
 
 .color-3-bar {
-  @extend .color-bar-layout;
+  @include color-bar-layout;
   background: $color-3;
   background: $color-3-grad;
 }

@@ -1,6 +1,7 @@
 ---
+title: home
 layout: base
-no_header: true
+hide_home_button: true
 animatecss: true
 viewportcheckerjs: true
 extrajs:
@@ -25,24 +26,7 @@ extrajs:
       data-anchor-target="body"
       style="background-image: url({{site.baseurl}}/{{site.img_backgrounds_path}}/notebook.JPG)"
     >
-      <aside class="left-off-canvas-menu">
-          <ul class="off-canvas-list">
-              {% include list-nav-include.html keephome="true" %}
-          </ul>
-      </aside>
-      <nav class="tab-bar show-for-small">
-          <a class="left-off-canvas-toggle menu-icon">
-              <span>{{ site.title }}</span>
-          </a>
-      </nav>
-      <nav class="top-bar hide-for-small will-fadeInDown" data-topbar>
-          <section class="top-bar-section">
-              <ul class="right">
-                  {% include list-nav-include.html %}
-              </ul>
-          </section>
-
-      </nav>
+      {% include list-nav.html %}
       <div class="row centered-text">
         <div class="large-12 columns">
           <div class="hero">
@@ -57,7 +41,7 @@ extrajs:
     </div>
   </section>
 
-  <section id="homepage-about" class="content color-bar-white">
+  <section id="homepage-about" class="content color-bar-white padded">
     <div class="row centered-text">
       <div class="large-12 columns">
         <span class="fa-stack fa-5x will-fadeInLeft">

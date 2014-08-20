@@ -1,0 +1,29 @@
+<div class="list-nav">
+    <aside class="left-off-canvas-menu">
+        <ul class="off-canvas-list">
+            {% include list-nav-include.html keephome=true%}
+        </ul>
+    </aside>
+    <nav class="tab-bar show-for-small">
+        <a class="left-off-canvas-toggle menu-icon">
+            <span></span>
+        </a>
+    </nav>
+    <nav class="top-bar hide-for-small will-fadeInDown" data-topbar>
+        {% if page.hide_home_button  != true %}
+        <ul class="title-area">
+            <li class="name">
+                <h1>
+                    <a href="{{site.baseurl}}/">{{ site.title }}</a>
+                </h1>
+            </li>
+        </ul>
+        {% endif %}
+        <section class="top-bar-section">
+            <ul class="right">
+                {% include list-nav-include.html %}
+            </ul>
+        </section>
+
+    </nav>
+</div>
