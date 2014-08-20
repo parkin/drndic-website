@@ -1656,17 +1656,17 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
 }
 
 .image-grid {
-  margin: 0;
+  margin: -0.1em;
+
   figure {
     height: 400px;
     display: inline-block;
-    margin: -0.135em;
+    margin: -0.134em;
     overflow: hidden;
     z-index: 1;
     text-align: center;
 
     img {
-      width: auto;
       min-width: 100%;
       min-height: 400px;
       left: 50%;
