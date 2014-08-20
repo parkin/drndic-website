@@ -351,7 +351,7 @@ $header-font-family: 'Playfair Display', serif;
 
 // We use these to control button text styles.
 // $button-font-family: $body-font-family;
-// $button-font-color: #fff;
+$button-font-color: #fff;
 // $button-font-color-alt: #333;
 // $button-font-tny: rem-calc(11);
 // $button-font-sml: rem-calc(13);
@@ -366,7 +366,7 @@ $header-font-family: 'Playfair Display', serif;
 // We use these to control button border styles.
 // $button-border-width: 0px;
 // $button-border-style: solid;
-// $button-bg: $primary-color;
+$button-bg: $primary-color;
 // $button-border-color: scale-color($bg, $lightness: $button-function-factor);
 
 // We use this to set the default radius used throughout the core.
@@ -1311,6 +1311,80 @@ $color-2-grad: linear-gradient(to right, $color-2 0%, $color-2-light 100%);
 $color-3-grad: linear-gradient(to right, $color-3 0%, $color-3-light 100%);
 $color-4-grad: linear-gradient(to right, $color-4 0%, $color-4-light 100%);
 
+// useful Mixins
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin box-shadow($args...) {
+  -webkit-box-shadow: $args;
+  -moz-box-shadow: $args;
+  box-shadow: $args;
+}
+
+// button
+@mixin button-border($color: $button-bg, $active-font-color: $button-font-color) {
+  @include button;
+  @include box-shadow(none, none, none, none);
+  @include transition(all 0.3s);
+  $border-size: 4px;
+  color: $color;
+  border: $border-size solid $color;
+  border-radius: 10px;
+  background: none;
+  text-shadow: none;
+
+  &:hover, &:focus {
+    background: $color;
+    color: $active-font-color;
+    border: $border-size solid $color;
+  }
+  &:active {
+    @include transition(0s);
+    background: darken($color, 10%);
+    color: darken($active-font-color, 10%);
+    border: $border-size solid darken($color, 10%);
+  }
+  &.disabled {
+    @include box-shadow(none);
+    -webkit-appearance: none;
+  }
+}
+
+.button-border {
+  @include button-border();
+
+  &.bb-1 {
+    @include button-border($color-1-light, white);
+
+    &.inverse{
+      @include button-border(white, $color-1);
+    }
+  }
+
+  &.bb-5 {
+    @include button-border($color-5-light, white);
+
+    &.inverse{
+      @include button-border(white, $color-5);
+    }
+  }
+}
+
+.button-group-centered {
+
+  display: inline-block;
+
+  .button-border {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 // topbar stuff
 $topbar-bg-color: $color-1;
 $topbar-bg: $color-1-grad;
@@ -1649,7 +1723,7 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
 
 // Nice grid of images
 
-@mixin img-grid-fig($column-width){
+@mixin img-grid-fig($column-width) {
   figure {
     width: $column-width
   }
