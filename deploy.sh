@@ -39,8 +39,8 @@ f=false
 f_branch="publish"
 f_config="_config_facstaff.yml"
 f_dir="_site_facstaff"
-f_url=""
-f_server_repo_loc=""
+f_url="web-facstaff.sas.upenn.edu"
+f_server_repo_loc="/www-physics/data/drndicgroup"
 
 while getopts "bpcfsru:n:h" o; do
   case "${o}" in
