@@ -209,7 +209,7 @@ fi
 if ${f}; then
   do_deploy ${f_config} ${f_branch} ${f_dir}
   if ${r}; then
-    get_username ${s_url} u $u
+    get_username ${f_url} u $u
     release_to_wild ${f_url} ${u} ${f_server_repo_loc} ${f_branch}
   fi
 fi
