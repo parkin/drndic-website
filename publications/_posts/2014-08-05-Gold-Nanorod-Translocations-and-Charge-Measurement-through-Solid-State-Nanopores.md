@@ -8,6 +8,7 @@ info: Just Accepted Manuscript
 doi: 10.1021/nl502448s
 local_links:
     pdf: nl502448s.pdf
+    supplement: nl502448s_si_001.pdf
 external_links:
     link: http://pubs.acs.org/doi/abs/10.1021/nl502448s
 
