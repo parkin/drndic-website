@@ -3,17 +3,27 @@
 
 {% include head.html data=page.extrajs_head %}
 <body>
-<div id="off-canvas-wrap" class="off-canvas-wrap" data-offcanvas>
+<div id="st-container" class="st-container">
+    <!--list nav-->
+    <nav class="st-menu st-slide-on-top" id="sidebar">
+        <h2>{{site.title}}</h2>
+        <ul>
+            {% include list-nav-include.html %}
+        </ul>
+    </nav>
 
-    <div id="inner-wrap" class="inner-wrap">
+    <div class="st-pusher">
+        <div id="st-content" class="st-content">
+            <div class="st-content-inner">
 
-        {{ content }}
+                {{ content }}
 
-        {% include footer-top.html %}
+                {% include footer-top.html %}
 
-        {% include footer-bottom.html %}
+                {% include footer-bottom.html %}
 
-        <a class="exit-off-canvas"></a>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -21,13 +31,16 @@
 <script src="{{site.baseurl}}/js/app.js"></script>
 
 {% if page.extrajs %}
-  {% for jsfile in page.extrajs %}
-    {% if jsfile.js %}
-        <script src="{{site.baseurl}}/js/{{jsfile.js}}"></script>
-    {% endif %}
-    {% include {{jsfile.html}} args=jsfile.args %}
-  {% endfor %}
+{% for jsfile in page.extrajs %}
+{% if jsfile.js %}
+<script src="{{site.baseurl}}/js/{{jsfile.js}}"></script>
 {% endif %}
+{% include {{jsfile.html}} args=jsfile.args %}
+{% endfor %}
+{% endif %}
+
+<script src="{{site.baseurl}}/js/classie.js"></script>
+<script src="{{site.baseurl}}/js/sidebarEffects.js"></script>
 
 {% include google_analytics.html %}
 
