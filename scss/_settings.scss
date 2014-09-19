@@ -1827,7 +1827,7 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
     right: 0;
     width: 0;
     height: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
     content: '';
     opacity: 0;
     -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
@@ -1843,15 +1843,6 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
       opacity: 1;
       -webkit-transition: opacity 0.5s;
       transition: opacity 0.5s;
-    }
-  }
-  .st-menu {
-    &::after {
-      width: 0;
-      height: 0;
-      opacity: 0;
-      -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
-      transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
     }
   }
 }
@@ -1875,7 +1866,6 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
-    content: '';
     opacity: 1;
     -webkit-transition: opacity 0.5s;
     transition: opacity 0.5s;
