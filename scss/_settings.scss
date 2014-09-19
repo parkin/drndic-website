@@ -1463,7 +1463,7 @@ i.button {
   }
 
   .hero {
-    padding: 0 0 150px;
+    padding: 180px 0 0;
   }
 
   h1 {
@@ -1488,8 +1488,13 @@ i.button {
   color: $color-1-light;
 }
 
-#page-title-bar.page-title {
-  margin-top: 30px;
+
+#page-title-bar {
+  text-align: right;
+  padding: 5px;
+  &.page-title {
+    margin-top: 30px;
+  }
 }
 
 .color-bar-white {
@@ -1957,6 +1962,26 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
         transform: translate3d(0, 0, 0);
       }
     }
+  }
+}
+
+// bars sidebar toggle logo
+#st-toggle-button {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 20px 0 0 20px;
+  color: $color-5-light;
+
+  font-size: 4rem;
+  @media only screen and (max-width: 40em) {
+    font-size: 3rem;
+  }
+
+  @include transition(opacity 0.3s ease-in);
+  opacity: 0.7;
+  &:hover, &:focus, &:active{
+    opacity: 1.0;
   }
 }
 
