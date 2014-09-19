@@ -1869,7 +1869,7 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
   visibility: hidden;
   width: 300px;
   height: 100%;
-  background: #48a770;
+  background: $color-5-light;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 
@@ -1884,6 +1884,57 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
     opacity: 1;
     -webkit-transition: opacity 0.5s;
     transition: opacity 0.5s;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      a {
+        display: block;
+        padding: 1em 1em 1em 1.2em;
+        outline: none;
+        box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2);
+        color: #f3efe0;
+        text-transform: uppercase;
+        text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
+        letter-spacing: 1px;
+        font-weight: 400;
+        -webkit-transition: background 0.3s, box-shadow 0.3s;
+        transition: background 0.3s, box-shadow 0.3s;
+
+        &:hover {
+          background: rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 -1px rgba(0, 0, 0, 0);
+          color: #fff;
+        }
+      }
+
+      &:first-child {
+        a {
+          box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2), inset 0 1px rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+
+  h2 {
+    margin: 0;
+    padding: 1em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    font-weight: 300;
+    font-size: 2em;
+    a{
+      -webkit-transition: opacity 0.3s ease-in;
+      transition: opacity 0.3s ease-in;
+      @include transition(color 0.3s ease);
+      color: rgba(0, 0, 0, 0.5);
+      &:hover {
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
   }
 }
 
@@ -1909,8 +1960,9 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
   }
 }
 
+// Set up transition for lazy loaded images.
+
 .lazy {
   opacity: 0.1;
-  -webkit-transition: opacity 0.3s ease-in;
-  transition: opacity 0.3s ease-in;
+  @include transition(opacity 0.3s ease-in)
 }
