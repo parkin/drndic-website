@@ -1,8 +1,6 @@
 <script>
     $(document).ready(function () {
-        var lazies = $('img.lazy');
-        console.log(lazies);
-        lazies.unveil(0, function () {
+        $('img.lazy').unveil(0, function () {
             console.log('unveiled');
             $(this).load(function () {
                 this.style.opacity = 1;
