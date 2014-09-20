@@ -1423,11 +1423,7 @@ i.button {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  // for now only do on medium and up!
-  // TODO remove media query once we use a different off canvas menu
-  @media only screen and (min-width: 40.063em) {
-    background-attachment: fixed;
-  }
+  background-attachment: fixed;
 }
 
 #homepage-singh {
