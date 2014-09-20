@@ -19,17 +19,12 @@
 </head>
 
 <body>
-<div id="off-canvas-wrap" class="off-canvas-wrap" data-offcanvas>
-
-    <div id="inner-wrap" class="inner-wrap">
-
-        <section id="page-title-bar" class="color-1-bar">
-    <div class="list-nav">
-    <aside class="left-off-canvas-menu">
-        <ul class="off-canvas-list">
+<div id="st-container" class="st-container">
+    <!--list nav-->
+    <nav class="st-menu st-slide-on-top" id="sidebar">
+        <h2><a href="/drndicgroup/"><i class="fa fa-flask fa-lg"></i> Drndić Lab</a></h2>
+        <ul>
             
-<li><a href="/drndicgroup/">Drndić Lab</a></li>
-
 
 
 
@@ -130,132 +125,15 @@
 
 
         </ul>
-    </aside>
-    <nav class="tab-bar show-for-small">
-        <a class="left-off-canvas-toggle menu-icon">
-            <span></span>
-        </a>
     </nav>
-    <nav class="top-bar hide-for-small will-fadeInDown" data-topbar>
-        
-        <ul class="title-area">
-            <li class="name">
-                <h1>
-                    <a href="/drndicgroup/">Drndić Lab</a>
-                </h1>
-            </li>
-        </ul>
-        
-        <section class="top-bar-section">
-            <ul class="right">
-                
 
+    <div class="st-pusher">
+        <div id="st-content" class="st-content">
+            <div class="st-content-inner">
 
-
-<li>
-    <a href="/drndicgroup/contact/" >
-    
-    Contact
-    
-</a>
-
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li>
-    <a href="/drndicgroup/publications/" >
-    
-    Publications
-    
-</a>
-
-</li>
-
-
-
-<li>
-    <a href="/drndicgroup/members/" >
-    
-    Members
-    
-</a>
-
-</li>
-
-
-
-<li>
-    <a href="/drndicgroup/invited_talks/" >
-    
-    Invited Talks
-    
-</a>
-
-</li>
-
-
-
-
-
-
-
-<li>
-    <a href="/drndicgroup/news/" >
-    
-    News
-    
-</a>
-
-</li>
-
-
-
-<li>
-    <a href="/drndicgroup/outreach/" >
-    
-    Outreach
-    
-</a>
-
-</li>
-
-
-
-<li>
-    <a href="/drndicgroup/research/" >
-    
-    Research
-    
-</a>
-
-</li>
-
-
-
-
-            </ul>
-        </section>
-
-    </nav>
-</div>
-
+                <section id="page-title-bar" class="color-1-bar">
     <div class="row">
-        <div class="small-12 medium-8 columns">
+        <div class="medium-11 large-12 columns">
             <h1 class="page-title">Members</h1>
             <h4 class="subheader">The all-stars.</h4>
         </div>
@@ -2367,7 +2245,7 @@
 
 
 
-        <section id="footer-top" class="bg-1-darken">
+                <section id="footer-top" class="bg-1-darken">
     <div class="row property centered-text">
         <div class="medium-4 columns">
             <div class="property-info">
@@ -2555,7 +2433,7 @@
 </section>
 
 
-        <div id="footer-bottom">
+                <div id="footer-bottom">
     <div class="row">
         <div class="medium-9 columns">
             <a href="/drndicgroup/" class="drndic-link">Drndić Lab</a>
@@ -2671,7 +2549,10 @@
 </div>
 
 
-        <a class="exit-off-canvas"></a>
+            </div>
+        </div>
+
+        <a id="st-toggle-button" class="st-toggle fa fa-bars" data-effect="st-slide-on-top"></a>
     </div>
 </div>
 
@@ -2679,6 +2560,9 @@
 <script src="/drndicgroup/js/app.js"></script>
 
 
+
+<script src="/drndicgroup/js/classie.js"></script>
+<script src="/drndicgroup/js/sidebarEffects.js"></script>
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

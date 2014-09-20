@@ -21,13 +21,14 @@
         var options = {
             classToAdd: 'visible',
             offset: 100,
-            callbackFunction: function(elem){}
+            callbackFunction: function(elem){},
+            scrollContainer: window // Container to scroll. Pass in string jquery selector to change.
         };
         $.extend(options, useroptions);
 
         // Cache the given element and height of the browser
         var $elem = this,
-            windowHeight = $(window).height();
+            windowHeight = $(options.scrollContainer).height();
 
         this.checkElements = function(){
             // Set some vars to check with
@@ -57,11 +58,11 @@
         };
 
         // Run checkelements on load and scroll
-        $(window).scroll(this.checkElements);
+        $(options.scrollContainer).scroll(this.checkElements);
         this.checkElements();
 
         // On resize change the height var
-        $(window).resize(function(e){
+        $(options.scrollContainer).resize(function(e){
             windowHeight = e.currentTarget.innerHeight;
         });
         
