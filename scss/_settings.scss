@@ -1418,12 +1418,11 @@ i.button {
 }
 
 .bcg {
-  background: no-repeat center center;
+  background: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 #homepage-singh {
