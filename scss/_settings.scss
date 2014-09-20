@@ -1859,6 +1859,9 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 
+  overflow-y: scroll;
+  overflow-x: hidden;
+
   &::after {
     position: absolute;
     top: 0;
