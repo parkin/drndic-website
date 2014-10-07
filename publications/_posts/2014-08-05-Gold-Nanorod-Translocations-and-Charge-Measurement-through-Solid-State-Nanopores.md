@@ -4,7 +4,7 @@ title: Gold Nanorod Translocations and Charge Measurement through Solid-State Na
 img: gold-nanorod.jpg
 authors: Kimberly Venta, Mehdi B Zanjani, Xingchen Ye, Gopinath Danda, Christopher B. Murray, Jennifer R. Lukes, and Marija Drndić
 journal: Nano Letters
-info: Just Accepted Manuscript
+info: 14 (9), pp 5358–5364
 doi: 10.1021/nl502448s
 local_links:
     pdf: nl502448s.pdf

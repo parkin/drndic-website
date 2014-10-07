@@ -4,7 +4,7 @@ title: Correlating Atomic Structure and Transport in Suspended Graphene Nanoribb
 img: nl-2014-01872x_0007.gif
 authors: Zhengqing John Qi, Julio A. Rodríguez-Manzo, Andrés R. Botello-Méndez, Sung Ju Hong, Eric A. Stach, Yung Woo Park, Jean-Christophe Charlier, Marija Drndić, and A. T. Charlie Johnson
 journal: Nano Letters
-info: Article ASAP
+info: 14 (8), pp 4238–4244
 doi: 10.1021/nl501872x
 local_links:
     pdf: nl501872x.pdf
