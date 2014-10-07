@@ -1,0 +1,27 @@
+---
+layout: contentpage
+nav_include: true
+layout: contentpage
+title: Invited Talks
+subtitle: Sharing the science.
+---
+{% for post in site.categories.invited_talks %}
+<section class="color-bar-white padded">
+    <div class="row">
+        <div class="large-12 columns">
+            <h3>
+                {{post.title}}
+            </h3>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-12 medium-5 columns">
+            <h5>{{post.location}}</h5>
+            <p>{{post.dates}}</p>
+
+        </div>
+    </div>
+</section>
+{% endfor %}
