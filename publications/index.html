@@ -25,7 +25,9 @@ subtitle: The science.
                     <h6>{{post.authors}}</h6>
                     {% if post.journal %}
                     <p>
-                        {{post.journal}}
+                        {{post.journal}}, {{post.info}}<br>
+                        {{ post.date | date: "%Y" }}
+
                     </p>
                     {% endif %}
                     {% if post.doi %}
