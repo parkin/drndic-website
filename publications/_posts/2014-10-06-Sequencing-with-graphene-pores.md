@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Sequencing with Graphene Nanopores
 img: nnano.2014.232-f1.jpg
 authors: Marija Drndić
 journal: Nature Nanotechnology
-info: 9, 743 (2014)
+info: 9, 743
 doi: 10.1038/nnano.2014.232
 local_links:
     pdf: nnano.2014.232.pdf
