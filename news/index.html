@@ -1,0 +1,37 @@
+---
+layout: contentpage
+title: News
+subtitle: Word around the campfire.
+nav_include: true
+
+---
+
+{% for post in site.categories.news %}
+<section class="color-bar-white padded">
+    <div class="row">
+        <div class="small-12 medium-8 columns">
+            <header>
+                <h2 class="title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
+            </header>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <article>
+                {{post.excerpt}}
+            </article>
+        </div>
+    </div>
+</section>
+{% endfor %}
+<section class="color-bar-white padded">
+    <div class="row">
+        <div class="large-12 colums">
+            <h2>Our news page is under construction.</h2>
+            <p>
+                While the site is being updated, see all of our older news <a href="{{site.baseurl}}/news/old">here</a>
+            </p>
+        </div>
+    </div>
+
+</section>

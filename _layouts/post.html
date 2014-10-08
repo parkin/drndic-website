@@ -1,0 +1,23 @@
+---
+layout: base
+---
+<section id="page-title-bar" class="color-1-bar">
+    <div class="row">
+        <div class="medium-11 large-12 columns">
+            <h1 class="page-title">{{page.title}}</h1>
+            {% if page.subtitle %}
+            <h4 class="subheader">{{page.subtitle}}</h4>
+            {% else %}
+            <h4 class="subheader">{{page.date | date: "%B %Y"}}</h4>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<section class="color-bar-white padded">
+    <div class="row">
+        <div class="large-12 columns">
+            {{content}}
+        </div>
+    </div>
+</section>
