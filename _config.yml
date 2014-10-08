@@ -19,3 +19,6 @@ markdown: kramdown
 permalink: pretty
 exclude: [scss, node_modules, .bowerrc, bower.json, package.json, Gruntfile.js, test, temp-publish-clone, deploy.sh, serve.sh, update-shareddrive.sh]
 destination: "_site"
+
+# Excerpt separator
+excerpt_separator: <!--more-->
