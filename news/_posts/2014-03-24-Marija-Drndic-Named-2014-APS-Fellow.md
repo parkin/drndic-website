@@ -1,8 +1,6 @@
 ---
 layout: post
-#title: # Uncomment this to set the title manually. Default uses file name.
-img: 
-news_link:
+title: "Marija Drndić Named 2014 APS Fellow"
 
 ---
 

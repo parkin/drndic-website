@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Graphene Nanoribbon-Nanopore Devices for DNA Sequencing.
+title: Graphene Nanoribbon-Nanopore Devices for DNA Sequencing
 img: 
 news_link:
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-#title: # Uncomment this to set the title manually. Default uses file name.
+title: Nanopores Identify Modified DNA Bases
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---

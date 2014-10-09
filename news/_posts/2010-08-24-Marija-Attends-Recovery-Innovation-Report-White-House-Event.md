@@ -1,6 +1,6 @@
 ---
 layout: post
-#title: # Uncomment this to set the title manually. Default uses file name.
+title: Marija Drndić Attends Recovery Innovation Report White House Event
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---

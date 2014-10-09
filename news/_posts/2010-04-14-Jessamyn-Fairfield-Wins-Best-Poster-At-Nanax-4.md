@@ -1,6 +1,6 @@
 ---
 layout: post
-#title: # Uncomment this to set the title manually. Default uses file name.
+title: "Jessamyn Fairfield Wins Best Poster at NaNaX 4"
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---

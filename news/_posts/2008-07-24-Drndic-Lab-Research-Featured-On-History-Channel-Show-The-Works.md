@@ -1,6 +1,6 @@
 ---
 layout: post
-#title: # Uncomment this to set the title manually. Default uses file name.
+title: Drndić Lab Research Featured On History Channel Show The Works
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---

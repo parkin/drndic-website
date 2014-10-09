@@ -1,6 +1,6 @@
 ---
 layout: post
-#title: # Uncomment this to set the title manually. Default uses file name.
+title: Marija Drndić Gives Invited Lecture at APS March Meeting
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---

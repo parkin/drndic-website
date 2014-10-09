@@ -1,6 +1,6 @@
 ---
 layout: post
-#title: # Uncomment this to set the title manually. Default uses file name.
+title: Jessamyn Fairfield Receives NSF Travel Fellowship
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---
