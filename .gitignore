@@ -7,6 +7,11 @@ _site_shareddrive
 _site_facstaff
 css/app.css
 
+##### Foundation stuff
+# Bower
+bower_components
+
+## Will's stuff
 # deploy temp folder
 temp-publish-clone
 
