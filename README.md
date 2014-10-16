@@ -4,11 +4,18 @@ This is the source code for the [Drndić Lab Website](http://www.physics.upenn.e
 
 It is built with [Jekyll], a static-site generator, and uses [Foundation] as a responsive front-end framework.
 
-## Dependencies
+Here are instructions for:
+
+* [Installation](#installation)
+* [Building and previewing the site](#building-and-previewing-the-site)
+
+## Installation
+
+### Dependencies
 
 You'll need to have the following items installed before continuing.
 
-### [Jekyll]
+#### [Jekyll]
 
 [Jekyll] is used for static site generation. Basically, you write your website using [Jekyll]'s formatting, and then use [Jekyll] to turn your simple code into the many pages of your website.
 
@@ -27,7 +34,7 @@ Instructions for installing [Jekyll] can be found [here](http://jekyllrb.com/doc
 $ gem install jekyll
 ```
 
-### [Foundation]
+#### [Foundation]
 
 [Foundation] is a responsive front-end framework. Basically, it comes with a bunch of CSS/SCSS styles that you can use to easly create sites that look good on both mobile and desktop environments.
 
@@ -45,7 +52,7 @@ $ npm install -g bower grunt-cli
 $ gem install foundation
   ```
 
-## Getting started with the source
+### Getting started with the source
 
 First, clone the repo and move to the directory.
 
