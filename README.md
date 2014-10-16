@@ -116,9 +116,9 @@ and it will build the SASS files, the site, start the server, **and** watch for 
 
 ### Branches
 
-#### publish
+The ***master*** branch is the main branch for working code. If you are developing a new feature, you should **not** use the ***master*** branch. Instead, create a new branch and work there, merge it back into master once you've tested your new feature.
 
-The [publish](https://github.com/parkin/drndic-website/tree/publish) branch is where I keep the code for the website after it has been built by [Jekyll]. That name is reserved, **do not modify the** ***publish*** **branch**.
+The ***[publish](https://github.com/parkin/drndic-website/tree/publish)*** branch is where I keep the code for the website after it has been built by [Jekyll]. That name is reserved, **do not modify the** ***publish*** **branch**.
 
 ### Adding publication, news posts
 
