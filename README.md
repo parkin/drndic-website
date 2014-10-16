@@ -28,8 +28,8 @@ Note that Windows is **not** an officially supported platform, although instruct
 Instructions for installing [Jekyll] can be found [here](http://jekyllrb.com/docs/installation/), summarized below. 
 
  1. [Install Ruby](http://www.ruby-lang.org/en/downloads/) (Including development headers).
- 2. [Install Ruby Gems](http://rubygems.org/pages/download) (Comes with Ruby on Ubuntu).
- 3. [Install NodeJS](http://nodejs.org/).
+ 2. [Install Ruby Gems](http://rubygems.org/pages/download), Ruby's package manager (probably ships with Ruby).
+ 3. [Install NodeJS](http://nodejs.org/), the javascript runtime.
  4. Install [Jekyll] (May need sudo). 
 ```bash
 $ gem install jekyll
@@ -45,6 +45,8 @@ Installation instructions are [here](http://foundation.zurb.com/docs/sass.html) 
 
   [Grunt](http://gruntjs.com/) is a Javascript task runner. We use it to automate compiling our SASS files to CSS.
 
+  `npm` is the [Node Package Manager](https://www.npmjs.org/), and should come with your installation of [nodejs](http://nodejs.org/) above.
+  
   ```bash
 $ npm install -g bower grunt-cli
   ```
