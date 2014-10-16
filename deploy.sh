@@ -16,7 +16,7 @@ function usage() {
   echo -e "\t\t-s: Build website for the shared drive, branch: public-shareddrive. (--DEPRECATED--)"
   echo -e "\t-h: Help"
   echo -e "\nExamples:"
-  echo -e "\t./deploy.sh -b  (only build and only the shared drive version)"
+  echo -e "\t./deploy.sh -b  (only build and only the facstaff version)"
   echo -e "\t./deploy.sh -bcrsf  (do everything)"
   echo -e "\t./deploy.sh -rs -u username  (release to the shared drive with username)"
 
