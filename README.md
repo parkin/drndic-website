@@ -91,7 +91,7 @@ $ jekyll build
   ```bash
 $ jekyll serve
   ```
-Then open a browser and go to http://localhost:4000/
+Then open a browser and go to [http://localhost:4000/](http://localhost:4000/)
 
 
 
