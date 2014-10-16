@@ -94,6 +94,13 @@ $ jekyll serve
   
   from the project's root directory. Then open a browser and go to [http://localhost:4000/](http://localhost:4000/)
 
+These commands have been packaged into a simple script, [serve.sh](https://github.com/parkin/drndic-website/blob/master/serve.sh). Run this script with
+
+```bash
+$ ./serve.sh
+```
+
+and it will build the SASS files, the site, start the server, **and** watch for any source code changes and rebuild automatically if changes are detected.
 
 
 [Jekyll]: http://jekyllrb.com/
