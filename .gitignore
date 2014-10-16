@@ -8,8 +8,14 @@ _site_facstaff
 css/app.css
 
 ##### Foundation stuff
-# Bower
+# Bower components. Can be installed by running
+# bower install
+# in the project directory
 bower_components
+# node modules. Can be installed by running
+# sudo npm install
+# in the project directory.
+node_modules
 
 ## Will's stuff
 # deploy temp folder
