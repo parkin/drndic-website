@@ -12,8 +12,8 @@ function usage() {
   echo -e "\t\t\t-u: Shared drive username (Optional)"
   echo -e "\t\t\t-n: facstaff username (Optional)"
   echo -e "\tChoose the branch(es):"
-  echo -e "\t\t-s: Build website for the shared drive, branch: public. (DEFAULT)"
-  echo -e "\t\t-f: Build website for publish on the facstaff server, branch: public-shareddrive."
+  echo -e "\t\t-f: Build website for publish on the facstaff server, branch: public. (DEFAULT"
+  echo -e "\t\t-s: Build website for the shared drive, branch: public-shareddrive. (--DEPRECATED--)"
   echo -e "\t-h: Help"
   echo -e "\nExamples:"
   echo -e "\t./deploy.sh -b  (only build and only the shared drive version)"
@@ -85,8 +85,9 @@ if ! ( ${b} || ${c} || $r); then
   c=true
   r=true
 fi
+# If a branch is not chosen, use facstaff as default.
 if ! ( ${f} || ${s}); then
-  s=true
+  f=true
 fi
 
 # get the current git branch name
@@ -121,8 +122,8 @@ build_site () {
 push_git () {
   check_serve
 
-  typeset publish_branch=$1
-  typeset site_dir=$2
+  local publish_branch=$1
+  local site_dir=$2
 
   # Move to the publish branch
 
