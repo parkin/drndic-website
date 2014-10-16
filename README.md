@@ -43,6 +43,8 @@ Installation instructions are [here](http://foundation.zurb.com/docs/sass.html) 
 
 1. [Foundation] uses [Bower](http://bower.io/) to manage updates to [Foundation] and the third-party libraries that [Foundation] is built on.
 
+  [Grunt](http://gruntjs.com/) is a Javascript task runner. We use it to automate compiling our SASS files to CSS.
+
   ```bash
 $ npm install -g bower grunt-cli
   ```
