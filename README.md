@@ -106,7 +106,7 @@ $ jekyll serve
   
   from the project's root directory. Then open a browser and go to [http://localhost:4000/](http://localhost:4000/)
 
-These commands have been packaged into a simple script, [serve.sh](https://github.com/parkin/drndic-website/blob/master/serve.sh). Run this script with
+These commands have been packaged into a simple script, [serve.sh](serve.sh). Run this script with
 
 ```bash
 $ ./serve.sh
@@ -124,15 +124,15 @@ The ***[publish](https://github.com/parkin/drndic-website/tree/publish)*** branc
 
 ### Adding publication, news posts
 
-In the folders `publications/_posts`, `news/_posts`, you'll find Markdown files that are the current posts. In each folder, there is also a `.template` file that contains the base template needed to define a new post in that folder. So, to create a new post, simply copy an old post or copy `.template`.
+In the folders [publications/_posts](publications/_posts), [news/_posts](news/_posts), you'll find Markdown files that are the current posts. In each folder, there is also a `.template` file that contains the base template needed to define a new post in that folder (eg [news/_posts/.template](news/_posts/.template). So, to create a new post, simply copy an old post or copy `.template`.
 
 ### Adding new members
 
-Currently, the members are stored in a data YAML file, [_data/members.yml](https://github.com/parkin/drndic-website/blob/master/_data/members.yml). To add new members, just edit the file, see the current formatting.
+Currently, the members are stored in a data YAML file, [_data/members.yml](_data/members.yml). To add new members, just edit the file, see the current formatting.
 
 ### Modifying the css
 
-Currently, all of my css (it's actually sass) modifications are in `scss/_settings.scss`. So make any style changes in `scss/_settings.scss` for now. This file is included in `scss/app.scss`, which gets compiled to `css/app.css` by a grunt task. 
+Currently, all of my css (it's actually sass) modifications are in [scss/_settings.scss](scss/_settings.scss). So make any style changes in [scss/_settings.scss](scss/_settings.scss) for now. This file is included in `scss/app.scss`, which gets compiled to `css/app.css` by a grunt task. 
 
 
 [Jekyll]: http://jekyllrb.com/
