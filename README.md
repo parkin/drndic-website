@@ -8,6 +8,7 @@ Here are instructions for:
 
 * [Installation](#installation)
 * [Building and previewing the site](#building-and-previewing-the-site)
+* [Making changes](#making-changes)
 
 ## Installation
 
@@ -15,7 +16,7 @@ Here are instructions for:
 
 You'll need to have the following items installed before continuing.
 
-#### [Jekyll]
+#### Jekyll
 
 [Jekyll] is used for static site generation. Basically, you write your website using [Jekyll]'s formatting, and then use [Jekyll] to turn your simple code into the many pages of your website.
 
@@ -27,14 +28,14 @@ Note that Windows is **not** an officially supported platform, although instruct
 Instructions for installing [Jekyll] can be found [here](http://jekyllrb.com/docs/installation/), summarized below. 
 
  1. [Install Ruby](http://www.ruby-lang.org/en/downloads/) (Including development headers).
- 2. [Install Ruby Gems](http://rubygems.org/pages/download) (Comes with Ruby on Ubuntu).
- 3. [Install NodeJS](http://nodejs.org/).
+ 2. [Install Ruby Gems](http://rubygems.org/pages/download), Ruby's package manager (probably ships with Ruby).
+ 3. [Install NodeJS](http://nodejs.org/), the javascript runtime.
  4. Install [Jekyll] (May need sudo). 
 ```bash
 $ gem install jekyll
 ```
 
-#### [Foundation]
+#### Foundation
 
 [Foundation] is a responsive front-end framework. Basically, it comes with a bunch of CSS/SCSS styles that you can use to easly create sites that look good on both mobile and desktop environments.
 
@@ -42,6 +43,10 @@ Installation instructions are [here](http://foundation.zurb.com/docs/sass.html) 
 
 1. [Foundation] uses [Bower](http://bower.io/) to manage updates to [Foundation] and the third-party libraries that [Foundation] is built on.
 
+  [Grunt](http://gruntjs.com/) is a Javascript task runner. We use it to automate compiling our SASS files to CSS.
+
+  `npm` is the [Node Package Manager](https://www.npmjs.org/), and should come with your installation of [nodejs](http://nodejs.org/) above.
+  
   ```bash
 $ npm install -g bower grunt-cli
   ```
@@ -101,13 +106,33 @@ $ jekyll serve
   
   from the project's root directory. Then open a browser and go to [http://localhost:4000/](http://localhost:4000/)
 
-These commands have been packaged into a simple script, [serve.sh](https://github.com/parkin/drndic-website/blob/master/serve.sh). Run this script with
+These commands have been packaged into a simple script, [serve.sh](serve.sh). Run this script with
 
 ```bash
 $ ./serve.sh
 ```
 
 and it will build the SASS files, the site, start the server, **and** watch for any source code changes and rebuild automatically if changes are detected.
+
+## Making Changes
+
+### Branches
+
+The ***master*** branch is the main branch for working code. If you are developing a new feature, you should **not** use the ***master*** branch. Instead, create a new branch and work there, merge it back into master once you've tested your new feature.
+
+The ***[publish](https://github.com/parkin/drndic-website/tree/publish)*** branch is where I keep the code for the website after it has been built by [Jekyll]. That name is reserved, **do not modify the** ***publish*** **branch**.
+
+### Adding publication, news posts
+
+In the folders [publications/_posts](publications/_posts), [news/_posts](news/_posts), you'll find Markdown files that are the current posts. In each folder, there is also a `.template` file that contains the base template needed to define a new post in that folder (eg [news/_posts/.template](news/_posts/.template). So, to create a new post, simply copy an old post or copy `.template`.
+
+### Adding new members
+
+Currently, the members are stored in a data YAML file, [_data/members.yml](_data/members.yml). To add new members, just edit the file, see the current formatting.
+
+### Modifying the css
+
+Currently, all of my css (it's actually sass) modifications are in [scss/_settings.scss](scss/_settings.scss). So make any style changes in [scss/_settings.scss](scss/_settings.scss) for now. This file is included in `scss/app.scss`, which gets compiled to `css/app.css` by a grunt task. 
 
 
 [Jekyll]: http://jekyllrb.com/
