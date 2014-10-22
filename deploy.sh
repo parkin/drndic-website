@@ -8,7 +8,7 @@ function usage() {
   echo -e "\tChoose what you want to do:"
   echo -e "\t\t-b: Build the site with grunt and jekyll. (DEFAULT)"
   echo -e "\t\t-c: Commit and push to appropriate git publish branch. (DEFAULT)"
-  echo -e "\t\t-r: Release to publish servers (currently only shared drive) (DEFAULT)"
+  echo -e "\t\t-r: Release to publish servers (currently only shared drive)"
   echo -e "\t\t\t-u: Shared drive username (Optional)"
   echo -e "\t\t\t-n: facstaff username (Optional)"
   echo -e "\tChoose the branch(es):"
@@ -83,7 +83,7 @@ shift $((OPTIND-1))
 if ! ( ${b} || ${c} || $r); then
   b=true
   c=true
-  r=true
+  r=false
 fi
 # If a branch is not chosen, use facstaff as default.
 if ! ( ${f} || ${s}); then
