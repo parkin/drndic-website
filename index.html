@@ -147,6 +147,10 @@
 
                     <a href="#homepage-about" class="button-border bb-1 inverse">Read about us</a>
                     <a href="#homepage-pics-about" class="button-border bb-5 inverse">See the science</a>
+
+		    <br>
+
+                    <a id="homepage-chip-button" class="button-border bb-5 inverse" style="visibility: hidden;" href="http://parkin.github.io/threejs-nanopore/">Nanoday Demonstration!</a>
                 </div>
             </div>
         </div>
@@ -711,6 +715,19 @@ console[_0xa055[34]](_0xa055[33]);
         });
     });
 </script>
+
+
+<script src="/drndicgroup/js/Detector.js"></script>
+
+<script>
+	$(document).ready(function () {
+		if (Detector.webgl) {
+			console.log("webgl");
+			$('#homepage-chip-button').css('visibility', 'visible');
+		}
+	});
+</script>
+
 
 
 
