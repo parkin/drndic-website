@@ -65,6 +65,12 @@ ravit:
   icon: Ravit.png
   email: ravitd@seas.upenn.edu
 
+priyanka:
+  name: Jothi Priyanka T.
+  desc: Masters Student
+  icon: Priyanka.jpg
+  email: jothi@seas.upenn.edu
+
 bart:
   name: Bart Machielse
   desc: Undergraduate Student
