@@ -35,14 +35,6 @@ puster:
   icon: MP2.jpg
   email: puster@seas.upenn.edu
 
-venta:
-  name: Kim Venta
-  desc: Graduate Student
-  icon: KV.jpg
-  link: http://www.sas.upenn.edu/~kimventa/index.html
-  github: kimventa
-  email: kimventa@sas.upenn.edu
-
 parkin:
   name: Will Parkin
   desc: Graduate Student
@@ -91,7 +83,16 @@ gautam:
   email: gnagaraj@sas.upenn.edu
 
 ## This is the start of the past members.
-## Note that in order to designate past members, set past: true.
+## Note that in order to designate past members, make sure too add attribute 'past: true'.
+
+venta:
+  name: Kim Venta
+  desc: Graphene Frontiers
+  icon: KV.jpg
+  link: http://www.sas.upenn.edu/~kimventa/index.html
+  github: kimventa
+  email: kimventa@sas.upenn.edu
+  past: true
 
 gaby:
   name: Gabriel Shemer
