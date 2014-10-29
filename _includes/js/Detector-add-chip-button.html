@@ -1,7 +1,8 @@
 <script>
+	// Detects if the browser has WebGL enabled.
+	// If so, add the button to the threejs-nanopore site.
 	$(document).ready(function () {
 		if (Detector.webgl) {
-			console.log("webgl");
 			$('#homepage-chip-button').css('visibility', 'visible');
 		}
 	});
