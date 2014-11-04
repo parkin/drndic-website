@@ -14,7 +14,7 @@
     <script src="/drndicgroup/bower_components/modernizr/modernizr.js"></script>
     
     
-    <link rel="stylesheet" href="/drndicgroup/css/animate.css"/>
+    <link rel="stylesheet" href="/drndicgroup/bower_components/animate.css/animate.min.css"/>
     
     
     <script src="/drndicgroup/js/viewportchecker.js"></script>
@@ -720,9 +720,10 @@ console[_0xa055[34]](_0xa055[33]);
 <script src="/drndicgroup/js/Detector.js"></script>
 
 <script>
+	// Detects if the browser has WebGL enabled.
+	// If so, add the button to the threejs-nanopore site.
 	$(document).ready(function () {
 		if (Detector.webgl) {
-			console.log("webgl");
 			$('#homepage-chip-button').css('visibility', 'visible');
 		}
 	});

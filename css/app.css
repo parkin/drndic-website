@@ -1,5 +1,5 @@
 meta.foundation-version {
-  font-family: "/5.4.6/"; }
+  font-family: "/5.4.7/"; }
 
 meta.foundation-mq-small {
   font-family: "/only screen/";
@@ -73,7 +73,11 @@ img {
   clear: both; }
 
 .hide {
-  display: none; }
+  display: none !important;
+  visibility: hidden; }
+
+.invisible {
+  visibility: hidden; }
 
 .antialiased {
   -webkit-font-smoothing: antialiased;
@@ -1801,7 +1805,8 @@ i.button {
     margin-top: -0.6875rem;
     right: 0.25rem;
     color: #333333;
-    opacity: 0.3; }
+    opacity: 0.3;
+    background: inherit; }
     .alert-box .close:hover, .alert-box .close:focus {
       opacity: 0.5; }
   .alert-box.radius {
@@ -2167,7 +2172,6 @@ i.button {
     clear: both; }
   .button-group > li {
     margin: 0 -2px;
-    float: left;
     display: inline-block; }
     .button-group > li > button, .button-group > li .button {
       border-left: 1px solid;
@@ -2176,7 +2180,6 @@ i.button {
       border-left: 0; }
   .button-group.stack > li {
     margin: 0 -2px;
-    float: left;
     display: inline-block;
     display: block;
     margin: 0;
@@ -2196,7 +2199,6 @@ i.button {
       border-top: 0; }
   .button-group.stack-for-small > li {
     margin: 0 -2px;
-    float: left;
     display: inline-block; }
     .button-group.stack-for-small > li > button, .button-group.stack-for-small > li .button {
       border-left: 1px solid;
@@ -2206,7 +2208,6 @@ i.button {
     @media only screen and (max-width: 40em) {
       .button-group.stack-for-small > li {
         margin: 0 -2px;
-        float: left;
         display: inline-block;
         display: block;
         margin: 0; }
@@ -2225,7 +2226,6 @@ i.button {
           border-top: 0; } }
   .button-group.radius > * {
     margin: 0 -2px;
-    float: left;
     display: inline-block; }
     .button-group.radius > * > button, .button-group.radius > * .button {
       border-left: 1px solid;
@@ -2246,7 +2246,6 @@ i.button {
       border-top-right-radius: 3px; }
   .button-group.radius.stack > * {
     margin: 0 -2px;
-    float: left;
     display: inline-block;
     display: block;
     margin: 0; }
@@ -2278,7 +2277,6 @@ i.button {
   @media only screen and (min-width:40.063em) {
     .button-group.radius.stack-for-small > * {
       margin: 0 -2px;
-      float: left;
       display: inline-block; }
       .button-group.radius.stack-for-small > * > button, .button-group.radius.stack-for-small > * .button {
         border-left: 1px solid;
@@ -2300,7 +2298,6 @@ i.button {
   @media only screen and (max-width: 40em) {
     .button-group.radius.stack-for-small > * {
       margin: 0 -2px;
-      float: left;
       display: inline-block;
       display: block;
       margin: 0; }
@@ -2331,7 +2328,6 @@ i.button {
         border-bottom-right-radius: 3px; } }
   .button-group.round > * {
     margin: 0 -2px;
-    float: left;
     display: inline-block; }
     .button-group.round > * > button, .button-group.round > * .button {
       border-left: 1px solid;
@@ -2352,7 +2348,6 @@ i.button {
       border-top-right-radius: 1000px; }
   .button-group.round.stack > * {
     margin: 0 -2px;
-    float: left;
     display: inline-block;
     display: block;
     margin: 0; }
@@ -2384,7 +2379,6 @@ i.button {
   @media only screen and (min-width:40.063em) {
     .button-group.round.stack-for-small > * {
       margin: 0 -2px;
-      float: left;
       display: inline-block; }
       .button-group.round.stack-for-small > * > button, .button-group.round.stack-for-small > * .button {
         border-left: 1px solid;
@@ -2406,7 +2400,6 @@ i.button {
   @media only screen and (max-width: 40em) {
     .button-group.round.stack-for-small > * {
       margin: 0 -2px;
-      float: left;
       display: inline-block;
       display: block;
       margin: 0; }
@@ -2437,7 +2430,6 @@ i.button {
         border-bottom-right-radius: 1rem; } }
   .button-group.even-2 li {
     margin: 0 -2px;
-    float: left;
     display: inline-block;
     width: 50%; }
     .button-group.even-2 li > button, .button-group.even-2 li .button {
@@ -2449,7 +2441,6 @@ i.button {
       width: 100%; }
   .button-group.even-3 li {
     margin: 0 -2px;
-    float: left;
     display: inline-block;
     width: 33.33333%; }
     .button-group.even-3 li > button, .button-group.even-3 li .button {
@@ -2461,7 +2452,6 @@ i.button {
       width: 100%; }
   .button-group.even-4 li {
     margin: 0 -2px;
-    float: left;
     display: inline-block;
     width: 25%; }
     .button-group.even-4 li > button, .button-group.even-4 li .button {
@@ -2473,7 +2463,6 @@ i.button {
       width: 100%; }
   .button-group.even-5 li {
     margin: 0 -2px;
-    float: left;
     display: inline-block;
     width: 20%; }
     .button-group.even-5 li > button, .button-group.even-5 li .button {
@@ -2485,7 +2474,6 @@ i.button {
       width: 100%; }
   .button-group.even-6 li {
     margin: 0 -2px;
-    float: left;
     display: inline-block;
     width: 16.66667%; }
     .button-group.even-6 li > button, .button-group.even-6 li .button {
@@ -2497,7 +2485,6 @@ i.button {
       width: 100%; }
   .button-group.even-7 li {
     margin: 0 -2px;
-    float: left;
     display: inline-block;
     width: 14.28571%; }
     .button-group.even-7 li > button, .button-group.even-7 li .button {
@@ -2509,7 +2496,6 @@ i.button {
       width: 100%; }
   .button-group.even-8 li {
     margin: 0 -2px;
-    float: left;
     display: inline-block;
     width: 12.5%; }
     .button-group.even-8 li > button, .button-group.even-8 li .button {
@@ -2699,6 +2685,7 @@ i.button {
   left: -9999px;
   list-style: none;
   margin-left: 0;
+  outline: none;
   width: 100%;
   max-height: none;
   height: auto;
@@ -2747,6 +2734,7 @@ i.button {
     left: -9999px;
     list-style: none;
     margin-left: 0;
+    outline: none;
     width: 100%;
     max-height: none;
     height: auto;
@@ -2790,6 +2778,7 @@ i.button {
     left: -9999px;
     list-style: none;
     margin-left: 0;
+    outline: none;
     width: 100%;
     max-height: none;
     height: auto;
@@ -2835,6 +2824,7 @@ i.button {
     left: -9999px;
     list-style: none;
     margin-left: 0;
+    outline: none;
     width: 100%;
     max-height: none;
     height: auto;
@@ -2895,6 +2885,7 @@ i.button {
     left: -9999px;
     list-style: none;
     margin-left: 0;
+    outline: none;
     padding: 1.25rem;
     width: 100%;
     height: auto;
@@ -2924,8 +2915,9 @@ i.button {
 
 .dropdown.button, button.dropdown {
   position: relative;
+  outline: none;
   padding-right: 3.5625rem; }
-  .dropdown.button:after, button.dropdown:after {
+  .dropdown.button::after, button.dropdown::after {
     position: absolute;
     content: "";
     width: 0;
@@ -2934,35 +2926,35 @@ i.button {
     border-style: solid;
     border-color: white transparent transparent transparent;
     top: 50%; }
-  .dropdown.button:after, button.dropdown:after {
+  .dropdown.button::after, button.dropdown::after {
     border-width: 0.375rem;
     right: 1.40625rem;
     margin-top: -0.15625rem; }
-  .dropdown.button:after, button.dropdown:after {
+  .dropdown.button::after, button.dropdown::after {
     border-color: white transparent transparent transparent; }
   .dropdown.button.tiny, button.dropdown.tiny {
     padding-right: 2.625rem; }
-    .dropdown.button.tiny:before, button.dropdown.tiny:before {
+    .dropdown.button.tiny:after, button.dropdown.tiny:after {
       border-width: 0.375rem;
       right: 1.125rem;
       margin-top: -0.125rem; }
-    .dropdown.button.tiny:after, button.dropdown.tiny:after {
+    .dropdown.button.tiny::after, button.dropdown.tiny::after {
       border-color: white transparent transparent transparent; }
   .dropdown.button.small, button.dropdown.small {
     padding-right: 3.0625rem; }
-    .dropdown.button.small:after, button.dropdown.small:after {
+    .dropdown.button.small::after, button.dropdown.small::after {
       border-width: 0.4375rem;
       right: 1.3125rem;
       margin-top: -0.15625rem; }
-    .dropdown.button.small:after, button.dropdown.small:after {
+    .dropdown.button.small::after, button.dropdown.small::after {
       border-color: white transparent transparent transparent; }
   .dropdown.button.large, button.dropdown.large {
     padding-right: 3.625rem; }
-    .dropdown.button.large:after, button.dropdown.large:after {
+    .dropdown.button.large::after, button.dropdown.large::after {
       border-width: 0.3125rem;
       right: 1.71875rem;
       margin-top: -0.15625rem; }
-    .dropdown.button.large:after, button.dropdown.large:after {
+    .dropdown.button.large::after, button.dropdown.large::after {
       border-color: white transparent transparent transparent; }
   .dropdown.button.secondary:after, button.dropdown.secondary:after {
     border-color: #333333 transparent transparent transparent; }
@@ -3025,9 +3017,6 @@ label {
   label small {
     text-transform: capitalize;
     color: #686868; }
-
-select::-ms-expand {
-  display: none; }
 
 /* Attach elements to the beginning or end of an input */
 .prefix, .postfix {
@@ -3221,6 +3210,8 @@ select {
   line-height: normal;
   border-radius: 0;
   height: 2.3125rem; }
+  select::-ms-expand {
+    display: none; }
   select.radius {
     border-radius: 3px; }
   select:hover {
@@ -4236,6 +4227,7 @@ ul.pagination {
     height: 100%;
     height: 100vh;
     min-height: 100vh;
+    max-width: none !important;
     margin-left: 0 !important; }
     @media only screen and (min-width:40.063em) {
       .reveal-modal.full {
@@ -4396,17 +4388,15 @@ dialog {
   display: block;
   width: auto;
   overflow: hidden;
-  margin: -0.25rem 0 1.125rem;
-  padding-top: 0.25rem;
-  margin-right: 0;
-  margin-left: -0.75rem; }
+  margin-bottom: -0.25rem 0 1.125rem;
+  padding-top: 0.25rem; }
   .sub-nav dt {
     text-transform: uppercase; }
   .sub-nav dt, .sub-nav dd, .sub-nav li {
     float: left;
     display: inline;
     margin-left: 1rem;
-    margin-bottom: 0.625rem;
+    margin-bottom: 0;
     font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
@@ -4430,7 +4420,11 @@ dialog {
 .switch {
   padding: 0;
   border: none;
-  position: relative; }
+  position: relative;
+  outline: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
   .switch label {
     display: block;
     margin-bottom: 1rem;
@@ -4569,6 +4563,7 @@ table {
     list-style: none;
     float: left; }
     .tabs dd > a, .tabs .tab-title > a {
+      outline: none;
       display: block;
       background-color: #efefef;
       color: #222222;
