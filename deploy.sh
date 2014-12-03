@@ -125,6 +125,8 @@ push_git () {
   local publish_branch=$1
   local site_dir=$2
 
+  local curr_commit_log="$(git log --pretty=format:'%ad %h %d' --abbrev-commit --date=short -1)"
+
   # Move to the publish branch
 
   git checkout $publish_branch
@@ -138,7 +140,7 @@ push_git () {
   # Stage all files in git and create a commit
   git add .
   git add -u
-  git commit -m "Website at $(date)"
+  git commit -m "Website at ${curr_commit_log}"
 
   echo "Pushing ${1}"
   # Push the new files up to GitHub
