@@ -125,7 +125,7 @@ push_git () {
   local publish_branch=$1
   local site_dir=$2
 
-  local curr_commit_log="$(git log --pretty=format:'%ad %h %d, %B' --abbrev-commit --date=short -1)"
+  local curr_commit_log="$(git log --pretty=format:'%ad, %h, %d, %B' --abbrev-commit --date=short -1)"
 
   # Move to the publish branch
 
