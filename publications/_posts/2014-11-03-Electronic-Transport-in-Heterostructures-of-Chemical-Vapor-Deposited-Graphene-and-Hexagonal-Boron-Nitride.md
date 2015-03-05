@@ -4,7 +4,7 @@ layout: post
 #img:
 authors: "Zhengqing John Qi, Sung Ju Hong, Julio A. Rodríguez-Manzo, Nicholas J. Kybert, Rajatesh Gudibande, Marija Drndić, Yung Woo Park and A. T. Charlie Johnson"
 journal: Small
-info: Article ASAP
+#info:
 doi: 10.1002/smll.201402543
 local_links:
     pdf: smll201402543.pdf
