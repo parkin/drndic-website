@@ -1473,7 +1473,6 @@ i.button {
   color: $color-1-light;
 }
 
-
 #page-title-bar {
   text-align: right;
   padding: 5px;
@@ -1532,37 +1531,6 @@ i.button {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   display: inline-block;
-}
-
-/* Float */
-.float {
-  display: inline-block;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform, border-bottom;
-  transition-property: transform, border-bottom;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  border-bottom: 5px solid transparent;
-}
-
-.float:hover, .float:focus, .float:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  border-bottom: 5px solid $color-5-light;
-}
-
-// member info block
-.member-info {
-  padding: 30px 0;
-  .circle-img {
-    max-height: 150px;
-    max-width: 150px;
-  }
-  a .fa-circle.fa-stack-2x {
-    color: $color-3
-  }
 }
 
 #footer-top {
@@ -1908,7 +1876,7 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
     font-weight: 300;
     font-size: 2em;
-    a{
+    a {
       -webkit-transition: opacity 0.3s ease-in;
       transition: opacity 0.3s ease-in;
       @include transition(color 0.3s ease);
@@ -1957,7 +1925,7 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
 
   @include transition(opacity 0.3s ease-in);
   opacity: 0.7;
-  &:hover, &:focus, &:active{
+  &:hover, &:focus, &:active {
     opacity: 1.0;
   }
 }
@@ -1967,4 +1935,189 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
 .lazy {
   opacity: 0.1;
   @include transition(opacity 0.3s ease-in)
+}
+
+// Member image hover effect
+/* Common style */
+.member-info {
+  position: relative;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    min-height: 360px;
+    max-height: 360px;
+    background: $color-1;
+    text-align: center;
+    cursor: pointer;
+
+    img {
+      position: relative;
+      display: block;
+      min-height: 100%;
+      min-width: 100%;
+      opacity: 0.8;
+    }
+
+    figcaption {
+      padding: 2em;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1em;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+
+      &::before, &::after {
+        pointer-events: none;
+      }
+    }
+
+    figcaption, figcaption > a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Anchor will cover the whole item by default */
+    figcaption > a {
+      z-index: 1000;
+      text-indent: 200%;
+      white-space: nowrap;
+      font-size: 0;
+      opacity: 0;
+    }
+
+    h2, h3 {
+      color: #fff;
+      text-align: left;
+    }
+
+    h2, h3, p, .name {
+      margin: 0;
+    }
+
+    p {
+      letter-spacing: 1px;
+      font-size: 68.5%;
+    }
+  }
+}
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+
+figure.effect-zoe {
+  figcaption {
+    top: auto;
+    bottom: 0;
+    padding: 1em;
+    height: 3.75em;
+    background: $color-1-light;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  img, .name {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+  }
+
+  img {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .name {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    padding: 30px;
+  }
+
+  p.icon-links {
+    position: absolute;
+    right: 0;
+    float: right;
+    padding: 5px;
+    a {
+      float: right;
+      color: #3c4a50;
+      font-size: 1.4em;
+    }
+  }
+
+  p.description {
+    text-align: left;
+    float: left;
+    display: inline-block;
+    color: #fff;
+    width: 75%;
+  }
+
+  p.description,
+  p.icon-links a {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
+  }
+
+  p.icon-links a span::before {
+    display: inline-block;
+    padding: 8px 10px;
+    font-family: 'feathericons';
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  &:hover {
+    .name {
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+    img {
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+    p.description {
+      opacity: 1;
+      -webkit-transition-delay: 0.05s;
+      transition-delay: 0.05s;
+    }
+    figcaption,
+    p.description,
+    p.icon-links a {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    p.icon-links a:nth-child(3) {
+      -webkit-transition-delay: 0.1s;
+      transition-delay: 0.1s;
+    }
+    p.icon-links a:nth-child(2) {
+      -webkit-transition-delay: 0.15s;
+      transition-delay: 0.15s;
+    }
+    p.icon-links a:first-child {
+      -webkit-transition-delay: 0.2s;
+      transition-delay: 0.2s;
+    }
+  }
+
 }

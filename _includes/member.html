@@ -1,39 +1,42 @@
-<div class="member-info float border-fade">
-    {% if include.member.icon %}
-    <img src="{{site.baseurl}}/{{site.img_members_path}}/{{include.member.icon}}" class="circle-img">
-    {% else %}
-    <span class="fa-stack fa-5x">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-    </span>
-    {% endif %}
-    <h3>{{include.member.name}}</h3>
-    <h5 class="subheader">{{include.member.desc}}</h5>
-
-    {% if include.member.link %}
-    <a href="{{include.member.link}}" target="_blank">
-        <span class="fa-stack fa-1x">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-home fa-stack-1x fa-inverse"></i>
-        </span>
-    </a>
-    {% endif %}
-
-    {% if include.member.email %}
-    <a href="mailto:{{include.member.email}}">
-        <span class="fa-stack fa-1x">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-        </span>
-    </a>
-    {% endif %}
-
-    {% if include.member.github %}
-    <a href="https://github.com/{{include.member.github}}" target="_blank">
-        <span class="fa-stack fa-1x">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-        </span>
-    </a>
-    {% endif %}
+<div class="member-info">
+    <figure class="effect-zoe">
+        {% if include.member.icon %}
+        <img src="{{site.baseurl}}/{{site.img_members_path}}/{{include.member.icon}}">
+        {% endif %}
+        <figcaption>
+            <div class="name">
+                <h3>{{include.member.name.first}}{% if include.member.name.middle %} {{include.member.name.middle}} {% endif %}</h3>
+                <h2>{{include.member.name.last}}</h2>
+            </div>
+            <p class="description">
+                {{include.member.desc}}
+            </p>
+            <p class="icon-links">
+                {% if include.member.link %}
+                <a href="{{include.member.link}}" target="_blank">
+                    <span class="fa-stack fa-1x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+                {% endif %}
+                {% if include.member.email %}
+                <a href="mailto:{{include.member.email}}">
+                    <span class="fa-stack fa-1x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+                {% endif %}
+                {% if include.member.github %}
+                <a href="https://github.com/{{include.member.github}}" target="_blank">
+                    <span class="fa-stack fa-1x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+                {% endif %}
+            </p>
+        </figcaption>
+    </figure>
 </div>
