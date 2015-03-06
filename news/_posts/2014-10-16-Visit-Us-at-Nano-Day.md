@@ -10,8 +10,9 @@ High school classes, undergraduate and graduate students,
 postdocs and faculty participate in exhibits, demonstrations, tours, posters and talks.
 Find out more at <a href="http://www.nanotech.upenn.edu/nano_day.html" target="_blank">NanoDay@Penn</a>.
 
-<img align="left" style="padding: 10px" width="310px" src="{{site.baseurl}}/{{site.img_path}}/NanoDay_2013_kim_judging.jpg">
-
-Kim Venta judging high school projects during last year's NanoDay.
+<figure class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
+  <img src="{{site.baseurl}}/{{site.img_path}}/NanoDay_2013_kim_judging.jpg">
+  <figcaption>Kim Venta judging high school projects during last year's NanoDay.</figcaption>
+</figure>
 
 <!--more-->
