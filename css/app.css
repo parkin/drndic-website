@@ -603,6 +603,21 @@ i.button {
 .fa-circle.fa-stack-2x {
   color: #d35400; }
 
+.ic-btn .ic-outside {
+  color: #d35400; }
+.ic-btn .ic-inside {
+  color: white; }
+.ic-btn .ic-outside, .ic-btn .ic-inside {
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease; }
+.ic-btn:hover .ic-outside {
+  color: white; }
+.ic-btn:hover .ic-inside {
+  color: #e67e22; }
+
 .bcg {
   background: no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -701,31 +716,6 @@ i.button {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   display: inline-block; }
-
-/* Float */
-.float {
-  display: inline-block;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform, border-bottom;
-  transition-property: transform, border-bottom;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  border-bottom: 5px solid transparent; }
-
-.float:hover, .float:focus, .float:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  border-bottom: 5px solid #e67e22; }
-
-.member-info {
-  padding: 30px 0; }
-  .member-info .circle-img {
-    max-height: 150px;
-    max-width: 150px; }
-  .member-info a .fa-circle.fa-stack-2x {
-    color: #16a085; }
 
 #footer-top {
   padding: 40px 0; }
@@ -997,6 +987,135 @@ i.button {
   -ms-transition: opacity 0.3s ease-in;
   -o-transition: opacity 0.3s ease-in;
   transition: opacity 0.3s ease-in; }
+
+/* Common style */
+.member-info {
+  position: relative;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center; }
+  .member-info figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    min-height: 360px;
+    max-height: 360px;
+    background: #8e44ad;
+    text-align: center;
+    cursor: pointer;
+    /* Anchor will cover the whole item by default */ }
+    .member-info figure img {
+      position: relative;
+      display: block;
+      min-height: 100%;
+      min-width: 100%;
+      opacity: 0.8; }
+    .member-info figure figcaption {
+      padding: 2em;
+      color: white;
+      text-transform: uppercase;
+      font-size: 1em;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden; }
+      .member-info figure figcaption::before, .member-info figure figcaption::after {
+        pointer-events: none; }
+    .member-info figure figcaption, .member-info figure figcaption > a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .member-info figure figcaption > a {
+      z-index: 1000;
+      text-indent: 200%;
+      white-space: nowrap;
+      font-size: 0;
+      opacity: 0; }
+    .member-info figure h2, .member-info figure h3 {
+      color: white;
+      text-align: left; }
+    .member-info figure h2, .member-info figure h3, .member-info figure p, .member-info figure .name {
+      margin: 0; }
+    .member-info figure p {
+      letter-spacing: 1px;
+      font-size: 68.5%; }
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+figure.effect-zoe figcaption {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 3.75em;
+  background: #9b59b6;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0); }
+figure.effect-zoe img, figure.effect-zoe .name {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s; }
+figure.effect-zoe img {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+figure.effect-zoe .name {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  padding: 30px; }
+figure.effect-zoe p.icon-links {
+  position: absolute;
+  right: 0;
+  float: right;
+  padding: 5px; }
+  figure.effect-zoe p.icon-links a {
+    float: right;
+    color: #3c4a50;
+    font-size: 1.4em; }
+figure.effect-zoe p.description {
+  text-align: left;
+  float: left;
+  display: inline-block;
+  color: white;
+  width: 75%; }
+figure.effect-zoe p.description, figure.effect-zoe p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0); }
+figure.effect-zoe p.icon-links a span::before {
+  display: inline-block;
+  padding: 8px 10px;
+  font-family: 'feathericons';
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+figure.effect-zoe:hover .name {
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0); }
+figure.effect-zoe:hover img {
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0); }
+figure.effect-zoe:hover p.description {
+  opacity: 1;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s; }
+figure.effect-zoe:hover figcaption, figure.effect-zoe:hover p.description, figure.effect-zoe:hover p.icon-links a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s; }
+figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s; }
+figure.effect-zoe:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s; }
 
 .row {
   width: 100%;
