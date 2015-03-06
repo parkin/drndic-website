@@ -1,7 +1,7 @@
 {
   "name": "drndic-website",
   "dependencies": {
-    "foundation": "zurb/bower-foundation#5.4.7", // version 5.5.0 breaks libsass support. (https://github.com/zurb/foundation/issues/5756). TODO remove specific version requirement once this is fixed.
+    "foundation": "zurb/bower-foundation#5.4.7",
     "animate.css": "*"
   }
 }
