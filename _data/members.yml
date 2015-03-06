@@ -62,6 +62,7 @@ francis:
   name:
     first: Chien (Francis)
     last: Chen-Chi
+  icon: francis.jpg
   desc: Graduate Student
   email: chienc@sas.upenn.edu
 
@@ -78,7 +79,7 @@ ravit:
     first: Ravit
     last: Dung
   desc: Masters Student
-  icon: Ravit.png
+  icon: Ravit.jpg
   email: ravitd@seas.upenn.edu
 
 priyanka:
@@ -94,6 +95,7 @@ rebecca:
   name:
     first: Rebecca
     last: Engelke
+  icon: rebecca.jpg
   desc: Undergraduate Student (Vagelos Scholar)
   email: engelker@sas.upenn.edu
 
