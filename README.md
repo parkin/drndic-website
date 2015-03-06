@@ -137,3 +137,8 @@ Currently, all of my css (it's actually sass) modifications are in [scss/_settin
 
 [Jekyll]: http://jekyllrb.com/
 [Foundation]: http://foundation.zurb.com/
+
+## TODO
+
+- In [bower.json](bower.json), version 5.5.0 of foundation. breaks libsass support. (https://github.com/zurb/foundation/issues/5756). TODO remove specific version requirement once this is fixed.
+

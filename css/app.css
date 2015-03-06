@@ -1057,8 +1057,8 @@ figure.effect-zoe figcaption {
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0); }
 figure.effect-zoe img, figure.effect-zoe .name {
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s; }
+  -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
+  transition: transform 0.35s, opacity 0.35s; }
 figure.effect-zoe img {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
@@ -1098,6 +1098,7 @@ figure.effect-zoe:hover .name {
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0); }
 figure.effect-zoe:hover img {
+  opacity: 1;
   -webkit-transform: translate3d(0, -20px, 0);
   transform: translate3d(0, -20px, 0); }
 figure.effect-zoe:hover p.description {
