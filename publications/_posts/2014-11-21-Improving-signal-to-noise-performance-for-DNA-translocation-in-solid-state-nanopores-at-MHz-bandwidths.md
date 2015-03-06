@@ -2,7 +2,7 @@
 layout: post
 title: "Improving signal-to-noise performance for DNA translocation in solid-state nanopores at MHz bandwidths"
 img: nl504345y-img.jpg
-authors: "Adrian Balan, Bartholomeus Machielse, David Niedzwiecki, Jianxun Lin, Peijie Ong, Rebecca Engelke, Kenneth Shepard, and Marija Drndic"
+authors: "Adrian Balan, Bartholomeus Machielse, David Niedzwiecki, Jianxun Lin, Peijie Ong, Rebecca Engelke, Kenneth Shepard, and Marija Drndić"
 journal: Nano Letters
 info: "14 (12), 7215-7220"
 doi: 10.1021/nl504345y
