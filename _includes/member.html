@@ -13,26 +13,26 @@
             </p>
             <p class="icon-links">
                 {% if include.member.link %}
-                <a href="{{include.member.link}}" target="_blank">
+                <a class="ic-btn" href="{{include.member.link}}" target="_blank">
                     <span class="fa-stack fa-1x">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                      <i class="ic-outside fa fa-circle fa-stack-2x"></i>
+                      <i class="ic-inside fa fa-home fa-stack-1x fa-inverse"></i>
                     </span>
                 </a>
                 {% endif %}
                 {% if include.member.email %}
-                <a href="mailto:{{include.member.email}}">
+                <a class="ic-btn" href="mailto:{{include.member.email}}">
                     <span class="fa-stack fa-1x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                        <i class="ic-outside fa fa-circle fa-stack-2x"></i>
+                        <i class="ic-inside fa fa-envelope fa-stack-1x fa-inverse"></i>
                     </span>
                 </a>
                 {% endif %}
                 {% if include.member.github %}
-                <a href="https://github.com/{{include.member.github}}" target="_blank">
+                <a class="ic-btn" href="https://github.com/{{include.member.github}}" target="_blank">
                     <span class="fa-stack fa-1x">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                      <i class="ic-outside fa fa-circle fa-stack-2x"></i>
+                      <i class="ic-inside fa fa-github fa-stack-1x fa-inverse"></i>
                     </span>
                 </a>
                 {% endif %}

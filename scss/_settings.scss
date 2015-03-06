@@ -1404,6 +1404,26 @@ i.button {
   color: $color-5;
 }
 
+.ic-btn {
+  .ic-outside {
+    color: $color-5;
+  }
+  .ic-inside {
+    color: #fff;
+  }
+  .ic-outside, .ic-inside {
+    @include transition(color 0.3s ease);
+  }
+  &:hover {
+    .ic-outside {
+      color: #fff;
+    }
+    .ic-inside {
+      color: $color-5-light;
+    }
+  }
+}
+
 // color bar backgrounds
 
 @mixin color-bar-layout {
