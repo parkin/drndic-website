@@ -2440,12 +2440,6 @@ table.display{
   width: 100%;
 }
 
-@media screen and (max-width: 35em) {
-  table.display {
-    overflow-x: auto;
-    display: block;
-  }
-}
 /****
 END DataTables stuff
 */
