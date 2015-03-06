@@ -1,0 +1,93 @@
+---
+layout: contentpage
+nav_include: false
+title: Publications Table
+subtitle: The science.
+extrajs:
+  - js:
+      - jquery.dataTables.min.js
+    html: js/dataTables.html
+---
+<section class="color-bar-white padded">
+    <div class="row">
+        <div class="large-12 columns" >
+            <p>To view the publications in a grid layout, click <a href="{{site.base_url}}/publications/">here</a>.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns" >
+            <table id="pubTable" class="display" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Title</th>
+                        <th>Journal</th>
+                        <th>Authors</th>
+                        <th>Link</th>
+                        <th>Article</th>
+                        <th>Supplement</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for post in site.categories.publications %}
+                    <tr>
+                        <td>{{ post.date | date: "%Y/%m/%d" }}</td>
+                        <td>{{post.title}}</td>
+                        <td>{% if post.journal %}{{post.journal}}{% endif %}{% if post.info %}, {{post.info}}{% endif %}</td>
+                        <td>{{post.authors}}</td>
+                        <td>
+                            {% if post.external_links.link %}
+                            <a target="_blank" href="{{post.external_links.link}}" class="ic-btn">
+                                <span class="fa-stack fa-1x">
+                                  <i class="ic-outside fa fa-circle fa-stack-2x"></i>
+                                  <i class="ic-inside fa fa-external-link fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if post.local_links.pdf %}
+                            <a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.local_links.pdf}}" class="ic-btn">
+                                <span class="fa-stack fa-1x">
+                                  <i class="ic-outside fa fa-circle fa-stack-2x"></i>
+                                  <i class="ic-inside fa fa-file fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            {% endif %}
+                            {% if post.external_links.pdf %}
+                            <a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.external_links.pdf}}" class="ic-btn">
+                                <span class="fa-stack fa-1x">
+                                  <i class="ic-outside fa fa-circle fa-stack-2x"></i>
+                                  <i class="ic-inside fa fa-file fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if post.local_links.supplement %}
+                            <a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.local_links.supplement}}" class="ic-btn">
+                                <span class="fa-stack fa-1x">
+                                  <i class="ic-outside fa fa-circle fa-stack-2x"></i>
+                                  <i class="ic-inside fa fa-file fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            {% endif %}
+                            {% if post.external_links.supplement %}
+                            <a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.external_links.supplement}}" class="ic-btn">
+                                <span class="fa-stack fa-1x">
+                                  <i class="ic-outside fa fa-circle fa-stack-2x"></i>
+                                  <i class="ic-inside fa fa-file fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+</section>
