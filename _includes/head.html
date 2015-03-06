@@ -3,7 +3,7 @@ Parameters:
   page:
     - animatecss: true if want to include animate.css
     - viewportcheckerjs: true if want to include viewportchecker.js
-    - dataTables: true if want to include jquery.dataTables.css
+    - dataTablesCss: true if want to include jquery.dataTables.css
 {% endcomment %}
 <head>
     <meta charset="UTF-8">
@@ -23,7 +23,7 @@ Parameters:
     <script src="{{site.baseurl}}/js/viewportchecker.js"></script>
     {% endif %}
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    {% if page.dataTables == true %}
+    {% if page.dataTablesCss == true %}
     <link href="{{site.baseurl}}/css/jquery.dataTables.css"/>
     {% endif %}
 </head>
