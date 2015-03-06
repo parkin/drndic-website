@@ -16,14 +16,6 @@ jarm:
   icon: jarm.jpg
   email: rjulio@sas.upenn.edu
 
-balan:
-  name:
-    first: Adrian
-    last: Balan
-  desc: Post-doc
-  icon: AB.jpg
-  email: adrian.balan@gmail.com
-
 niedzwiecki:
   name:
     first: David
@@ -98,14 +90,6 @@ priyanka:
   icon: Priyanka.jpg
   email: jothi@seas.upenn.edu
 
-bart:
-  name:
-    first: Bart
-    last: Machielse
-  desc: Undergraduate Student
-  icon: BartMachielse.jpg
-  email: bartm@sas.upenn.edu
-
 rebecca:
   name:
     first: Rebecca
@@ -123,6 +107,24 @@ gautam:
 
 ## This is the start of the past members.
 ## Note that in order to designate past members, make sure too add attribute 'past: true'.
+
+balan:
+  name:
+    first: Adrian
+    last: Balan
+  desc: Post-doc
+  icon: AB.jpg
+  email: adrian.balan@gmail.com
+  past: true
+
+bart:
+  name:
+    first: Bart
+    last: Machielse
+  desc: Undergraduate Student
+  icon: BartMachielse.jpg
+  email: bartm@sas.upenn.edu
+  past: true
 
 venta:
   name:
