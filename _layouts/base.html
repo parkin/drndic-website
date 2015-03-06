@@ -32,16 +32,19 @@
 <script src="{{site.baseurl}}/bower_components/foundation/js/foundation.min.js"></script>
 <script src="{{site.baseurl}}/js/app.js"></script>
 
+<script src="{{site.baseurl}}/js/classie.js"></script>
+
 {% if page.extrajs %}
-{% for jsfile in page.extrajs %}
-{% if jsfile.js %}
-<script src="{{site.baseurl}}/js/{{jsfile.js}}"></script>
-{% endif %}
-{% include {{jsfile.html}} args=jsfile.args %}
-{% endfor %}
+    {% for extrajs in page.extrajs %}
+        {% if extrajs.js %}
+            {% for jsfile in extrajs.js %}
+                <script src="{{site.baseurl}}/js/{{jsfile}}"></script>
+            {% endfor %}
+        {% endif %}
+        {% include {{extrajs.html}} args=extrajs.args %}
+    {% endfor %}
 {% endif %}
 
-<script src="{{site.baseurl}}/js/classie.js"></script>
 <script src="{{site.baseurl}}/js/sidebarEffects.js"></script>
 
 {% include google_analytics.html %}

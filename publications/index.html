@@ -3,72 +3,93 @@ layout: contentpage
 nav_include: true
 title: Publications
 subtitle: The science.
+extrajs:
+  - js:
+      - imagesloaded.pkgd.min.js
+      - masonry.pkgd.min.js
+      - cbpGridGallery.js
+    html: js/gridGallery.html
 ---
-{% for post in site.categories.publications %}
-<section class="color-bar-white padded">
-    <div class="row centered-text">
-        <div class="large-12 columns">
-            <div class="pub-title">
-		    <h3><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h3>
-            </div>
-        </div>
-    </div>
-    <div class="row pub-info">
-        <div class="hide-for-small medium-4 large-6 columns">
-            {% if post.img %}
-            <img src="{{site.baseurl}}/{{site.img_path}}/{{post.img}}">
-            {% endif %}
-        </div>
-        <div class="small-12 medium-8 large-6 columns">
-            <div class="row">
-                <div class="small-12 columns">
-                    <h6>{{post.authors}}</h6>
-                    {% if post.journal %}
-                    <p>
-		        {{post.journal}}{% if post.info %}, {{post.info}}{% endif %}<br>
-                        {{ post.date | date: "%Y" }}
 
-                    </p>
-                    {% endif %}
-                    {% if post.doi %}
-                    <p>
-                        <a href="http://dx.doi.org/{{post.doi}}" target="_blank">DOI: {{post.doi}}</a>
-                    </p>
-                    {% endif %}
-                </div>
-            </div>
-            <div class="row">
-                <div class="small-12 columns">
-                    {% comment %}Links to different publication things.{% endcomment%}
-                    <ul class="small-block-grid-2 medium-block-grid-4">
-                        {% if post.external_links.link %}
-                        <a href="{{post.external_links.link}}" class="button" target="_blank">Link</a>
-                        {% endif %}
-                        {% if post.local_links.pdf %}
-                        <a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.local_links.pdf}}" class="button"
-                           target="_blank">PDF</a>
-                        {% endif %}
-                        {% if post.local_links.supplement %}
-                        <a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.local_links.supplement}}" class="button"
-                           target="_blank">Supplement</a>
-                        {% endif %}
-                        {% if post.external_links.supplement %}
-                        <a href="{{post.external_links.supplement}}" class="button"
-                           target="_blank">Supplement</a>
-                        {% endif %}
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    {% if post.excerpt %}
-    <div class="row">
-	    <div class="large-12 columns">
-		    <article>
-			    {{post.excerpt}} ... (<a href="{{site.baseurl}}{{post.url}}">more</a>)
-		    </article>
-	    </div>
-    </div>
-    {% endif %}
+<section class="color-bar-white padded">
+    <p>
+        For a table version, click <a href="{{site.baseurl}}/publications/table.html">here</a>.
+    </p>
 </section>
-{% endfor %}
+<section class="color-bar-white padded">
+    <div id="grid-gallery" class="grid-gallery">
+        <section class="grid-wrap">
+            <ul class="grid">
+                {% for post in site.categories.publications %}
+                <li>
+                    <figure>
+                        {% if post.img %}
+                        <img src="{{site.baseurl}}/{{site.img_path}}/{{post.img}}">
+                        {% endif %}
+                        <figcaption><h4>{{post.title}}</h4></figcaption>
+                    </figure>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        <section class="slideshow">
+            <ul>
+                {% for post in site.categories.publications %}
+                <li>
+                    <figure>
+                        <figcaption>
+                            <h4><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h4>
+                            <h6>{{post.authors}}</h6>
+                            {% if post.journal %}
+                            <p>
+                                {{post.journal}}{% if post.info %}, {{post.info}}{% endif %}<br>
+                                {{ post.date | date: "%Y" }}
+                            </p>
+                            {% endif %}
+                            {% if post.doi %}
+                            <p>
+                                <a href="http://dx.doi.org/{{post.doi}}" target="_blank">DOI: {{post.doi}}</a>
+                            </p>
+                            {% endif %}
+
+                            {% comment %}Links to different publication things.{% endcomment%}
+                            <ul class="small-block-grid-2 medium-block-grid-4">
+                                {% if post.external_links.link %}
+                                <a href="{{post.external_links.link}}" class="button" target="_blank">Link</a>
+                                {% endif %}
+                                {% if post.local_links.pdf %}
+                                <a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.local_links.pdf}}" class="button"
+                                   target="_blank">PDF</a>
+                                {% endif %}
+                                {% if post.local_links.supplement %}
+                                <a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.local_links.supplement}}" class="button"
+                                   target="_blank">Supplement</a>
+                                {% endif %}
+                                {% if post.external_links.supplement %}
+                                <a href="{{post.external_links.supplement}}" class="button"
+                                   target="_blank">Supplement</a>
+                                {% endif %}
+                            </ul>
+                        </figcaption>
+                        {% if post.img %}
+                        <img src="{{site.baseurl}}/{{site.img_path}}/{{post.img}}">
+                        {% endif %}
+                    </figure>
+                </li>
+                {% endfor %}
+            </ul>
+            <nav>
+                <span class="icon nav-prev">
+                  <i class="fa fa-chevron-left fa-3x"></i>
+                </span>
+                <span class="icon nav-next">
+                  <i class="fa fa-chevron-right fa-3x"></i>
+                </span>
+                <span class="icon nav-close">
+                  <i class="fa fa-times fa-3x"></i>
+                </span>
+            </nav>
+            <div class="info-keys icon">Navigate with arrow keys</div>
+        </section>
+    </div>
+</section>
