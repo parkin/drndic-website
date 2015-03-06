@@ -2050,8 +2050,8 @@ figure.effect-zoe {
   }
 
   img, .name {
-    -webkit-transition: -webkit-transform 0.35s;
-    transition: transform 0.35s;
+    -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
+    transition: transform 0.35s, opacity 0.35s;
   }
 
   img {
@@ -2109,6 +2109,7 @@ figure.effect-zoe {
       transform: translate3d(0, -15px, 0);
     }
     img {
+      opacity: 1;
       -webkit-transform: translate3d(0, -20px, 0);
       transform: translate3d(0, -20px, 0);
     }
