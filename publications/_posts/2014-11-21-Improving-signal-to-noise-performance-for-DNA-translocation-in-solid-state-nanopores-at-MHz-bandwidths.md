@@ -8,7 +8,7 @@ info: "14 (12), 7215-7220"
 doi: 10.1021/nl504345y
 local_links:
     pdf: nl504345y.pdf
-    supplement:
+    supplement: nl504345y_si_001.pdf
 external_links:
     link: http://pubs.acs.org/doi/abs/10.1021/nl504345y
     pdf:
