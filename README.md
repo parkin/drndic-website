@@ -2,6 +2,8 @@
 
 This is the source code for the [Drndić Lab Website](http://www.physics.upenn.edu/drndicgroup/).
 
+![Screenshot](/../screenshots/drndiclab-website-screenshot.png?raw=true "Drndiclab Website Screenshot")
+
 It is built with [Jekyll], a static-site generator, and uses [Foundation] as a responsive front-end framework.
 
 Here are instructions for:
