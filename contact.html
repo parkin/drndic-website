@@ -3,7 +3,11 @@ layout: contentpage
 nav_include: true
 title: Contact
 subtitle: Keep in touch.
-extrajs_head: js/google_maps_head.html
+extra_js_head:
+  - local: false
+    link: https://maps.googleapis.com/maps/api/js
+  - local: true
+    link: js/google_maps_init.js
 ---
 <section class="color-bar-white padded">
     <div class="row">

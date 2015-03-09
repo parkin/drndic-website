@@ -1,10 +1,14 @@
 ---
 title: Home
 layout: base
-animatecss: true
 hide_home_button: true
-viewportcheckerjs: true
-extrajs:
+extra_css_head:
+  - local: true
+    link: "bower_components/animate.css/animate.min.css"
+extra_js_head:
+  - local: true
+    link: "js/viewportchecker.js"
+extra_js_body:
   - html: js/viewportchecker.html
     args:
       classes:

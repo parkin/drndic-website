@@ -1,7 +1,18 @@
+{% comment %}
+Base layout for all pages.
+
+Includes _includes/head.html - check for usage.
+Includes _includes/list-nav-include.html - check for usage
+
+Parameters:
+    extra_js_body: A list of extra javascript files to include in the body. Can be javascript or jekyl html files.
+
+
+{% endcomment %}
 <!doctype html>
 <html lang="en">
 
-{% include head.html data=page.extrajs_head %}
+{% include head.html %}
 <body>
 <div id="st-container" class="st-container">
     <!--list nav-->
@@ -34,19 +45,19 @@
 
 <script src="{{site.baseurl}}/js/classie.js"></script>
 
-{% if page.extrajs %}
-    {% for extrajs in page.extrajs %}
-        {% if extrajs.js %}
-            {% for jsfile in extrajs.js %}
+{% if page.extra_js_body %}
+    {% for extra_js_body in page.extra_js_body %}
+        {% if extra_js_body.js %}
+            {% for jsfile in extra_js_body.js %}
                 <script src="{{site.baseurl}}/js/{{jsfile}}"></script>
             {% endfor %}
         {% endif %}
-        {% if extrajs.js_ext %}
-            {% for jsfile in extrajs.js_ext %}
+        {% if extra_js_body.js_ext %}
+            {% for jsfile in extra_js_body.js_ext %}
                 <script src="{{jsfile}}"></script>
             {% endfor %}
         {% endif %}
-        {% include {{extrajs.html}} args=extrajs.args %}
+        {% include {{extra_js_body.html}} args=extra_js_body.args %}
     {% endfor %}
 {% endif %}
 
