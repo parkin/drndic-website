@@ -1365,19 +1365,6 @@ table.display {
 /****
 END DataTables stuff
 */
-/****
-PUSTER image swap
-*/
-.puster-img-swap img:last-child {
-  display: none; }
-.puster-img-swap:hover img:first-child {
-  display: none; }
-.puster-img-swap:hover img:last-child {
-  display: inline-block; }
-
-/****
-END PUSTER image swap
-*/
 .row {
   width: 100%;
   margin-left: auto;
