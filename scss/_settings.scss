@@ -2443,3 +2443,24 @@ table.display{
 /****
 END DataTables stuff
 */
+
+/****
+PUSTER image swap
+*/
+.puster-img-swap {
+  img:last-child {
+    display: none;
+  }
+  &:hover {
+    img:first-child {
+      display: none;
+    }
+    img:last-child {
+      display: inline-block;
+    }
+  }
+}
+/****
+END PUSTER image swap
+*/
+
