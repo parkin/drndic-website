@@ -57,7 +57,9 @@ Parameters:
                 <script src="{{jsfile}}"></script>
             {% endfor %}
         {% endif %}
-        {% include {{extra_js_body.html}} args=extra_js_body.args %}
+        {% if extra_js_body.html %}
+	    {% include {{extra_js_body.html}} args=extra_js_body.args %}
+        {% endif %}
     {% endfor %}
 {% endif %}
 
