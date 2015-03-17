@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Drndić Lab at Philly Maetials Day 2015"
+title: "Drndić Lab at Philly Materials Day 2015"
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---
