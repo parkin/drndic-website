@@ -98,6 +98,7 @@ rebecca:
   icon: rebecca.jpg
   desc: Undergraduate Student (Vagelos Scholar)
   email: engelker@sas.upenn.edu
+  undergrad: true
 
 gautam:
   name:
@@ -106,6 +107,7 @@ gautam:
   desc: Undergraduate Student (VIPER Scholar)
   icon: gautam.JPG
   email: gnagaraj@sas.upenn.edu
+  undergrad: true
 
 ## This is the start of the past members.
 ## Note that in order to designate past members, make sure too add attribute 'past: true'.
@@ -127,6 +129,7 @@ bart:
   icon: BartMachielse.jpg
   email: bartm@sas.upenn.edu
   past: true
+  undergrad: true
 
 venta:
   name:
@@ -224,6 +227,7 @@ wilson:
   icon: DanWilson.jpg
   email: danielmusawilson@gmail.com
   past: true
+  undergrad: true
 
 sharo:
   name:
@@ -233,6 +237,7 @@ sharo:
   link: http://awsch-web.physics.ucsb.edu/members/calusine/index.php
   email: asharo@princeton.edu
   past: true
+  undergrad: true
 
 zhang:
   name:
@@ -249,6 +254,7 @@ rubin:
   desc: Undergraduate Student
   email: noah.rbn@gmail.com
   past: true
+  undergrad: true
 
 burwasser:
   name:
@@ -257,6 +263,7 @@ burwasser:
   desc: Undergraduate Student
   email: leebur@sas.upenn.edu
   past: true
+  undergrad: true
 
 bartel:
   name:
@@ -266,6 +273,7 @@ bartel:
   icon: JB.jpg
   email: bartel@sas.upenn.edu
   past: true
+  undergrad: true
 
 siying:
   name:
@@ -314,6 +322,7 @@ peterman:
   icon: NP.jpg
   email: neil@sas.upenn.edu
   past: true
+  undergrad: true
 
 querner:
   name:
@@ -351,6 +360,7 @@ havener:
   link: http://www.chem.cornell.edu/jp275/The%20Park%20Lab%20at%20Cornell/Group.html
   email: rh245@cornell.edu
   past: true
+  undergrad: true
 
 clausine:
   name:

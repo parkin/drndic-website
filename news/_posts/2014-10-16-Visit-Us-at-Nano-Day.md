@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Visit us at the NanoDay@Penn on October 22, 2014"
+outreach: true
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---

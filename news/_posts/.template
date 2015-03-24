@@ -1,6 +1,7 @@
 ---
 layout: post
 #title: # Uncomment this to set the title manually. Default uses file name.
+#outreach: true # Uncomment this to include this news post on the outreach page.
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Drndić Lab at Philly Materials Day 2015"
+outreach: true
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---

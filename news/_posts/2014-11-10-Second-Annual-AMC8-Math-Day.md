@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Second Annual AMC8 Math Day at Greenfield Elementary School
+outreach: true
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---

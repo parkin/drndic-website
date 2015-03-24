@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Philly Science Festival
-img: 
-news_link: 
+outreach: true
 
 ---
 

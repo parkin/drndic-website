@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Drndić Lab Research Featured On History Channel Show The Works
+outreach: true
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---
