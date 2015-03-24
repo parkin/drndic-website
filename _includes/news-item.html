@@ -1,0 +1,23 @@
+{% comment %}
+parameters:
+  - post: The news post, usually from site.categories.news.
+{% endcomment %}
+
+
+<section class="color-bar-white padded">
+    <div class="row">
+        <div class="small-12 medium-8 columns">
+            <header>
+                <h2 class="title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
+            </header>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+		<p style="color: gray;">{{ post.date | date: "%B %Y" }}</p>
+            <article>
+                {{post.excerpt}}
+            </article>
+        </div>
+    </div>
+</section>
