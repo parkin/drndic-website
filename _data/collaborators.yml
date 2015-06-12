@@ -1,0 +1,40 @@
+terrones:
+  name: "Mauricio Terrones"
+  location: "Penn State University"
+  link: "http://www.phys.psu.edu/people/mut11"
+wanunu:
+  name: "Meni Wanunu"
+  location: "Northeastern University"
+  link: http://www.northeastern.edu/wanunu/
+meunier:
+  name: "Vincent Meunier"
+  location: "Rensselaer Polytechnic Institute"
+  link: http://homepages.rpi.edu/~meuniv/
+lukes:
+  name: "Jennifer Lukes"
+  location: "University of Pennsylvania"
+  link: http://www.seas.upenn.edu/~nanolab/
+murray:
+  name: "Chris Murray"
+  location: "University of Pennsylvania"
+  link: http://cbmurray.sas.upenn.edu/ie/
+johnson:
+  name: "Charlie Johnson"
+  location: "University of Pennsylvania"
+  link: http://nanophys.seas.upenn.edu/
+shepard:
+  name: "Ken Shepard"
+  location: "Columbia University"
+  link: http://www.ee.columbia.edu/ken-shepard
+charlie:
+  name: "Jean-Christophe Charlie"
+  location: "Universite Catholique de Louvain"
+  link: http://www.uclouvain.be/jean-christophe.charlier
+dresselhaus:
+  name: "Mildred Dresselhaus"
+  location: "MIT"
+  link: http://web.mit.edu/physics/people/faculty/dresselhaus_mildred.html
+monos:
+  name: "Dimitri Monos"
+  location: "Children's Hospital of Philadelphia"
+  link: http://www.chop.edu/doctors/monos-dimitri-s#.VXrcmK3InK4
