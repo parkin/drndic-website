@@ -74,13 +74,12 @@ pmasdihd:
   desc: Graduate Student
   email: pmasi@sas.upenn.edu
 
-ravit:
+safrie:
   name:
-    first: Ravit
-    last: Dung
-  desc: Masters Student
-  icon: Ravit.jpg
-  email: ravitd@seas.upenn.edu
+    first: Sarah
+    last: Friedensen
+  desc: Graduate Student
+  email: safrie@sas.upenn.edu
 
 priyanka:
   name:
@@ -91,15 +90,6 @@ priyanka:
   icon: Priyanka.jpg
   email: jothi@seas.upenn.edu
 
-rebecca:
-  name:
-    first: Rebecca
-    last: Engelke
-  icon: rebecca.jpg
-  desc: Undergraduate Student (Vagelos Scholar)
-  email: engelker@sas.upenn.edu
-  undergrad: true
-
 gautam:
   name:
     first: Gautam
@@ -109,8 +99,64 @@ gautam:
   email: gnagaraj@sas.upenn.edu
   undergrad: true
 
+calles:
+  name:
+    first: Jonathan
+    last: Calles
+  desc: Undergraduate Student
+  email: callesjo@sas.upenn.edu
+  undergrad: true
+
+olly:
+  name:
+    first: Olly
+    last: liu
+  desc: Undergraduate Student (VIPER Scholar)
+  email: ltianyi@seas.upenn.edu
+  undergrad: true
+
+fulton:
+  name:
+    first: Laura Beth
+    last: Fulton
+  desc: REU Student
+  undergrad: true
+
+dong:
+  name:
+    first: Connie
+    last: Dong
+  desc: REU Student
+  undergrad: true
+
+yeche:
+  name:
+    first: Adrien
+    last: Yeche
+  desc: REU Student
+  undergrad: true
+
 ## This is the start of the past members.
 ## Note that in order to designate past members, make sure too add attribute 'past: true'.
+
+rebecca:
+  name:
+    first: Rebecca
+    last: Engelke
+  icon: rebecca.jpg
+  desc: Graduate Student at Harvard
+  email: engelker@sas.upenn.edu
+  past: true
+  undergrad: true
+
+ravit:
+  name:
+    first: Ravit
+    last: Dung
+  desc: Masters Student
+  icon: Ravit.jpg
+  email: ravitd@seas.upenn.edu
+  past: true
 
 balan:
   name:
