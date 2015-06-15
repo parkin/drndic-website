@@ -110,9 +110,17 @@ calles:
 olly:
   name:
     first: Olly
-    last: liu
+    last: Liu
   desc: Undergraduate Student (VIPER Scholar)
   email: ltianyi@seas.upenn.edu
+  undergrad: true
+
+chari:
+  name:
+    first: Nikhil
+    last: Chari
+  desc: Undergraduate Student (VIPER Scholar)
+  email: nchari@seas.upenn.edu
   undergrad: true
 
 fulton:
