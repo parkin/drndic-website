@@ -48,3 +48,6 @@ lab:
   wiki:
     name: Lab Wiki
     url: https://drndiclab-bkup.physics.upenn.edu/wiki/index.php/Main_Page
+  pore-compare:
+    name: Pore Compare
+    url: http://parkin.github.io/pore-compare/
