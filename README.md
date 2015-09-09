@@ -27,12 +27,12 @@ Note that Windows is **not** an officially supported platform, although instruct
  * [Jekyll]'s [Jekyll on Windows page](http://jekyllrb.com/docs/windows/#installation).
  * Julian Thilo's [Run Jekyll on Windows tutorial](http://jekyll-windows.juthilo.com/).
 
-Instructions for installing [Jekyll] can be found [here](http://jekyllrb.com/docs/installation/), summarized below. 
+Instructions for installing [Jekyll] can be found [here](http://jekyllrb.com/docs/installation/), summarized below.
 
  1. [Install Ruby](http://www.ruby-lang.org/en/downloads/) (Including development headers).
  2. [Install Ruby Gems](http://rubygems.org/pages/download), Ruby's package manager (probably ships with Ruby).
- 3. [Install NodeJS](http://nodejs.org/), the javascript runtime.
- 4. Install [Jekyll] (May need sudo). 
+ 3. [Install NodeJS](http://nodejs.org/), the javascript runtime. Note that the node-sass package had a problem with node v0.12.x. It works fine with node v0.10.40.
+ 4. Install [Jekyll] (May need sudo).
 ```bash
 $ gem install jekyll
 ```
@@ -48,7 +48,7 @@ Installation instructions are [here](http://foundation.zurb.com/docs/sass.html) 
   [Grunt](http://gruntjs.com/) is a Javascript task runner. We use it to automate compiling our SASS files to CSS.
 
   `npm` is the [Node Package Manager](https://www.npmjs.org/), and should come with your installation of [nodejs](http://nodejs.org/) above.
-  
+
   ```bash
 $ npm install -g bower grunt-cli
   ```
@@ -94,18 +94,18 @@ Now, you should be ready to build the site.
   ```bash
 $ grunt build
   ```
-  
+
 2. Compile the website source using [Jekyll]. This takes the source code from this website and outputs the working website in the `_site` directory, by default. Use the command
 
   ```bash
 $ jekyll build
   ```
 3. To view the site, start a server that serves from the `_site` directory. There are many ways to do this, but one way is
- 
+
   ```bash
 $ jekyll serve
   ```
-  
+
   from the project's root directory. Then open a browser and go to [http://localhost:4000/](http://localhost:4000/)
 
 These commands have been packaged into a simple script, [serve.sh](serve.sh). Run this script with
@@ -134,7 +134,7 @@ Currently, the members are stored in a data YAML file, [_data/members.yml](_data
 
 ### Modifying the css
 
-Currently, all of my css (it's actually sass) modifications are in [scss/_settings.scss](scss/_settings.scss). So make any style changes in [scss/_settings.scss](scss/_settings.scss) for now. This file is included in `scss/app.scss`, which gets compiled to `css/app.css` by a grunt task. 
+Currently, all of my css (it's actually sass) modifications are in [scss/_settings.scss](scss/_settings.scss). So make any style changes in [scss/_settings.scss](scss/_settings.scss) for now. This file is included in `scss/app.scss`, which gets compiled to `css/app.css` by a grunt task.
 
 
 [Jekyll]: http://jekyllrb.com/
@@ -143,4 +143,3 @@ Currently, all of my css (it's actually sass) modifications are in [scss/_settin
 ## TODO
 
 - In [bower.json](bower.json), version 5.5.0 of foundation. breaks libsass support. (https://github.com/zurb/foundation/issues/5756). TODO remove specific version requirement once this is fixed.
-
