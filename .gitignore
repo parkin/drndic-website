@@ -16,6 +16,7 @@ bower_components
 # sudo npm install
 # in the project directory.
 node_modules
+npm-debug.log
 
 ## Will's stuff
 # deploy temp folder
