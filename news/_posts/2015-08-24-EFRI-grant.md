@@ -10,6 +10,8 @@ Led by Marija, a team with our collaborators from RPI, Rochester, Penn State and
 
 Included was a proposed portable museum exhibit to explain the concept of nanopore-based DNA sequencing, in partnership with the Franklin Museum in Philadelphia and <a href="http://www.uarts.edu/users/smilekic">Prof. Slavko Milekic (The University of the Arts)</a>.
 
+Read more from <a href="http://www.upenn.edu/pennnews/news/beyond-graphene-two-penn-projects-will-look-biological-applications-new-2-d-materials">PennNews</a>.
+
 <figure class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
   <img src="{{site.baseurl}}/{{site.img_path}}/EFRI_meeting_1.jpg">
 </figure>
@@ -30,3 +32,4 @@ Included was a proposed portable museum exhibit to explain the concept of nanopo
 
 
 <!--more-->
+
