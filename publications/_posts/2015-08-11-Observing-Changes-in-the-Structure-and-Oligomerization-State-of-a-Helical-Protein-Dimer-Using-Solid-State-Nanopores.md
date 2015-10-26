@@ -4,7 +4,7 @@ title: "Observing Changes in the Structure and Oligomerization State of a Helica
 img: nn-2015-027148_0006.gif
 authors: David J. Niedzwiecki, Christopher J. Lanci, Gabriel Shemer, Phillip S. Cheng, Jeffery G. Saven, and Marija Drndić
 journal: ACS Nano
-info: Article ASAP
+info: 9 (9), pp 8907–8915
 doi: 10.1021/acsnano.5b02714
 local_links:
     pdf: acsnano2E5b02714.pdf
