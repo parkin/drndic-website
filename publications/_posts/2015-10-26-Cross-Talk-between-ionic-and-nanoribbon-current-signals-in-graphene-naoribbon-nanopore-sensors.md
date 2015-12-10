@@ -4,7 +4,7 @@ title: "Cross-Talk Between Ionic and Nanoribbon Current Signals in Graphene Nano
 img: puster_gnr_crosstalk.png
 authors: "Matthew Puster, Adrian Balan, Julio A. Rodríguez-Manzo, Gopinath Danda, Jae-Hyuk Ahn, William Parkin, and Marija Drndić"
 journal: "Small"
-info: Just Accepted
+info: "2015, 11, No. 47, 6309–6316"
 doi: 10.1002/smll.201502134
 local_links:
     pdf: Puster_et_al-Small.pdf
