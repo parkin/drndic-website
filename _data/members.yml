@@ -7,15 +7,6 @@ marija:
   link: http://www.physics.upenn.edu/~drndic
   email: drndic@physics.upenn.edu
 
-jarm:
-  name:
-    first: Julio
-    middle: A.
-    last: Rodríguez-Manzo
-  desc: Post-doc
-  icon: jarm.jpg
-  email: rjulio@sas.upenn.edu
-
 niedzwiecki:
   name:
     first: David
@@ -32,13 +23,14 @@ jaehyukahn:
   icon: Jae-HyukAhn.png
   email: ajaehyuk@gmail.com
 
-puster:
+mlack:
   name:
-    first: Matt
-    last: Puster
-  desc: Graduate Student
-  icon: MP2.jpg
-  email: puster@seas.upenn.edu
+    first: Jerome
+    last: Mlack
+  desc: Post-doc
+  icon: JTM.jpg
+  email: jeromemlack@gmail.com
+  link: https://www.linkedin.com/in/jtmlack
 
 parkin:
   name:
@@ -123,6 +115,28 @@ chari:
   email: nchari@seas.upenn.edu
   undergrad: true
 
+## This is the start of the past members.
+## Note that in order to designate past members, make sure too add attribute 'past: true'.
+
+jarm:
+  name:
+    first: Julio
+    middle: A.
+    last: Rodríguez-Manzo
+  desc: Post-doc
+  icon: jarm.jpg
+  email: rjulio@sas.upenn.edu
+  past: true
+
+puster:
+  name:
+    first: Matt
+    last: Puster
+  desc: Graduate Student
+  icon: MP2.jpg
+  email: puster@seas.upenn.edu
+  past: true
+
 fulton:
   name:
     first: Laura Beth
@@ -130,13 +144,7 @@ fulton:
   desc: REU Student
   icon: LBF.jpg
   undergrad: true
-
-dong:
-  name:
-    first: Connie
-    last: Dong
-  desc: REU Student
-  undergrad: true
+  past: true
 
 yeche:
   name:
@@ -144,9 +152,7 @@ yeche:
     last: Yeche
   desc: REU Student
   undergrad: true
-
-## This is the start of the past members.
-## Note that in order to designate past members, make sure too add attribute 'past: true'.
+  past: true
 
 rebecca:
   name:
