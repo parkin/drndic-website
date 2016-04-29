@@ -39,7 +39,7 @@ The Drndic Lab has partnered with <a href="http://www.uarts.edu/users/smilekic">
 
 <br clear="all" />
 
-Also, the Drndic Lab has developed a virtual nanopore app. Developed for Google Cardboard , the user can experience the actual translocation of a DNA strand through a nanopore in a stunning virtual reality environment.
+Also, the Drndic Lab has developed a virtual nanopore app. Developed for Google Cardboard, the user can experience the actual translocation of a DNA strand through a nanopore in a stunning virtual reality environment.
 
 <br clear="all" />
 
