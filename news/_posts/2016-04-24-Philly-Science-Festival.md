@@ -31,10 +31,12 @@ The Drndic Lab has partnered with <a href="http://www.uarts.edu/users/smilekic">
 
 <figure class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
   <img src="{{site.baseurl}}/{{site.img_path}}/fish_scanimation.gif">
+  <figcaption>Fish Scanimation</figcaption>
 </figure>
 
 <figure class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
   <img src="{{site.baseurl}}/{{site.img_path}}/dna_elevator.png">
+  <figcaption>DNA Sequencing Elevator</figcaption>
 </figure>
 
 <br clear="all" />
@@ -45,6 +47,7 @@ Also, the Drndic Lab has developed a virtual nanopore app. Developed for Google 
 
 <figure class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
   <img src="{{site.baseurl}}/{{site.img_path}}/vr_nanopore.png">
+  <figcaption>Virtual Nanopore</figcaption>
 </figure>
 
 <!--more-->
