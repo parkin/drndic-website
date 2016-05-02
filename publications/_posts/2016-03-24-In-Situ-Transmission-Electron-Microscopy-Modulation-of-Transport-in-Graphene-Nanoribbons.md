@@ -4,7 +4,7 @@ title: "<i>In Situ</i> Transmission Electron Microscopy Modulation of Transport 
 img: nn-2016-01419s_0005.gif
 authors: "Julio A. Rodríguez-Manzo, Zhengqing John Qi, Alexander Crook, Jae-Hyuk Ahn, A. T. Charlie Johnson, and Marija Drndić"
 journal: ACS Nano
-info: Article ASAP
+info: "2016, 10 (4), pp 4004–4010"
 doi: 10.1021/acsnano.6b01419
 local_links:
     pdf: "acsnano2E6b01419.pdf"
