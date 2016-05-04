@@ -24,7 +24,7 @@ outreach: true # Uncomment this to include this news post on the outreach page.
 
 <br clear="all" />
 
-The Drndic group and Project BioEyes from University of Pennsylvania demonstrated how DNA
+The Drndic group, Science Outreach Initiative of the School of Arts and Sciences, and Project BioEyes from University of Pennsylvania demonstrated how DNA
 affects physical features in living organisms, like zebrafish, and the importance of DNA
 sequencing in an educational exhibit at Philadelphia Science Festival on Saturday April 30
 2016 as a part of National DNA Day initiative. Children from all age groups visited the booth,
