@@ -15,14 +15,6 @@ niedzwiecki:
   icon: davidNedz.png
   email: dniedz@sas.upenn.edu
 
-jaehyukahn:
-  name:
-    first: Jae-Hyuk
-    last: Ahn
-  desc: Post-doc
-  icon: Jae-HyukAhn.png
-  email: ajaehyuk@gmail.com
-
 mlack:
   name:
     first: Jerome
@@ -91,14 +83,6 @@ gautam:
   email: gnagaraj@sas.upenn.edu
   undergrad: true
 
-calles:
-  name:
-    first: Jonathan
-    last: Calles
-  desc: Undergraduate Student
-  email: callesjo@sas.upenn.edu
-  undergrad: true
-
 olly:
   name:
     first: Olly
@@ -118,6 +102,24 @@ chari:
 ## This is the start of the past members.
 ## Note that in order to designate past members, make sure too add attribute 'past: true'.
 
+jaehyukahn:
+  name:
+    first: Jae-Hyuk
+    last: Ahn
+  desc: Post-doc
+  icon: Jae-HyukAhn.png
+  email: ajaehyuk@gmail.com
+  past: true
+
+calles:
+  name:
+    first: Jonathan
+    last: Calles
+  desc: Undergraduate Student
+  email: callesjo@sas.upenn.edu
+  undergrad: true
+  past: true
+
 jarm:
   name:
     first: Julio
@@ -136,6 +138,10 @@ puster:
   icon: MP2.jpg
   email: puster@seas.upenn.edu
   past: true
+  thesis:
+    title: Improving the signal-to-noise of nanopore sensors
+    pdf: puster.pdf
+    year: 2015
 
 fulton:
   name:
@@ -202,6 +208,10 @@ venta:
   github: kimventa
   email: kimventa@sas.upenn.edu
   past: true
+  thesis:
+    pdf: venta.pdf
+    year: 2014
+    title: Expanding the functionality and applications of nanopore sensors
 
 gaby:
   name:
@@ -221,6 +231,10 @@ willis:
   link: http://www.sas.upenn.edu/~willisl
   email: willisl@sas.upenn.edu
   past: true
+  thesis:
+    title: Nanoelectronic devices and measurements toward nanocrystal-based optoelectronics and DNA sequencing with solid-state nanopores
+    year: 2013
+    pdf: willis.pdf
 
 healy:
   name:
@@ -269,6 +283,10 @@ fairfield:
   link: http://www.physics.upenn.edu/~fairfia
   email: fairfia@sas.upenn.edu
   past: true
+  thesis:
+    title: Memory and coupling in nanocrystal optoelectronic devices
+    year: 2011
+    pdf: fairfield.pdf
 
 merchant:
   name:
@@ -344,6 +362,10 @@ siying:
   icon: SW2.jpg
   email: siyingw@sas.upenn.edu
   past: true
+  thesis:
+    title: Fluorescence properties of blinking semiconducting nanoparticles and interaction effects
+    year: 2011
+    pdf: wang.pdf
 
 vishva:
   name:
@@ -374,6 +396,10 @@ fischbein:
   link: http://www.sas.upenn.edu/~mlfisch3
   email: mlfisch3@sas.upenn.edu
   past: true
+  thesis:
+    title: Nanocrystal quantum dot electronics and nanofabrication by electron beam ablation
+    year: 2009
+    pdf: fischbein.pdf
 
 peterman:
   name:

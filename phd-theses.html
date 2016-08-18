@@ -1,0 +1,20 @@
+---
+layout: contentpage
+nav_include: true
+title: PhD Theses
+subtitle: Final product.
+---
+<section class="color-bar-white padded">
+    {% for member_hash in site.data.members %}
+    {% assign member = member_hash[1] %}
+    {% if member.thesis %}
+    <div class="row">
+      <div class="small-12 medium-8 columns">
+        <h3>{{member.thesis.title}}</h3>
+        <h4>{{member.name.first}} {{member.name.last}}, {{member.thesis.year}}</h4>
+        <a href="{{site.baseurl}}/{{site.theses_pdf_path}}/{{member.thesis.pdf}}" class="button" target="_blank">PDF</a>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</section>
