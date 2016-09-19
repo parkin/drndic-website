@@ -4,7 +4,7 @@ title: "Measurement of DNA Translocation Dynamics in a Solid-State Nanopore at 1
 img: "nl-2016-01661f_0006.jpg"
 authors: "Siddharth Shekar, David J. Niedzwiecki, Chen-Chi Chien, Peijie Ong , Daniel A. Fleischer, Jianxun Lin , Jacob K. Rosenstein, Marija Drndić , Kenneth L. Shepard"
 journal: Nano Letters
-info: "2016, Article ASAP"
+info: "2016, 16 (7), pp 4483–4489"
 doi: "10.1021/acs.nanolett.6b01661"
 local_links:
     pdf: "acs.nanolett.6b01661.pdf"
