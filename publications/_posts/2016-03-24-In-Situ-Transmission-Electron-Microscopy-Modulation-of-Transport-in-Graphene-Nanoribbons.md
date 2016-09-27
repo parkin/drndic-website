@@ -18,4 +18,7 @@ external_links:
 
 <p style="color:purple">ACS Editors' Choice Article</p>
 
+Marija Drndic discussed the in situ transmission electron microscopy modulation of transport in graphene nanoribbons. Hear this in <a href="http://pubs.acs.org/page/ancac3/audio/index.html">Episode 105 of the ACS Nano Podcast</a>.
+
 <!--more-->
+
