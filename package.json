@@ -2,10 +2,10 @@
   "name": "drndic-website",
   "version": "0.0.1",
   "devDependencies": {
-    "node-sass": "~0.7.0",
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-sass": "~0.8.0"
+    "node-sass": "~4.3.0",
+    "grunt": "~1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-sass": "~2.0.0"
   },
   "repository": {
     "type": "git",
