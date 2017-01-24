@@ -9,8 +9,7 @@ usage () {
     exit_code=1
   fi
   echo -e "$0 starts grunt and the jekyll server with watch"
-  echo -e "Usage: $0 [-b <string:baseurl>]"
-  echo -e "\t-b: baseurl for jekyll config"
+  echo -e "Usage: $0"
   echo -e "\t-n: No drafts (drafts included by default)"
   echo -e "\t-e: External server. Serve on 0.0.0.0. (localhost is default)"
   echo -e "\t-h: for help"
@@ -19,15 +18,11 @@ usage () {
   exit $exit_code;
 }
 
-b=""
 drafts="--drafts"
 host="localhost"
 
-while getopts "b:ehnv" o; do
+while getopts "ehnv" o; do
   case "${o}" in
-    b)
-      b=${OPTARG}
-      ;;
     e)
       host="0.0.0.0"
       ;;
@@ -49,4 +44,4 @@ shift $((OPTIND-1))
 
 # start both grunt and serve at the same time
 # fg ensures that a ctrl-c kills both processes
-grunt & jekyll serve -w ${drafts} --baseurl $b --host ${host} && fg
+grunt & jekyll serve -w ${drafts} --host ${host} && fg
