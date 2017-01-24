@@ -111,8 +111,8 @@ check_serve () {
 build_site () {
   check_serve
 
-  bower install
   npm install
+  bower install
   grunt build
   jekyll build --config _config.yml,$1
 }
