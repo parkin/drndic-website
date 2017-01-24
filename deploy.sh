@@ -129,6 +129,9 @@ push_git () {
 
   local curr_commit_log="$(git log --pretty=format:'%ad, %h, %d, %B' --abbrev-commit --date=short -1)"
 
+  # fetch the publish branch
+  git fetch origin $publish_branch
+
   # Move to the publish branch
 
   git checkout $publish_branch
