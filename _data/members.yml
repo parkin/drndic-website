@@ -71,9 +71,17 @@ priyanka:
     first: Jothi
     middle: Priyanka
     last: Thiruraman
-  desc: Masters Student
+  desc: Graduate Student
   icon: Priyanka.jpg
   email: jothi@seas.upenn.edu
+
+killian:
+  name:
+    first: Yung-Chien (Killian)
+    last: Chou
+  desc: Graduate Student
+  icon: killian.jpg
+  email: chouyung@sas.upenn.edu
 
 gautam:
   name:
@@ -82,14 +90,6 @@ gautam:
   desc: Undergraduate Student (VIPER Scholar)
   icon: gautam.JPG
   email: gnagaraj@sas.upenn.edu
-  undergrad: true
-
-olly:
-  name:
-    first: Olly
-    last: Liu
-  desc: Undergraduate Student (VIPER Scholar)
-  email: ltianyi@seas.upenn.edu
   undergrad: true
 
 chari:
@@ -110,6 +110,15 @@ jaehyukahn:
   desc: Post-doc
   icon: Jae-HyukAhn.png
   email: ajaehyuk@gmail.com
+  past: true
+
+olly:
+  name:
+    first: Olly
+    last: Liu
+  desc: Undergraduate Student (VIPER Scholar)
+  email: ltianyi@seas.upenn.edu
+  undergrad: true
   past: true
 
 calles:
