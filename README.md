@@ -31,7 +31,7 @@ Instructions for installing [Jekyll] can be found [here](http://jekyllrb.com/doc
 
  1. [Install Ruby](http://www.ruby-lang.org/en/downloads/) (Including development headers).
  2. [Install Ruby Gems](http://rubygems.org/pages/download), Ruby's package manager (probably ships with Ruby).
- 3. [Install NodeJS](http://nodejs.org/), the javascript runtime. Note that the node-sass package had a problem with node v0.12.x. It works fine with node v0.10.40.
+ 3. [Install NodeJS](http://nodejs.org/), the javascript runtime.
  4. Install [Jekyll] (May need sudo).
 ```bash
 $ gem install jekyll
