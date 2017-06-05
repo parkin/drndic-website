@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Workshop on Nanopores"
+title: "Invited Talk, Workshop on Nanopores"
 dates: "July 16-21"
 img: 
 location: "Bremen, Germany"
