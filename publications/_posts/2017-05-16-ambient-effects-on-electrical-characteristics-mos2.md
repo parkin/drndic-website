@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Patterning Superconductivity in a Topological Insulator"
-img: patterning-superconductivity-in-a-topological-insulator-toc.png
-authors: "Jerome T. Mlack, Atikur Rahman, Gopinath Danda, Natalia Drichko, Sarah Friedensen, Marija Drndić, and Nina Marković"
-journal: ACS Nano
+title: "Ambient effects on electrical characteristics of CVD-grown monolayer MoS2 field-effect transistors"
+img: ambient-effects-mos2.png
+authors: "Jae-Hyuk Ahn, William M. Parkin, Carl H. Naylor, A. T. Charlie Johnson, and Marija Drndić"
+journal: Scientific Reports
 info: Article ASAP
-doi: "10.1021/acsnano.7b01549"
+doi:
 local_links:
-    pdf: "acsnano7b01549.pdf"
+    pdf:
     supplement:
 external_links:
-    link: http://pubs.acs.org/doi/abs/10.1021/acsnano.7b01549
+    link: 
     pdf:
     supplement:
 
