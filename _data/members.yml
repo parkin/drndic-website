@@ -87,6 +87,7 @@ chari:
   name:
     first: Nikhil
     last: Chari
+  icon: NC.jpg
   desc: Undergraduate Student (VIPER Scholar)
   email: nchari@seas.upenn.edu
   undergrad: true
