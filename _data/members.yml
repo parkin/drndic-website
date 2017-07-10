@@ -116,6 +116,7 @@ blackburn:
   name:
     first: Lee
     last: Blackburn
+  icon: blackburn.jpg
   desc: Undergraduate Student
   undergrad: true
 
