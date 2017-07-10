@@ -4,7 +4,7 @@ title: "Patterning Superconductivity in a Topological Insulator"
 img: patterning-superconductivity-in-a-topological-insulator-toc.png
 authors: "Jerome T. Mlack, Atikur Rahman, Gopinath Danda, Natalia Drichko, Sarah Friedensen, Marija Drndić, and Nina Marković"
 journal: ACS Nano
-info: 11 (6), pp 5873–5878
+info: "11 (6), pp 5873–5878"
 doi: "10.1021/acsnano.7b01549"
 local_links:
     pdf: "acsnano7b01549.pdf"
