@@ -83,15 +83,6 @@ killian:
   icon: killian.jpg
   email: chouyung@sas.upenn.edu
 
-gautam:
-  name:
-    first: Gautam
-    last: Nagaraj
-  desc: Undergraduate Student (VIPER Scholar)
-  icon: gautam.JPG
-  email: gnagaraj@sas.upenn.edu
-  undergrad: true
-
 chari:
   name:
     first: Nikhil
@@ -100,8 +91,46 @@ chari:
   email: nchari@seas.upenn.edu
   undergrad: true
 
+kaplan:
+  name:
+    first: Abby
+    last: Kaplan
+  desc: Undergraduate Student (REU Student)
+  undergrad: true
+
+skim:
+  name:
+    first: Seyoung
+    last: Kim
+  desc: Undergraduate Student
+  undergrad: true
+
+lamaute:
+  name:
+    first: Reginald
+    last: Lamaute
+  desc: Undergraduate Student
+  undergrad: true
+
+blackburn:
+  name:
+    first: Lee
+    last: Blackburn
+  desc: Undergraduate Student
+  undergrad: true
+
 ## This is the start of the past members.
 ## Note that in order to designate past members, make sure too add attribute 'past: true'.
+
+gautam:
+  name:
+    first: Gautam
+    last: Nagaraj
+  desc: Undergraduate Student (VIPER Scholar)
+  icon: gautam.JPG
+  email: gnagaraj@sas.upenn.edu
+  undergrad: true
+  past: true
 
 jaehyukahn:
   name:
