@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Materials analysis and focused ion beam nanofabrication of topological insulator Bi2Se3"
-img: phosphorene-antidot-toc.gif
+img: fib-bi2se3.png
 authors: "Sarah Friedensen, Jerome T. Mlack, Marija Drndić"
 journal: arXiv
 info:
-doi: 
+doi:
 local_links:
     pdf: "1706.06510.pdf"
     supplement:
