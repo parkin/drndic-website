@@ -4,7 +4,7 @@ title: "Periodic Arrays of Phosphorene Nanopores as Antidot Lattices with Tunabl
 img: phosphorene-antidot-toc.gif
 authors: "Andrew Cupo, Paul Masih Das, Chen-Chi Chien, Gopinath Danda, Neerav Kharche, Damien Tristant, Marija Drndić, and Vincent Meunier"
 journal: ACS Nano
-info: Article ASAP
+info: 11 (7), pp 7494–7507
 doi: "10.1021/acsnano.7b04031"
 local_links:
     pdf: "acsnano.7b04031.pdf"
