@@ -7,8 +7,8 @@ journal: ACS Nano
 info: 11 (9), pp 8619–8627
 doi: "10.1021/acsnano.7b03828"
 local_links:
-    pdf: ""
-    supplement: ""
+    pdf: "acsnano.7b03828.pdf"
+    supplement: "nn7b03828_si_001.pdf"
 external_links:
     link: http://pubs.acs.org/doi/abs/10.1021/acsnano.7b03828
     pdf:
