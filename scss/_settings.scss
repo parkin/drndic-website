@@ -1953,7 +1953,7 @@ $footer-bottom-darken-grad: linear-gradient(to right, $footer-bottom-darken-colo
 // Set up transition for lazy loaded images.
 
 .lazy {
-  opacity: 0.1;
+  opacity: 1;
   @include transition(opacity 0.3s ease-in)
 }
 
@@ -2443,4 +2443,3 @@ table.display{
 /****
 END DataTables stuff
 */
-
