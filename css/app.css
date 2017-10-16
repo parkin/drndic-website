@@ -1372,7 +1372,7 @@ i.button:hover, i.button:focus {
 }
 
 .lazy {
-  opacity: 0.1;
+  opacity: 1;
   -webkit-transition: opacity 0.3s ease-in;
   -moz-transition: opacity 0.3s ease-in;
   -ms-transition: opacity 0.3s ease-in;
