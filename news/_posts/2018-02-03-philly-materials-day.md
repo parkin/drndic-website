@@ -20,11 +20,11 @@ At this year's <a href="http://www.phillymaterials.org/">Philly Materials Day</a
 <br clear="all"/>
 
 <figure class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
-  <img src="{{site.baseurl}}/{{site.img_path}}/2018-nano-day_2.jpg">
+  <img src="{{site.baseurl}}/{{site.img_path}}/2018-nano-day_3.jpg">
 </figure>
 
-<video class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
-  <img src="{{site.baseurl}}/{{site.img_path}}/2018-nano-day-sarah.mp4">
+<video class="hide-for-small" style="float: left; padding: 10px; width: 310px;" controls>
+  <source src="{{site.baseurl}}/{{site.img_path}}/2018-nano-day-sarah.mp4" type="video/mp4">
 </video>
 
 
