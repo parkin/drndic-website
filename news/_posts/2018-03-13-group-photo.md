@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Drndic Lab"
+title: "Drndić Lab"
 #outreach: true # Uncomment this to include this news post on the outreach page.
 
 # Anything used in the excerpt goes above the <!--more--> tag.
 ---
 
+Drndić Lab at a recent group lunch.
 
 <br/>
 
