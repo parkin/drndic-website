@@ -11,19 +11,19 @@ Our group's recent work was <a href="https://penntoday.upenn.edu/spotlights/crea
 <br/>
 
 <figure class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
-  <img src="{{site.baseurl}}/{{site.img_path}}/2018-penn-today_1.jpg.jpg">
+  <img src="{{site.baseurl}}/{{site.img_path}}/2018-penn-today_1.jpg">
 </figure>
 <figure class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
-  <img src="{{site.baseurl}}/{{site.img_path}}/2018-penn-today_2.jpg.jpg">
+  <img src="{{site.baseurl}}/{{site.img_path}}/2018-penn-today_2.jpg">
 </figure>
 
 <br clear="all"/>
 
 <figure class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
-  <img src="{{site.baseurl}}/{{site.img_path}}/2018-penn-today_3.jpg.jpg">
+  <img src="{{site.baseurl}}/{{site.img_path}}/2018-penn-today_3.jpg">
 </figure>
 
 <figure class="hide-for-small" style="float: left; padding: 10px; width: 310px;">
-  <img src="{{site.baseurl}}/{{site.img_path}}/2018-penn-today_4.jpg.jpg">
+  <img src="{{site.baseurl}}/{{site.img_path}}/2018-penn-today_4.jpg">
 </figure>
 <!--more-->
