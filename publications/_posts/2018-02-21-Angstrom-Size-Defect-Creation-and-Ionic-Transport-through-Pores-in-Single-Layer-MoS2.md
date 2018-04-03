@@ -10,7 +10,7 @@ local_links:
     pdf: acs.nanolett.7b04526.pdf
     supplement: nl7b04526_si_001.pdf
 external_links:
-    link: https://pubs.acs.org/doi/suppl/10.1021/acs.nanolett.7b04526
+    link: https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.7b04526
     pdf:
     supplement:
 
