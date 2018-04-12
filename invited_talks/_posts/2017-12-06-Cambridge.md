@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 
-dates: 
+title: "Cambridge Graphene Centre Seminar"
+dates: "December 6"
 img: 
-location: 
-link: 
+location: Cambridge, UK
+link: https://www.graphene.cam.ac.uk/
 
 ---
