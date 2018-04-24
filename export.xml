@@ -14,7 +14,60 @@ layout: null
     {% for post in site.posts %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description>
+          {{ post.content | xml_escape }}
+          {% if post.categories contains 'publications' %}
+            {% capture blurb %}
+
+                {% if post.img %}
+                  <figure>
+                      <img src="{{site.baseurl}}/{{site.img_path}}/{{post.img}}">
+                  </figure>
+                {% endif %}
+                <h3>{{post.title}}</h3>
+                <h4>{{post.authors}}</h4>
+                {% if post.journal %}
+                <p>
+                  {{post.journal}}{% if post.info %}, {{post.info}}{% endif %}<br>
+                  {{ post.date | date: "%Y" }}
+                </p>
+                {% endif %}
+
+                <ul>
+                  {% if post.external_links.link %}
+                  <li><a href="{{post.external_links.link}}">Link</a></li>
+                  {% endif %}
+                  {% if post.local_links.pdf %}
+                  <li><a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.local_links.pdf}}">PDF</a></li>
+                  {% endif %}
+                  {% if post.local_links.supplement %}
+                  <li><a href="{{site.baseurl}}/{{site.pub_pdf_path}}/{{post.local_links.supplement}}">Supplement</a></li>
+                  {% endif %}
+                  {% if post.external_links.supplement %}
+                  <li><a href="{{post.external_links.supplement}}">Supplement</a></li>
+                  {% endif %}
+                </ul>
+            {% endcapture %}
+            {{ blurb | xml_escape }}
+          {% endif %}
+
+          {% if post.categories contains 'invited_talks' %}
+            {% capture blurb %}
+              <ul>
+                <li>{{ post.date | date: "%Y/%m/%d" }}</li>
+                <li>{{post.dates}}</li>
+                <li>{{post.title}}</li>
+                <li>{{post.location}}</li>
+                <li>
+                    {% if post.link %}
+                    <a href="{{post.link}}">Website</a>
+                    {% endif %}
+                </li>
+              </ul>
+            {% endcapture %}
+            {{ blurb | xml_escape }}
+          {% endif %}
+        </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
